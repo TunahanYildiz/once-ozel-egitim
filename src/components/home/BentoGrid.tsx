@@ -89,7 +89,7 @@ export default function BentoGrid() {
             {/* Decorative glow */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-[var(--color-secondary)] rounded-full opacity-20 blur-2xl group-hover:opacity-40 transition-opacity"></div>
 
-            <div className="relative z-10 h-full flex flex-col p-7">
+            <div className="relative z-10 h-auto md:h-full flex flex-col p-7">
               <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center mb-5 border border-white/20 group-hover:scale-110 transition-transform">
                 <Award className="w-7 h-7 text-[var(--color-secondary)]" />
               </div>
@@ -112,7 +112,7 @@ export default function BentoGrid() {
           >
             <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-[var(--color-secondary)] rounded-full opacity-10 blur-xl group-hover:opacity-25 transition-opacity"></div>
 
-            <div className="relative z-10 h-full flex flex-col p-7">
+            <div className="relative z-10 h-auto md:h-full flex flex-col p-7">
               <div className="w-14 h-14 bg-[var(--color-secondary)]/10 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
                 <HeartHandshake className="w-7 h-7 text-[var(--color-secondary)]" />
               </div>
@@ -146,7 +146,7 @@ export default function BentoGrid() {
               <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/20 md:via-white/85"></div>
             </div>
 
-            <div className="relative z-10 p-6 md:p-10 flex flex-col justify-center h-full max-w-lg">
+            <div className="relative z-10 p-6 md:p-10 flex flex-col justify-center h-auto md:h-full max-w-lg">
               <div className="w-12 h-12 bg-[var(--color-primary)]/8 rounded-xl flex items-center justify-center mb-5">
                 <Laptop className="w-6 h-6 text-[var(--color-primary)]" />
               </div>
