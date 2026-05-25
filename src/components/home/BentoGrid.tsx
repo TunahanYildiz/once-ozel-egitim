@@ -22,7 +22,7 @@ export default function BentoGrid() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 auto-rows-[280px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:auto-rows-[280px]">
 
           {/* Card 1 — Large: Uzman Kadro */}
           <motion.div
@@ -31,7 +31,7 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6 }}
-            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group cursor-pointer shadow-md hover:shadow-2xl transition-shadow duration-500"
+            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group cursor-pointer shadow-md hover:shadow-2xl transition-shadow duration-500 h-[480px] md:h-auto"
           >
             <Image
               src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80"
@@ -48,7 +48,7 @@ export default function BentoGrid() {
             </div>
 
             {/* Bottom content */}
-            <div className="absolute bottom-0 left-0 right-0 p-8">
+            <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20">
                   <GraduationCap className="w-6 h-6 text-white" />
@@ -84,7 +84,7 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-[var(--color-primary)]"
+            className="relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-[var(--color-primary)] h-auto min-h-[280px]"
           >
             {/* Decorative glow */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-[var(--color-secondary)] rounded-full opacity-20 blur-2xl group-hover:opacity-40 transition-opacity"></div>
@@ -108,7 +108,7 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-gradient-to-br from-emerald-50 to-[var(--color-secondary)]/10 border border-[var(--color-secondary)]/15"
+            className="relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-gradient-to-br from-emerald-50 to-[var(--color-secondary)]/10 border border-[var(--color-secondary)]/15 h-auto min-h-[280px]"
           >
             <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-[var(--color-secondary)] rounded-full opacity-10 blur-xl group-hover:opacity-25 transition-opacity"></div>
 
@@ -134,7 +134,7 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="md:col-span-3 relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-shadow duration-400"
+            className="md:col-span-3 relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-shadow duration-400 h-auto min-h-[340px] md:h-auto"
           >
             <div className="absolute inset-0">
               <Image
@@ -143,19 +143,19 @@ export default function BentoGrid() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/20 md:via-white/85"></div>
             </div>
 
-            <div className="relative z-10 p-8 md:p-10 flex flex-col justify-center h-full max-w-lg">
+            <div className="relative z-10 p-6 md:p-10 flex flex-col justify-center h-full max-w-lg">
               <div className="w-12 h-12 bg-[var(--color-primary)]/8 rounded-xl flex items-center justify-center mb-5">
                 <Laptop className="w-6 h-6 text-[var(--color-primary)]" />
               </div>
               <h3 className="text-2xl font-extrabold text-[var(--color-primary)] mb-3">{t('title4')}</h3>
-              <p className="text-gray-600 leading-relaxed mb-6">{t('desc4')}</p>
+              <p className="text-gray-700 leading-relaxed mb-6 font-medium md:font-normal">{t('desc4')}</p>
               <div className="flex flex-wrap gap-3">
                 {['Teknolojik Altyapı', 'Güvenli Ortam', 'Duyusal Ekipman', 'Bireysel Alanlar'].map((tag, i) => (
-                  <span key={i} className="inline-flex items-center gap-1.5 bg-[var(--color-primary)]/6 text-[var(--color-primary)] text-xs font-semibold px-3 py-1.5 rounded-full border border-[var(--color-primary)]/10">
-                    <Users className="w-3 h-3" /> {tag}
+                  <span key={i} className="inline-flex items-center gap-1.5 bg-[var(--color-primary)]/8 text-[var(--color-primary)] text-xs font-bold px-3 py-1.5 rounded-full border border-[var(--color-primary)]/15">
+                    <Users className="w-3 h-3 text-[var(--color-secondary)]" /> {tag}
                   </span>
                 ))}
               </div>
