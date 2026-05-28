@@ -9,7 +9,7 @@
     "heroBtn2": "Programlarımız",
     "stats1": "1000+ Mutlu Aile",
     "stats2": "20+ Uzman Eğitmen",
-    "stats3": "15+ Yıllık Tecrübe",
+    "stats3": "Yıllık Tecrübe",
     "stats4": "%100 Şefkat"
   },
   "BentoGrid": {
@@ -198,7 +198,7 @@
     "saturdayHours": "09:00 – 14:00"
   },
   "Blog": {
-    "pageTitle": "Blog & Bilgi Merkezi",
+    "pageTitle": "Bloglarımız",
     "pageSubtitle": "Özel eğitim ve terapi alanında uzmanlarımızdan güncel içerikler.",
     "readMore": "Devamını Oku",
     "noPostsYet": "Henüz blog yazısı bulunmamaktadır.",

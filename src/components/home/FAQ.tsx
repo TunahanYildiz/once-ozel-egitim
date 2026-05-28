@@ -10,7 +10,7 @@ interface FAQItem {
 
 export default function FAQ({ items: dbItems }: { items?: FAQItem[] }) {
   const t = useTranslations('FAQ');
-  const [openIdx, setOpenIdx] = useState<number | null>(0);
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   const fallbackItems = [1, 2, 3, 4, 5].map(n => ({
     q: t(`q${n}` as any),

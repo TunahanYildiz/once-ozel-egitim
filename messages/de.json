@@ -9,7 +9,7 @@
     "heroBtn2": "Unser Bildungsangebot",
     "stats1": "1000+ Glückliche Kinder",
     "stats2": "20+ Fachkräfte",
-    "stats3": "15+ Jahre Expertise",
+    "stats3": "Jahre Expertise",
     "stats4": "100% Engagement"
   },
   "BentoGrid": {
@@ -198,7 +198,7 @@
     "saturdayHours": "09:00 – 14:00"
   },
   "Blog": {
-    "pageTitle": "Blog & Wissenszentrum",
+    "pageTitle": "Unsere Blogs",
     "pageSubtitle": "Aktuelle Inhalte von unseren Experten aus Sonderpädagogik und Therapie.",
     "readMore": "Weiterlesen",
     "noPostsYet": "Noch keine Blogbeiträge vorhanden.",

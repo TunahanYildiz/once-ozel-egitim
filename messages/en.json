@@ -9,7 +9,7 @@
     "heroBtn2": "Our Programs",
     "stats1": "1000+ Happy Families",
     "stats2": "20+ Expert Instructors",
-    "stats3": "15+ Years of Experience",
+    "stats3": "Years of Experience",
     "stats4": "100% Compassion"
   },
   "BentoGrid": {
@@ -198,7 +198,7 @@
     "saturdayHours": "09:00 – 14:00"
   },
   "Blog": {
-    "pageTitle": "Blog & Knowledge Center",
+    "pageTitle": "Our Blogs",
     "pageSubtitle": "Up-to-date content from our experts in special education and therapy.",
     "readMore": "Read More",
     "noPostsYet": "No blog posts yet.",
