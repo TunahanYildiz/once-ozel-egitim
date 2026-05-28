@@ -80,7 +80,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-20 pb-16 overflow-hidden">
+      <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-12 pb-10 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_center,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="w-16 h-16 bg-[var(--color-secondary)]/10 rounded-2xl flex items-center justify-center mx-auto mb-6">

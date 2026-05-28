@@ -46,7 +46,7 @@ export default async function GaleriPage({ params }: { params: Promise<{ locale:
   return (
     <>
       {/* Hero Header */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-primary)]/90 to-[var(--color-secondary)] pt-28 pb-16">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-primary)]/90 to-[var(--color-secondary)] pt-16 pb-12">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-[var(--color-secondary)]/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl" />
 
