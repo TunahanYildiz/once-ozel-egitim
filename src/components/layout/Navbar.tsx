@@ -24,12 +24,28 @@ export default function Navbar() {
     { href: '/iletisim', label: t('contact') },
   ];
 
+  const handleLogoClick = (e: React.MouseEvent) => {
+    if (pathname === '/') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
+    <>
+      {/* Overlay to close mobile menu on outside click */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/20 lg:hidden"
+          onClick={() => setIsOpen(false)}
+          aria-hidden="true"
+        />
+      )}
     <nav className="sticky top-0 z-50 glass border-b border-gray-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center">
+          <Link href="/" className="flex-shrink-0 flex items-center" onClick={handleLogoClick}>
             <span className="font-bold text-2xl text-[var(--color-primary)]">
               {t('logo')}
             </span>
@@ -124,5 +140,6 @@ export default function Navbar() {
         )}
       </AnimatePresence>
     </nav>
+    </>
   );
 }

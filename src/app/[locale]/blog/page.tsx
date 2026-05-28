@@ -42,16 +42,24 @@ const MOCK_POSTS: BlogPost[] = [
   },
 ];
 
-async function getPosts(): Promise<BlogPost[]> {
+async function getPosts(locale: string): Promise<BlogPost[]> {
   try {
     const { data, error } = await supabase
       .from('blog_posts')
-      .select('id, title, slug, summary, cover_url, created_at')
+      .select('*')
       .eq('published', true)
       .order('created_at', { ascending: false });
 
     if (error || !data || data.length === 0) return MOCK_POSTS;
-    return data as BlogPost[];
+    
+    return data.map((post: any) => ({
+      id: post.id,
+      slug: post.slug,
+      cover_url: post.cover_url,
+      created_at: post.created_at,
+      title: post[`title_${locale}`] || post.title_tr || '',
+      summary: post[`summary_${locale}`] || post.summary_tr || '',
+    })) as BlogPost[];
   } catch {
     return MOCK_POSTS;
   }
@@ -67,7 +75,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('Blog');
-  const posts = await getPosts();
+  const posts = await getPosts(locale);
 
   return (
     <>

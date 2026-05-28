@@ -60,7 +60,7 @@ export default async function EgitimlerimizPage({ params }: { params: Promise<{ 
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <span className="inline-block bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] text-sm font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
-            11 Uzmanlaşmış Program
+            {t('headerBadge')}
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--color-primary)] mb-5 leading-tight">
             {t('pageTitle')}
@@ -108,10 +108,10 @@ export default async function EgitimlerimizPage({ params }: { params: Promise<{ 
             <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[var(--color-secondary)] to-transparent"></div>
             <div className="relative z-10">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Çocuğunuz için hangi program uygun?
+                {t('ctaBannerTitle')}
               </h2>
               <p className="text-blue-200 mb-8 text-lg">
-                Uzmanlarımız ücretsiz ilk değerlendirme ile size rehberlik eder.
+                {t('ctaBannerDesc')}
               </p>
               <Link
                 href="/iletisim"

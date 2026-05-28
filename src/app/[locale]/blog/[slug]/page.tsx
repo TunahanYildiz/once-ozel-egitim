@@ -18,17 +18,25 @@ export function generateStaticParams() {
   ];
 }
 
-async function getPostFromSupabase(slug: string): Promise<any | null> {
+async function getPostFromSupabase(slug: string, locale: string): Promise<any | null> {
   try {
     const { data, error } = await supabase
       .from('blog_posts')
-      .select('id, title, slug, content, summary, cover_url, created_at')
+      .select('*')
       .eq('slug', slug)
       .eq('published', true)
       .single();
 
     if (error || !data) return null;
-    return data;
+    return {
+      id: data.id,
+      slug: data.slug,
+      cover_url: data.cover_url,
+      created_at: data.created_at,
+      title: data[`title_${locale}`] || data.title_tr || '',
+      summary: data[`summary_${locale}`] || data.summary_tr || '',
+      content: data[`content_${locale}`] || data.content_tr || '',
+    };
   } catch {
     return null;
   }
@@ -54,7 +62,7 @@ export default async function BlogPostDetailPage({
 
   // 1. Try to fetch from Supabase
   let post: BlogPostDetail | null = null;
-  const dbPost = await getPostFromSupabase(slug);
+  const dbPost = await getPostFromSupabase(slug, locale);
 
   if (dbPost) {
     // Convert DB structure to BlogPostDetail

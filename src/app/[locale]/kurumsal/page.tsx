@@ -96,11 +96,11 @@ export default async function KurumsalPage({ params }: { params: Promise<{ local
               {/* Floating stat badge */}
               <div className="absolute -bottom-6 -right-4 bg-white rounded-2xl shadow-xl p-5 border border-gray-100 text-center">
                 <div className="text-3xl font-extrabold text-[var(--color-secondary)]">1000+</div>
-                <div className="text-sm text-gray-500 font-semibold">Mutlu Aile</div>
+                <div className="text-sm text-gray-500 font-semibold">{t('statHappyFamily')}</div>
               </div>
               <div className="absolute -top-4 -left-4 bg-[var(--color-primary)] rounded-2xl shadow-xl p-5 border text-center">
                 <div className="text-3xl font-extrabold text-white">15+</div>
-                <div className="text-xs text-blue-200 font-semibold">Yıllık Tecrübe</div>
+                <div className="text-xs text-blue-200 font-semibold">{t('statYearsExp')}</div>
               </div>
             </div>
           </div>

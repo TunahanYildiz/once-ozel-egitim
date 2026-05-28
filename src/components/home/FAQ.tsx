@@ -3,14 +3,23 @@ import { useTranslations } from 'next-intl';
 import { ChevronDown, HelpCircle } from 'lucide-react';
 import { useState } from 'react';
 
-export default function FAQ() {
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export default function FAQ({ items: dbItems }: { items?: FAQItem[] }) {
   const t = useTranslations('FAQ');
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
-  const items = [1, 2, 3, 4, 5].map(n => ({
+  const fallbackItems = [1, 2, 3, 4, 5].map(n => ({
     q: t(`q${n}` as any),
     a: t(`a${n}` as any),
   }));
+
+  const items = dbItems && dbItems.length > 0
+    ? dbItems.map(item => ({ q: item.question, a: item.answer }))
+    : fallbackItems;
 
   return (
     <section className="py-24 bg-white" id="sss">

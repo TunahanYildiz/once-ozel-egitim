@@ -18,7 +18,7 @@ export default function BentoGrid() {
             {t('whyUs')}
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-[var(--color-primary)] leading-tight">
-            Neden <span className="text-[var(--color-secondary)]">Önce</span> Biz?
+            {t('whyUsHeading')}
           </h2>
         </div>
 
@@ -64,9 +64,9 @@ export default function BentoGrid() {
               {/* Mini stats row */}
               <div className="flex gap-4">
                 {[
-                  { val: '20+', label: 'Uzman' },
-                  { val: '1000+', label: 'Aile' },
-                  { val: '15+', label: 'Yıl' },
+                  { val: '20+', label: t('statExpert') },
+                  { val: '1000+', label: t('statFamily') },
+                  { val: '15+', label: t('statYear') },
                 ].map((s, i) => (
                   <div key={i} className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/15">
                     <div className="text-white font-extrabold text-lg">{s.val}</div>
@@ -94,7 +94,7 @@ export default function BentoGrid() {
                 <Award className="w-7 h-7 text-[var(--color-secondary)]" />
               </div>
               <div className="mb-2">
-                <span className="bg-[var(--color-secondary)]/20 text-[var(--color-secondary)] text-xs font-bold px-2.5 py-1 rounded-full">MEB Onaylı</span>
+                <span className="bg-[var(--color-secondary)]/20 text-[var(--color-secondary)] text-xs font-bold px-2.5 py-1 rounded-full">{t('mebApproved')}</span>
               </div>
               <h3 className="text-xl font-extrabold text-white mb-3 flex-grow">{t('title2')}</h3>
               <p className="text-blue-200 text-sm leading-relaxed">{t('desc2')}</p>
@@ -120,7 +120,7 @@ export default function BentoGrid() {
                 {[CheckCircle, CheckCircle, CheckCircle].map((Icon, i) => (
                   <Icon key={i} className="w-4 h-4 text-[var(--color-secondary)]" />
                 ))}
-                <span className="text-xs text-[var(--color-secondary)] font-semibold">Her Çocuğa Özel</span>
+                <span className="text-xs text-[var(--color-secondary)] font-semibold">{t('forEachChild')}</span>
               </div>
               <h3 className="text-xl font-extrabold text-[var(--color-primary)] mb-3 flex-grow">{t('title3')}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">{t('desc3')}</p>
@@ -153,7 +153,7 @@ export default function BentoGrid() {
               <h3 className="text-2xl font-extrabold text-[var(--color-primary)] mb-3">{t('title4')}</h3>
               <p className="text-gray-700 leading-relaxed mb-6 font-medium md:font-normal">{t('desc4')}</p>
               <div className="flex flex-wrap gap-3">
-                {['Teknolojik Altyapı', 'Güvenli Ortam', 'Duyusal Ekipman', 'Bireysel Alanlar'].map((tag, i) => (
+                {[t('tag1'), t('tag2'), t('tag3'), t('tag4')].map((tag, i) => (
                   <span key={i} className="inline-flex items-center gap-1.5 bg-[var(--color-primary)]/8 text-[var(--color-primary)] text-xs font-bold px-3 py-1.5 rounded-full border border-[var(--color-primary)]/15">
                     <Users className="w-3 h-3 text-[var(--color-secondary)]" /> {tag}
                   </span>

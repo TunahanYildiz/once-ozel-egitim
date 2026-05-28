@@ -14,6 +14,7 @@
   },
   "BentoGrid": {
     "whyUs": "Warum Önce Özel Eğitim?",
+    "whyUsHeading": "Also, Warum Wir?",
     "title1": "Experten- und akademisches Personal",
     "desc1": "Wir bieten die beste Ausbildung mit unseren erfahrenen Psychologen, Physiotherapeuten und Experten für Sonderpädagogik.",
     "title2": "Vom Ministerium genehmigte kostenlose Bildung",
@@ -21,7 +22,16 @@
     "title3": "Individuelle Förderung (IEP)",
     "desc3": "Zielorientierte Entwicklung durch individuelle, auf die Bedürfnisse jedes Kindes zugeschnittene Bildungsprogramme.",
     "title4": "Moderne und ausgestattete Klassenzimmer",
-    "desc4": "Lernumgebungen mit technologischer Infrastruktur, die für die Sicherheit und Entwicklung unserer Kinder konzipiert sind."
+    "desc4": "Lernumgebungen mit technologischer Infrastruktur, die für die Sicherheit und Entwicklung unserer Kinder konzipiert sind.",
+    "tag1": "Technologie",
+    "tag2": "Sichere Umgebung",
+    "tag3": "Sensorische Ausstattung",
+    "tag4": "Individuelle Räume",
+    "statExpert": "Experten",
+    "statFamily": "Familien",
+    "statYear": "Jahre",
+    "forEachChild": "Für jedes Kind",
+    "mebApproved": "Ministeriumsgenehmigt"
   },
   "Navbar": {
     "logo": "Önce Özel Eğitim",
@@ -57,7 +67,8 @@
     "review2": "Dank der Aufmerksamkeit und Professionalität der Ausbilder haben sich die Sprechfähigkeiten meines Sohnes unglaublich beschleunigt.",
     "author2": "M** K**",
     "review3": "Wir haben durch die Physiotherapie-Sitzungen so großartige Ergebnisse erzielt, dass ich sicher bin, dass wir hier an der richtigen Adresse sind.",
-    "author3": "E** S**"
+    "author3": "E** S**",
+    "parentLabel": "Elternteil"
   },
   "QuickContact": {
     "title": "Lassen Sie uns die Entwicklung Ihres Kindes gemeinsam bewerten",
@@ -84,6 +95,8 @@
   "Kurumsal": {
     "pageTitle": "Über Uns",
     "pageSubtitle": "Ihr vertrauenswürdiger und mitfühlender Leitfaden für die Entwicklung von Kindern.",
+    "statHappyFamily": "Glückliche Familien",
+    "statYearsExp": "Jahre Erfahrung",
     "storyTitle": "Unsere Geschichte",
     "storyText": "Önce Özel Eğitim wurde in Pendik gegründet, um Kindern mit besonderen Bedürfnissen und ihren Familien die qualitativ hochwertigsten, wissenschaftsbasierten und liebevollen Bildungsdienstleistungen anzubieten. Im Laufe der Jahre hat unser wachsendes Expertenteam Tausenden von Familien Hoffnung und Stärke gebracht.",
     "missionTitle": "Unsere Mission",
@@ -103,6 +116,9 @@
   "Egitimlerimiz": {
     "pageTitle": "Unsere Programme",
     "pageSubtitle": "11 umfassende Therapie- und Bildungsprogramme, wissenschaftlich fundiert und von unserem Expertenteam durchgeführt.",
+    "headerBadge": "11 Spezialisierte Programme",
+    "ctaBannerTitle": "Welches Programm ist für Ihr Kind geeignet?",
+    "ctaBannerDesc": "Unsere Experten begleiten Sie mit einer kostenlosen Ersteinschätzung.",
     "ctaBtn": "Termin vereinbaren",
     "prog1": "Sprach- und Sprechtherapie",
     "prog1desc": "Individualisierte Therapiesitzungen für Kinder mit Sprachentwicklungsverzögerungen und Kommunikationsschwierigkeiten.",
@@ -130,6 +146,9 @@
   "UzmanKadrosu": {
     "pageTitle": "Unser Fachpersonal",
     "pageSubtitle": "Lernen Sie unser erfahrenes, kindzentriertes Spezialistenteam kennen.",
+    "headerBadge": "20+ Experten",
+    "teamBannerTitle": "Ein Team, das sich der stetigen Weiterentwicklung verschrieben hat",
+    "teamBannerDesc": "Alle unsere Teammitglieder besitzen nationale und internationale Zertifizierungen und setzen ihre berufliche Entwicklung durch regelmäßige Supervision, Konferenzen und Schulungen fort.",
     "staff1Name": "Ayşe Kılıç",
     "staff1Role": "Gründerin & Geschäftsführerin",
     "staff1Expertise": "Sonderpädagogik, Rehabilitationsmanagement, Familienberatung",
@@ -157,6 +176,10 @@
     "formTitle": "Senden Sie uns eine Nachricht",
     "formSubtitle": "Füllen Sie das Formular aus und unsere Experten werden sich so schnell wie möglich melden.",
     "topicPlaceholder": "Betreff / Unterstützungsbereich",
+    "nameLabel": "Vollständiger Name",
+    "namePlaceholder": "Vollständiger Name",
+    "phoneLabel": "Telefon",
+    "newMessage": "Neue Nachricht",
     "submitBtn": "Nachricht senden",
     "submitBtnLoading": "Wird gesendet...",
     "successTitle": "Nachricht erhalten! 🎉",
@@ -185,7 +208,22 @@
   "Galeri": {
     "pageTitle": "Galerie",
     "pageSubtitle": "Eindrücke aus unserem Zentrum: Klassenzimmer, Lernbereiche und Aktivitäten.",
-    "altText": "Önce Özel Eğitim Zentrum"
+    "altText": "Önce Özel Eğitim Zentrum",
+    "badge": "Eindrücke aus unserem Zentrum",
+    "statPhotos": "Fotos",
+    "statCategories": "Kategorien",
+    "catAll": "Alle",
+    "catTherapy": "Therapie",
+    "catEducation": "Bildung",
+    "catVenue": "Unsere Räume",
+    "catActivity": "Aktivitäten",
+    "photoCount": "Fotos",
+    "bottomTitle": "Bald noch mehr",
+    "bottomDesc": "Diese Bilder werden bald mit echten Fotos aus unserem Zentrum aktualisiert. Mehr schöne Momente kommen!",
+    "overlayTherapy": "Therapie",
+    "overlayEducation": "Bildung",
+    "overlayVenue": "Unsere Räume",
+    "overlayActivity": "Aktivitäten"
   },
   "FAQ": {
     "sectionTitle": "Häufig gestellte Fragen",

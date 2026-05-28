@@ -7,9 +7,9 @@ export default async function Footer() {
   const tNav = await getTranslations('Navbar');
 
   return (
-    <footer className="bg-[var(--color-primary)] text-white pt-16 pb-8">
+    <footer className="bg-[var(--color-primary)] text-white pt-10 pb-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Column */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold mb-4">{t('about')}</h3>
@@ -23,8 +23,8 @@ export default async function Footer() {
             <h3 className="text-xl font-bold mb-4">{t('quickLinks')}</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('home')}</Link></li>
-              <li><Link href="/corporate" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('corporate')}</Link></li>
-              <li><Link href="/education" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('education')}</Link></li>
+              <li><Link href="/kurumsal" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('corporate')}</Link></li>
+              <li><Link href="/egitimlerimiz" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('education')}</Link></li>
               <li><Link href="/uzman-kadromuz" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('staff')}</Link></li>
               <li><Link href="/blog" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('blog')}</Link></li>
               <li><Link href="/galeri" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('galeri')}</Link></li>
@@ -70,7 +70,7 @@ export default async function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-white/10 pt-8 mt-8 text-center">
+        <div className="border-t border-white/10 pt-5 mt-5 text-center">
           <p className="text-gray-400 text-sm">
             {t('copyright')}
           </p>

@@ -11,21 +11,21 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
   return (
     <>
       {/* Page Header */}
-      <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-20 pb-16 overflow-hidden">
+      <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-8 pb-8 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <span className="inline-block bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] text-sm font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
+          <span className="inline-block bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] text-sm font-bold px-4 py-1.5 rounded-full mb-4 tracking-wide uppercase">
             Pendik, İstanbul
           </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--color-primary)] mb-5 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-[var(--color-primary)] mb-3 leading-tight">
             {t('pageTitle')}
           </h1>
-          <p className="text-xl text-gray-500 max-w-2xl mx-auto">{t('pageSubtitle')}</p>
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto">{t('pageSubtitle')}</p>
         </div>
       </section>
 
       {/* Contact Info + Map */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 

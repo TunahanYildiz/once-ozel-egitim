@@ -66,7 +66,7 @@ export default function ContactPageForm() {
           onClick={() => setFormState('idle')}
           className="mt-2 px-6 py-3 border-2 border-[var(--color-secondary)] text-[var(--color-secondary)] rounded-full font-semibold hover:bg-[var(--color-secondary)] hover:text-white transition-all"
         >
-          Yeni Mesaj
+          {t('newMessage')}
         </button>
       </div>
     );
@@ -83,12 +83,12 @@ export default function ContactPageForm() {
 
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-2">
-          {t('validationName').replace('zorunludur.', '').replace('is required.', '').replace('ist erforderlich.', '').replace('обязательно.', '') || 'Ad Soyad'} <span className="text-red-500">*</span>
+          {t('nameLabel')} <span className="text-red-500">*</span>
         </label>
         <input
           type="text" value={values.fullName}
           onChange={(e) => handleChange('fullName', e.target.value)}
-          placeholder="Ad Soyad"
+          placeholder={t('namePlaceholder')}
           className={errors.fullName ? err : normal}
           disabled={formState === 'loading'}
           autoComplete="name"
@@ -98,7 +98,7 @@ export default function ContactPageForm() {
 
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-2">
-          Telefon <span className="text-red-500">*</span>
+          {t('phoneLabel')} <span className="text-red-500">*</span>
         </label>
         <input
           type="tel" value={values.phone}

@@ -14,6 +14,7 @@
   },
   "BentoGrid": {
     "whyUs": "Neden Önce Özel Eğitim?",
+    "whyUsHeading": "Peki Neden Biz?",
     "title1": "Uzman ve Akademik Kadro",
     "desc1": "Alanında deneyimli psikologlar, fizyoterapistler ve özel eğitim uzmanlarımızla en iyi eğitimi sunuyoruz.",
     "title2": "MEB Onaylı Ücretsiz Eğitim",
@@ -21,7 +22,16 @@
     "title3": "Bireyselleştirilmiş Eğitim (BEP)",
     "desc3": "Her çocuğun ihtiyacına özel hazırlanan bireyselleştirilmiş eğitim programlarıyla hedef odaklı gelişim.",
     "title4": "Modern ve Donanımlı Sınıflar",
-    "desc4": "Çocuklarımızın güvenliği ve gelişimi için tasarlanmış, teknolojik altyapıya sahip eğitim ortamları."
+    "desc4": "Çocuklarımızın güvenliği ve gelişimi için tasarlanmış, teknolojik altyapıya sahip eğitim ortamları.",
+    "tag1": "Teknolojik Altyapı",
+    "tag2": "Güvenli Ortam",
+    "tag3": "Duyusal Ekipman",
+    "tag4": "Bireysel Alanlar",
+    "statExpert": "Uzman",
+    "statFamily": "Aile",
+    "statYear": "Yıl",
+    "forEachChild": "Her Çocuğa Özel",
+    "mebApproved": "MEB Onaylı"
   },
   "Navbar": {
     "logo": "Önce Özel Eğitim",
@@ -57,7 +67,8 @@
     "review2": "Eğitmenlerin ilgisi ve profesyonelliği sayesinde oğlumun konuşma becerileri inanılmaz hızlandı.",
     "author2": "M** K**",
     "review3": "Fizyoterapi seanslarından o kadar güzel sonuçlar aldık ki, doğru adreste olduğumuzdan eminim.",
-    "author3": "E** S**"
+    "author3": "E** S**",
+    "parentLabel": "Veli"
   },
   "QuickContact": {
     "title": "Çocuğunuzun Gelişimini Birlikte Değerlendirelim",
@@ -84,6 +95,8 @@
   "Kurumsal": {
     "pageTitle": "Hakkımızda",
     "pageSubtitle": "Çocukların geleceğine ışık tutan, güvenilir ve şefkatli rehberiniz.",
+    "statHappyFamily": "Mutlu Aile",
+    "statYearsExp": "Yıllık Tecrübe",
     "storyTitle": "Hikayemiz",
     "storyText": "Önce Özel Eğitim, özel gereksinimli çocuklara ve ailelerine en kaliteli, bilimsel ve sevgi dolu eğitim hizmetlerini sunmak amacıyla Pendik'te kurulmuştur. Yıllar içinde büyüyen uzman ekibimizle binlerce aileye umut ve güç olduk. Merkezi hedefimiz; her çocuğun bireysel potansiyelini ortaya çıkarması ve topluma en güçlü şekilde katılımını sağlamaktır.",
     "missionTitle": "Misyonumuz",
@@ -103,6 +116,9 @@
   "Egitimlerimiz": {
     "pageTitle": "Eğitimlerimiz",
     "pageSubtitle": "Uzman kadromuzla sunulan, bilimsel temelli 11 kapsamlı terapi ve eğitim programı.",
+    "headerBadge": "11 Uzmanlaşmış Program",
+    "ctaBannerTitle": "Çocuğunuz için hangi program uygun?",
+    "ctaBannerDesc": "Uzmanlarımız ücretsiz ilk değerlendirme ile size rehberlik eder.",
     "ctaBtn": "Randevu Al",
     "prog1": "Dil ve Konuşma Terapisi",
     "prog1desc": "Dil gelişim gecikmesi ve iletişim güçlüğü yaşayan çocuklar için bireyselleştirilmiş terapi seansları.",
@@ -130,6 +146,9 @@
   "UzmanKadrosu": {
     "pageTitle": "Uzman Kadromuz",
     "pageSubtitle": "Alanında uzman, deneyimli ve çocuk odaklı ekibimizle tanışın.",
+    "headerBadge": "20+ Uzman",
+    "teamBannerTitle": "Sürekli Gelişime Adanmış Bir Ekip",
+    "teamBannerDesc": "Tüm ekip üyelerimiz ulusal ve uluslararası sertifikalara sahip olup; düzenli süpervizyon, konferans ve eğitimlerle mesleki gelişimlerini sürdürmektedir.",
     "staff1Name": "Ayşe Kılıç",
     "staff1Role": "Kurucu & Genel Müdür",
     "staff1Expertise": "Özel Eğitim, Rehabilitasyon Yönetimi, Aile Danışmanlığı",
@@ -157,6 +176,10 @@
     "formTitle": "Bize Mesaj Gönderin",
     "formSubtitle": "Formu doldurun, uzmanlarımız en kısa sürede size ulaşsın.",
     "topicPlaceholder": "Konu / Destek İstenen Alan",
+    "nameLabel": "Ad Soyad",
+    "namePlaceholder": "Ad Soyad",
+    "phoneLabel": "Telefon",
+    "newMessage": "Yeni Mesaj",
     "submitBtn": "Mesaj Gönder",
     "submitBtnLoading": "Gönderiliyor...",
     "successTitle": "Mesajınız Alındı! 🎉",
@@ -185,7 +208,22 @@
   "Galeri": {
     "pageTitle": "Galeri",
     "pageSubtitle": "Merkezimizden kareler; sınıflarımız, eğitim alanlarımız ve etkinliklerimiz.",
-    "altText": "Önce Özel Eğitim Merkezi"
+    "altText": "Önce Özel Eğitim Merkezi",
+    "badge": "Merkezimizden Kareler",
+    "statPhotos": "Fotoğraf",
+    "statCategories": "Kategori",
+    "catAll": "Tümü",
+    "catTherapy": "Terapi",
+    "catEducation": "Eğitim",
+    "catVenue": "Mekanlarımız",
+    "catActivity": "Etkinlikler",
+    "photoCount": "fotoğraf",
+    "bottomTitle": "Yakında Daha Fazlası",
+    "bottomDesc": "Bu görseller yakında gerçek merkez fotoğraflarımızla güncellenecektir. Çok daha güzel anlar yolda!",
+    "overlayTherapy": "Terapi",
+    "overlayEducation": "Eğitim",
+    "overlayVenue": "Mekanlarımız",
+    "overlayActivity": "Etkinlikler"
   },
   "FAQ": {
     "sectionTitle": "Sık Sorulan Sorular",

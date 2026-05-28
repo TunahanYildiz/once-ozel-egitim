@@ -14,6 +14,7 @@
   },
   "BentoGrid": {
     "whyUs": "Why Önce Özel Eğitim?",
+    "whyUsHeading": "So, Why Us?",
     "title1": "Expert and Academic Staff",
     "desc1": "We provide the best education with our experienced psychologists, physiotherapists, and special education experts.",
     "title2": "Ministry Approved Free Education",
@@ -21,7 +22,16 @@
     "title3": "Individualized Education (IEP)",
     "desc3": "Goal-oriented development with individualized education programs tailored to every child's needs.",
     "title4": "Modern and Equipped Classrooms",
-    "desc4": "Educational environments with technological infrastructure designed for the safety and development of our children."
+    "desc4": "Educational environments with technological infrastructure designed for the safety and development of our children.",
+    "tag1": "Tech Infrastructure",
+    "tag2": "Safe Environment",
+    "tag3": "Sensory Equipment",
+    "tag4": "Individual Spaces",
+    "statExpert": "Experts",
+    "statFamily": "Families",
+    "statYear": "Years",
+    "forEachChild": "Tailored for Every Child",
+    "mebApproved": "Ministry Approved"
   },
   "Navbar": {
     "logo": "Önce Özel Eğitim",
@@ -57,7 +67,8 @@
     "review2": "Thanks to the attention and professionalism of the instructors, my son's speaking skills accelerated incredibly.",
     "author2": "M** K**",
     "review3": "We got such great results from the physiotherapy sessions that I am sure we are at the right place.",
-    "author3": "E** S**"
+    "author3": "E** S**",
+    "parentLabel": "Parent"
   },
   "QuickContact": {
     "title": "Let's Evaluate Your Child's Development Together",
@@ -84,6 +95,8 @@
   "Kurumsal": {
     "pageTitle": "About Us",
     "pageSubtitle": "Your trusted and compassionate guide for children's development.",
+    "statHappyFamily": "Happy Families",
+    "statYearsExp": "Years of Experience",
     "storyTitle": "Our Story",
     "storyText": "Önce Özel Eğitim was founded in Pendik to provide the highest quality, science-based, and loving educational services to children with special needs and their families. Over the years, our growing team of experts has brought hope and strength to thousands of families. Our central goal is to help every child discover their individual potential and participate fully in society.",
     "missionTitle": "Our Mission",
@@ -103,6 +116,9 @@
   "Egitimlerimiz": {
     "pageTitle": "Our Programs",
     "pageSubtitle": "11 comprehensive therapy and education programs, science-based and delivered by our expert team.",
+    "headerBadge": "11 Specialized Programs",
+    "ctaBannerTitle": "Which program is right for your child?",
+    "ctaBannerDesc": "Our experts will guide you with a free initial evaluation.",
     "ctaBtn": "Make Appointment",
     "prog1": "Speech and Language Therapy",
     "prog1desc": "Individualized therapy sessions for children experiencing language development delays and communication difficulties.",
@@ -130,6 +146,9 @@
   "UzmanKadrosu": {
     "pageTitle": "Our Expert Staff",
     "pageSubtitle": "Meet our experienced, child-focused team of specialists.",
+    "headerBadge": "20+ Experts",
+    "teamBannerTitle": "A Team Dedicated to Continuous Development",
+    "teamBannerDesc": "All our team members hold national and international certifications and continue their professional development through regular supervision, conferences, and training.",
     "staff1Name": "Ayşe Kılıç",
     "staff1Role": "Founder & General Manager",
     "staff1Expertise": "Special Education, Rehabilitation Management, Family Counseling",
@@ -157,6 +176,10 @@
     "formTitle": "Send Us a Message",
     "formSubtitle": "Fill out the form and our experts will contact you as soon as possible.",
     "topicPlaceholder": "Subject / Area of Support",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Full Name",
+    "phoneLabel": "Phone",
+    "newMessage": "New Message",
     "submitBtn": "Send Message",
     "submitBtnLoading": "Sending...",
     "successTitle": "Message Received! 🎉",
@@ -185,7 +208,22 @@
   "Galeri": {
     "pageTitle": "Gallery",
     "pageSubtitle": "Moments from our center: classrooms, educational areas and activities.",
-    "altText": "Önce Özel Eğitim Center"
+    "altText": "Önce Özel Eğitim Center",
+    "badge": "Moments from Our Center",
+    "statPhotos": "Photos",
+    "statCategories": "Categories",
+    "catAll": "All",
+    "catTherapy": "Therapy",
+    "catEducation": "Education",
+    "catVenue": "Our Venues",
+    "catActivity": "Activities",
+    "photoCount": "photos",
+    "bottomTitle": "More Coming Soon",
+    "bottomDesc": "These images will soon be updated with real photos from our center. More beautiful moments are on the way!",
+    "overlayTherapy": "Therapy",
+    "overlayEducation": "Education",
+    "overlayVenue": "Our Venues",
+    "overlayActivity": "Activities"
   },
   "FAQ": {
     "sectionTitle": "Frequently Asked Questions",

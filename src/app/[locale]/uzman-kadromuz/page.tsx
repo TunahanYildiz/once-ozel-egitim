@@ -36,7 +36,7 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <span className="inline-block bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] text-sm font-bold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
-            20+ Uzman
+            {t('headerBadge')}
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--color-primary)] mb-5 leading-tight">
             {t('pageTitle')}
@@ -58,11 +58,10 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
           <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-10 md:p-14">
             <div className="text-5xl mb-6">🎓</div>
             <h2 className="text-2xl md:text-3xl font-bold text-[var(--color-primary)] mb-4">
-              Sürekli Gelişime Adanmış Bir Ekip
+              {t('teamBannerTitle')}
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-              Tüm ekip üyelerimiz ulusal ve uluslararası sertifikalara sahip olup; düzenli süpervizyon, 
-              konferans ve eğitimlerle mesleki gelişimlerini sürdürmektedir.
+              {t('teamBannerDesc')}
             </p>
           </div>
         </div>

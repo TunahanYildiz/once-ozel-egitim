@@ -68,7 +68,7 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <h4 className="font-bold text-[var(--color-primary)] text-sm md:text-base">{item.author}</h4>
-                  <span className="text-xs md:text-sm text-gray-400 font-semibold">Veli</span>
+                  <span className="text-xs md:text-sm text-gray-400 font-semibold">{t('parentLabel')}</span>
                 </div>
               </div>
             </motion.div>
