@@ -3,6 +3,65 @@ import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { Calendar, ArrowRight, BookOpen } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+type Props = { params: Promise<{ locale: string }> };
+
+const pageMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'Blog | Önce Özel Eğitim — Özel Eğitim ve Terapi Blogu',
+    description: 'Özel eğitim ve terapi alanında uzmanlarımızdan güncel bilgiler, ailelere pratik rehberler ve çocuk gelişimi ipuçları. Otizm, dil terapisi, DEHB ve daha fazlası.',
+  },
+  en: {
+    title: 'Blog | Önce Özel Eğitim — Special Education & Therapy Blog',
+    description: 'Up-to-date information from our specialists on special education and therapy, practical guides for families, and child development tips. Autism, speech therapy, ADHD and more.',
+  },
+  de: {
+    title: 'Blog | Önce Özel Eğitim — Sonderpädagogik und Therapie-Blog',
+    description: 'Aktuelle Informationen von unseren Experten zu Sonderpädagogik und Therapie, praktische Leitfäden für Familien und Tipps zur Kindesentwicklung.',
+  },
+  ru: {
+    title: 'Блог | Önce Özel Eğitim — Блог о специальном образовании и терапии',
+    description: 'Актуальная информация от наших специалистов по специальному образованию и терапии, практические руководства для семей и советы по развитию ребёнка.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = pageMeta[locale] ?? pageMeta.tr;
+  const path = '/blog';
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${path}`,
+      languages: {
+        'tr': `${BASE_URL}/tr${path}`,
+        'en': `${BASE_URL}/en${path}`,
+        'de': `${BASE_URL}/de${path}`,
+        'ru': `${BASE_URL}/ru${path}`,
+        'x-default': `${BASE_URL}/tr${path}`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}${path}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
 
 export const revalidate = 3600;
 

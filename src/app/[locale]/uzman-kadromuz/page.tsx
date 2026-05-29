@@ -1,6 +1,65 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import StaffGrid from '@/components/staff/StaffGrid';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+type Props = { params: Promise<{ locale: string }> };
+
+const pageMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'Uzman Kadromuz | Önce Özel Eğitim — Alanında Uzman Terapist ve Eğitimciler',
+    description: 'Önce Özel Eğitim\'in uzman ekibiyle tanışın. Dil-konuşma terapistleri, özel eğitim öğretmenleri, çocuk psikologları ve fizyoterapistlerden oluşan deneyimli kadromuz.',
+  },
+  en: {
+    title: 'Our Specialists | Önce Özel Eğitim — Expert Therapists & Educators',
+    description: 'Meet the expert team of Önce Özel Eğitim. Experienced speech therapists, special education teachers, child psychologists, and physiotherapists.',
+  },
+  de: {
+    title: 'Unser Team | Önce Özel Eğitim — Experten in Therapie und Förderung',
+    description: 'Lernen Sie das Expertenteam von Önce Özel Eğitim kennen. Erfahrene Sprachtherapeuten, Sonderpädagogen, Kinderpsychologen und Physiotherapeuten.',
+  },
+  ru: {
+    title: 'Наши специалисты | Önce Özel Eğitim — Эксперты в терапии и образовании',
+    description: 'Познакомьтесь с командой экспертов Önce Özel Eğitim. Опытные логопеды, педагоги специального образования, детские психологи и физиотерапевты.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = pageMeta[locale] ?? pageMeta.tr;
+  const path = '/uzman-kadromuz';
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${path}`,
+      languages: {
+        'tr': `${BASE_URL}/tr${path}`,
+        'en': `${BASE_URL}/en${path}`,
+        'de': `${BASE_URL}/de${path}`,
+        'ru': `${BASE_URL}/ru${path}`,
+        'x-default': `${BASE_URL}/tr${path}`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}${path}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
 
 const STAFF_PHOTOS = [
   'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80',

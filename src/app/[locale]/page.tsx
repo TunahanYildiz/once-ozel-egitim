@@ -7,6 +7,66 @@ import Testimonials from '@/components/home/Testimonials';
 import FAQ from '@/components/home/FAQ';
 import QuickContactForm from '@/components/home/QuickContactForm';
 import { supabase } from '@/lib/supabase';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+
+type Props = { params: Promise<{ locale: string }> };
+
+const homeMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'Önce Özel Eğitim | Pendik\'te Özel Eğitim & Terapi Merkezi',
+    description: 'Pendik, İstanbul\'da özel eğitim ve terapi hizmetleri. Otizm, dil-konuşma terapisi, disleksi, ABA, duyu bütünleme ve daha fazlası. Ücretsiz ilk değerlendirme için hemen arayın.',
+  },
+  en: {
+    title: 'Önce Özel Eğitim | Special Education & Therapy Center in Pendik, Istanbul',
+    description: 'Special education and therapy services in Pendik, Istanbul. Autism, speech therapy, dyslexia, ABA, sensory integration and more. Free initial assessment available.',
+  },
+  de: {
+    title: 'Önce Özel Eğitim | Förderzentrum in Pendik, Istanbul',
+    description: 'Sonderpädagogische und therapeutische Dienstleistungen in Pendik, Istanbul. Autismus, Sprachtherapie, Legasthenie, ABA, sensorische Integration. Kostenlose Erstbeurteilung.',
+  },
+  ru: {
+    title: 'Önce Özel Eğitim | Центр специального образования в Пендик, Стамбул',
+    description: 'Услуги специального образования и терапии в Пендике, Стамбул. Аутизм, логопедия, дислексия, АВА-терапия, сенсорная интеграция. Бесплатная первичная оценка.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = homeMeta[locale] ?? homeMeta.tr;
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}`,
+      languages: {
+        'tr': `${BASE_URL}/tr`,
+        'en': `${BASE_URL}/en`,
+        'de': `${BASE_URL}/de`,
+        'ru': `${BASE_URL}/ru`,
+        'x-default': `${BASE_URL}/tr`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
 
 export default async function HomePage({params}: {params: Promise<{locale: string}>}) {
   const { locale } = await params;
@@ -57,21 +117,61 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "MedicalBusiness",
     "name": "Önce Özel Eğitim",
+    "alternateName": "Önce Özel Eğitim ve Rehabilitasyon Merkezi",
+    "description": "Pendik, İstanbul'da özel eğitim ve terapi merkezi. Otizm, dil-konuşma terapisi, disleksi, ABA terapisi, duyu bütünleme ve ergoterapi hizmetleri.",
+    "image": "https://onceozelegitim.com/og-image.png",
+    "logo": "https://onceozelegitim.com/logo.png",
+    "url": "https://onceozelegitim.com",
+    "telephone": "+902160000000",
+    "email": "bilgi@onceozelegitim.com",
+    "priceRange": "₺₺",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Yenişehir Mah. Barbaros Cad. No:12 Kat:2",
       "addressLocality": "Pendik",
       "addressRegion": "İstanbul",
+      "postalCode": "34899",
       "addressCountry": "TR"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.868194,
+      "longitude": 29.280861
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
     "areaServed": [
-      "Pendik", "Kartal", "Tuzla", "Maltepe", "Gebze", 
-      "Kadıköy", "Ataşehir", "Üsküdar", "Ümraniye", 
+      "Pendik", "Kartal", "Tuzla", "Maltepe", "Gebze",
+      "Kadıköy", "Ataşehir", "Üsküdar", "Ümraniye",
       "Sultanbeyli", "Sancaktepe"
     ],
-    "telephone": "+902160000000",
-    "url": "https://onceozelegitim.com"
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=40.868194,29.280861",
+    "sameAs": [
+      "https://instagram.com",
+      "https://facebook.com",
+      "https://youtube.com"
+    ],
+    "medicalSpecialty": [
+      "Speech Therapy",
+      "Occupational Therapy",
+      "Physical Therapy",
+      "Behavioral Therapy",
+      "Special Education"
+    ]
   };
 
   return (

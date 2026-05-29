@@ -5,6 +5,65 @@ import {
   MessageSquare, Brain, BookOpen, Zap, Scissors,
   BarChart2, Users, Activity, Focus, Gamepad2, HeartHandshake,
 } from 'lucide-react';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+type Props = { params: Promise<{ locale: string }> };
+
+const pageMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'Eğitimlerimiz | Önce Özel Eğitim — 11 Uzmanlaşmış Terapi ve Eğitim Programı',
+    description: 'Dil-konuşma terapisi, otizm eğitimi, disleksi, ABA terapisi, duyu bütünleme, ergoterapi, DEHB ve daha fazlası. Pendik İstanbul\'da bilimsel temelli 11 özel eğitim programı.',
+  },
+  en: {
+    title: 'Our Programs | Önce Özel Eğitim — 11 Specialized Therapy & Education Programs',
+    description: 'Speech therapy, autism education, dyslexia, ABA therapy, sensory integration, occupational therapy, ADHD and more. 11 science-based special education programs in Pendik, Istanbul.',
+  },
+  de: {
+    title: 'Unsere Programme | Önce Özel Eğitim — 11 Spezialisierte Therapieprogramme',
+    description: 'Sprachtherapie, Autismus-Förderung, Legasthenie, ABA-Therapie, sensorische Integration, Ergotherapie, ADHS und mehr. 11 wissenschaftlich fundierte Förderprogramme in Pendik.',
+  },
+  ru: {
+    title: 'Наши Программы | Önce Özel Eğitim — 11 Специализированных программ',
+    description: 'Логопедия, обучение аутизму, дислексия, АВА-терапия, сенсорная интеграция, трудотерапия, СДВиГ и другое. 11 научно обоснованных программ в Пендике, Стамбул.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = pageMeta[locale] ?? pageMeta.tr;
+  const path = '/egitimlerimiz';
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${path}`,
+      languages: {
+        'tr': `${BASE_URL}/tr${path}`,
+        'en': `${BASE_URL}/en${path}`,
+        'de': `${BASE_URL}/de${path}`,
+        'ru': `${BASE_URL}/ru${path}`,
+        'x-default': `${BASE_URL}/tr${path}`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}${path}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
 
 const PROGRAM_ICONS = [
   MessageSquare,

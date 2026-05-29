@@ -2,6 +2,65 @@ import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { HandHeart, Heart, FlaskConical, Baby } from 'lucide-react';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+type Props = { params: Promise<{ locale: string }> };
+
+const pageMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'Kurumsal | Önce Özel Eğitim — 15+ Yıllık Tecrübe, Pendik İstanbul',
+    description: 'Önce Özel Eğitim hakkında bilgi alın: misyonumuz, vizyonumuz ve temel değerlerimiz. Pendik\'te 15 yılı aşkın süredir ailelerimizin güvenilir özel eğitim partneri.',
+  },
+  en: {
+    title: 'About Us | Önce Özel Eğitim — 15+ Years of Experience in Pendik',
+    description: 'Learn about Önce Özel Eğitim: our mission, vision and core values. Trusted special education partner for families in Pendik, Istanbul for over 15 years.',
+  },
+  de: {
+    title: 'Über Uns | Önce Özel Eğitim — 15+ Jahre Erfahrung in Pendik',
+    description: 'Erfahren Sie mehr über Önce Özel Eğitim: unsere Mission, Vision und Kernwerte. Vertrauensvoller Sonderpädagogikpartner für Familien in Pendik, Istanbul.',
+  },
+  ru: {
+    title: 'О нас | Önce Özel Eğitim — 15+ лет опыта в Пендике',
+    description: 'Узнайте об Önce Özel Eğitim: наша миссия, видение и ценности. Надёжный партнёр по специальному образованию для семей в Пендике, Стамбул.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = pageMeta[locale] ?? pageMeta.tr;
+  const path = '/kurumsal';
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${path}`,
+      languages: {
+        'tr': `${BASE_URL}/tr${path}`,
+        'en': `${BASE_URL}/en${path}`,
+        'de': `${BASE_URL}/de${path}`,
+        'ru': `${BASE_URL}/ru${path}`,
+        'x-default': `${BASE_URL}/tr${path}`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}${path}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
 
 export default async function KurumsalPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

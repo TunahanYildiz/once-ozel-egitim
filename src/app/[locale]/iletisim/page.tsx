@@ -2,6 +2,66 @@ import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import ContactPageForm from '@/components/contact/ContactPageForm';
+import type { Metadata } from 'next';
+
+const BASE_URL = 'https://onceozelegitim.com';
+type Props = { params: Promise<{ locale: string }> };
+
+const pageMeta: Record<string, { title: string; description: string }> = {
+  tr: {
+    title: 'İletişim | Önce Özel Eğitim — Pendik İstanbul, Ücretsiz Değerlendirme',
+    description: 'Önce Özel Eğitim ile iletişime geçin. Pendik, İstanbul\'da özel eğitim ve terapi için ücretsiz ilk değerlendirme randevusu alın. Telefon, e-posta veya online form.',
+  },
+  en: {
+    title: 'Contact | Önce Özel Eğitim — Pendik Istanbul, Free Assessment',
+    description: 'Contact Önce Özel Eğitim. Book a free initial assessment for special education and therapy in Pendik, Istanbul. Phone, email or online form.',
+  },
+  de: {
+    title: 'Kontakt | Önce Özel Eğitim — Pendik Istanbul, Kostenlose Beurteilung',
+    description: 'Kontaktieren Sie Önce Özel Eğitim. Buchen Sie eine kostenlose Erstbeurteilung für Sonderpädagogik und Therapie in Pendik, Istanbul.',
+  },
+  ru: {
+    title: 'Контакты | Önce Özel Eğitim — Пендик Стамбул, Бесплатная оценка',
+    description: 'Свяжитесь с Önce Özel Eğitim. Запишитесь на бесплатную первичную оценку по специальному образованию и терапии в Пендике, Стамбул.',
+  },
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const meta = pageMeta[locale] ?? pageMeta.tr;
+  const path = '/iletisim';
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${path}`,
+      languages: {
+        'tr': `${BASE_URL}/tr${path}`,
+        'en': `${BASE_URL}/en${path}`,
+        'de': `${BASE_URL}/de${path}`,
+        'ru': `${BASE_URL}/ru${path}`,
+        'x-default': `${BASE_URL}/tr${path}`,
+      },
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${BASE_URL}/${locale}${path}`,
+      siteName: 'Önce Özel Eğitim',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Önce Özel Eğitim' }],
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : 'ru_RU',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+  };
+}
+
+
 
 export default async function IletisimPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
