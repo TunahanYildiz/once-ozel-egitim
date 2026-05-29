@@ -60,9 +60,6 @@ export default async function GaleriPage({ params }: { params: Promise<{ locale:
             {t('pageTitle')}
           </h1>
 
-          <p className="text-white/75 text-lg max-w-2xl mx-auto">
-            {t('pageSubtitle')}
-          </p>
 
           {/* Stats row */}
           <div className="flex justify-center gap-8 mt-10">
@@ -89,19 +86,6 @@ export default async function GaleriPage({ params }: { params: Promise<{ locale:
       {/* Gallery Client Component */}
       <GalleryClient initialImages={images} />
 
-      {/* Bottom Note */}
-      <section className="pb-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden bg-gradient-to-br from-[var(--color-primary)]/5 to-[var(--color-secondary)]/10 rounded-3xl border border-[var(--color-secondary)]/20 p-8 text-center">
-            <div className="absolute top-0 right-0 w-40 h-40 bg-[var(--color-secondary)]/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl" />
-            <Camera className="w-10 h-10 text-[var(--color-secondary)] mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-[var(--color-primary)] mb-2">{t('bottomTitle')}</h3>
-            <p className="text-gray-500 text-sm max-w-md mx-auto">
-              📸 {t('bottomDesc')}
-            </p>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

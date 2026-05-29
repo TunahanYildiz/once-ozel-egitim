@@ -76,7 +76,7 @@ export default function Hero() {
           >
             <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=80"
                 alt="Özel eğitim sınıfı"
                 fill
                 className="object-cover"

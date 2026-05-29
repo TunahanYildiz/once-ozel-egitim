@@ -85,32 +85,32 @@ export default function QuickContactForm() {
   };
 
   const inputBase =
-    'w-full px-5 py-4 rounded-xl border transition-all bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:border-transparent';
+    'w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl border transition-all bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:border-transparent';
   const inputNormal = `${inputBase} border-gray-200 focus:ring-[var(--color-secondary)]`;
   const inputError = `${inputBase} border-red-400 focus:ring-red-400 bg-red-50`;
 
   return (
-    <section className="py-24 bg-white" id="randevu-formu">
+    <section className="py-10 sm:py-16 md:py-24 bg-white" id="randevu-formu">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[var(--color-primary)] rounded-[3rem] overflow-hidden shadow-2xl flex flex-col md:flex-row relative">
+        <div className="bg-[var(--color-primary)] rounded-[2rem] sm:rounded-[3rem] overflow-hidden shadow-2xl flex flex-col md:flex-row relative">
 
           {/* Decorative blobs */}
           <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 rounded-full bg-[var(--color-secondary)] opacity-20 blur-3xl pointer-events-none"></div>
           <div className="absolute bottom-0 left-0 -ml-32 -mb-32 w-96 h-96 rounded-full bg-blue-400 opacity-20 blur-3xl pointer-events-none"></div>
 
           {/* Left panel */}
-          <div className="w-full md:w-5/12 p-12 flex flex-col justify-center relative z-10">
-            <CalendarCheck className="w-16 h-16 text-[var(--color-secondary)] mb-6" />
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+          <div className="w-full md:w-5/12 p-6 sm:p-10 md:p-12 flex flex-col justify-center relative z-10">
+            <CalendarCheck className="w-12 h-12 md:w-16 md:h-16 text-[var(--color-secondary)] mb-4 md:mb-6" />
+            <h2 className="text-2xl md:text-4xl font-bold text-white mb-3 md:mb-4 leading-tight">
               {t('title')}
             </h2>
-            <p className="text-blue-200 text-lg leading-relaxed">
+            <p className="text-blue-200 text-base md:text-lg leading-relaxed">
               {t('subtitle')}
             </p>
           </div>
 
           {/* Right panel: Form or Success/Error */}
-          <div className="w-full md:w-7/12 p-8 md:p-12 relative z-10 bg-white md:rounded-r-[3rem]">
+          <div className="w-full md:w-7/12 p-5 sm:p-8 md:p-12 relative z-10 bg-white md:rounded-r-[3rem]">
 
             {/* SUCCESS STATE */}
             {formState === 'success' && (
@@ -137,7 +137,7 @@ export default function QuickContactForm() {
 
             {/* FORM STATE */}
             {formState !== 'success' && (
-              <form onSubmit={handleSubmit} noValidate className="space-y-5">
+              <form onSubmit={handleSubmit} noValidate className="space-y-3.5 md:space-y-5">
                 {/* Error banner */}
                 {formState === 'error' && (
                   <div className="flex items-start gap-3 p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
@@ -148,7 +148,7 @@ export default function QuickContactForm() {
 
                 {/* Full Name */}
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mb-1 md:mb-2">
                     {t('namePlaceholder')} <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -169,7 +169,7 @@ export default function QuickContactForm() {
 
                 {/* Phone */}
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mb-1 md:mb-2">
                     {t('phonePlaceholder')} <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -190,7 +190,7 @@ export default function QuickContactForm() {
 
                 {/* Category */}
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  <label className="block text-sm font-semibold text-gray-700 mb-1 md:mb-2">
                     {t('areaPlaceholder')} <span className="text-red-500">*</span>
                   </label>
                   <select
@@ -215,7 +215,7 @@ export default function QuickContactForm() {
                 <button
                   type="submit"
                   disabled={formState === 'loading'}
-                  className="w-full py-4 mt-2 bg-[var(--color-secondary)] text-white font-bold text-lg rounded-xl hover:bg-[var(--color-secondary-light)] transition-all transform hover:-translate-y-1 shadow-lg shadow-[var(--color-secondary)]/30 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-3"
+                  className="w-full py-3 md:py-4 mt-1 md:mt-2 bg-[var(--color-secondary)] text-white font-bold text-lg rounded-xl hover:bg-[var(--color-secondary-light)] transition-all transform hover:-translate-y-1 shadow-lg shadow-[var(--color-secondary)]/30 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-3"
                 >
                   {formState === 'loading' ? (
                     <>
