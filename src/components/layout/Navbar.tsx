@@ -6,6 +6,7 @@ import { Link, usePathname } from '@/i18n/routing';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useParams } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Navbar() {
   const t = useTranslations('Navbar');
@@ -45,8 +46,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center" onClick={handleLogoClick}>
-            <span className="font-bold text-2xl text-[var(--color-primary)]">
+          <Link href="/" className="flex-shrink-0 flex items-center gap-2.5 group" onClick={handleLogoClick}>
+            <Image
+              src="/logo.png"
+              alt="Önce Özel Eğitim Logo"
+              width={40}
+              height={40}
+              className="object-contain transition-transform duration-200 group-hover:scale-105"
+              priority
+            />
+            <span className="font-bold text-xl text-[var(--color-primary)] leading-tight">
               {t('logo')}
             </span>
           </Link>
