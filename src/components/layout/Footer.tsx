@@ -22,9 +22,9 @@ export default async function Footer() {
           <div className="space-y-3">
             <h3 className="text-lg font-bold mb-2">{t('quickLinks')}</h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-2">
-              <li><Link href="/" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('home')}</Link></li>
               <li><Link href="/kurumsal" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('corporate')}</Link></li>
               <li><Link href="/egitimlerimiz" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('education')}</Link></li>
+              <li><Link href="/hizmetlerimiz" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('services')}</Link></li>
               <li><Link href="/uzman-kadromuz" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('staff')}</Link></li>
               <li><Link href="/blog" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('blog')}</Link></li>
               <li><Link href="/galeri" className="text-gray-300 hover:text-white transition-colors text-sm">{tNav('galeri')}</Link></li>

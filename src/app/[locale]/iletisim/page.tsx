@@ -142,7 +142,7 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
                 <h3 className="text-lg font-bold text-[var(--color-primary)] mb-4">{t('socialTitle')}</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/onceozelegitim/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"

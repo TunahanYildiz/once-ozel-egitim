@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import Hero from '@/components/home/Hero';
 import StatsStrip from '@/components/home/StatsStrip';
 import BentoGrid from '@/components/home/BentoGrid';
+import TestBanner from '@/components/home/TestBanner';
 import Testimonials from '@/components/home/Testimonials';
 import FAQ from '@/components/home/FAQ';
 import QuickContactForm from '@/components/home/QuickContactForm';
@@ -124,8 +125,8 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     "image": "https://onceozelegitim.com/og-image.png",
     "logo": "https://onceozelegitim.com/logo.png",
     "url": "https://onceozelegitim.com",
-    "telephone": "+902160000000",
-    "email": "bilgi@onceozelegitim.com",
+    "telephone": "+905535575515",
+    "email": "onceozelegitim@gmail.com",
     "priceRange": "₺₺",
     "address": {
       "@type": "PostalAddress",
@@ -144,14 +145,14 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "18:00"
+        "opens": "08:00",
+        "closes": "19:00"
       },
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "14:00"
+        "opens": "08:00",
+        "closes": "19:00"
       }
     ],
     "areaServed": [
@@ -161,7 +162,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     ],
     "hasMap": "https://www.google.com/maps/search/?api=1&query=40.868194,29.280861",
     "sameAs": [
-      "https://instagram.com",
+      "https://www.instagram.com/onceozelegitim/",
       "https://facebook.com",
       "https://youtube.com"
     ],
@@ -187,6 +188,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <Hero />
       <StatsStrip />
       <BentoGrid />
+      <TestBanner />
       <Testimonials />
       <FAQ items={faqs} />
       <QuickContactForm />

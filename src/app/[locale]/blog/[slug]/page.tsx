@@ -66,11 +66,6 @@ export default async function BlogPostDetailPage({
 
   if (dbPost) {
     // Convert DB structure to BlogPostDetail
-    // Split content into paragraphs for easy structured rendering
-    const paragraphs = dbPost.content
-      ? dbPost.content.split(/\n\s*\n/).filter(Boolean)
-      : [];
-
     post = {
       id: dbPost.id,
       title: dbPost.title,
@@ -78,10 +73,8 @@ export default async function BlogPostDetailPage({
       summary: dbPost.summary || '',
       cover_url: dbPost.cover_url || 'https://images.unsplash.com/photo-1540479859555-17af45c78602?auto=format&fit=crop&w=1200&q=80',
       created_at: dbPost.created_at,
-      sections: paragraphs.map((p: string) => ({
-        type: 'paragraph',
-        text: p.trim()
-      }))
+      sections: [],
+      content_html: dbPost.content
     };
   } else {
     // 2. Fallback to Local Mock Data
@@ -148,37 +141,44 @@ export default async function BlogPostDetailPage({
 
         {/* Post Content */}
         <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 md:p-12 mb-12">
-          <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
-            {post.sections.map((section, idx) => {
-              if (section.type === 'heading' && section.text) {
-                return (
-                  <h2
-                    key={idx}
-                    className="text-2xl md:text-3xl font-extrabold text-[var(--color-primary)] pt-4 pb-2 border-b border-gray-100"
-                  >
-                    {section.text}
-                  </h2>
-                );
-              }
-              if (section.type === 'list' && section.items) {
-                return (
-                  <ul key={idx} className="list-disc pl-6 space-y-3 my-4 text-gray-600">
-                    {section.items.map((item, itemIdx) => (
-                      <li key={itemIdx}>{item}</li>
-                    ))}
-                  </ul>
-                );
-              }
-              if (section.type === 'paragraph' && section.text) {
-                return (
-                  <p key={idx} className="text-gray-600">
-                    {section.text}
-                  </p>
-                );
-              }
-              return null;
-            })}
-          </div>
+          {post.content_html ? (
+            <div 
+              className="space-y-6 text-gray-700 leading-relaxed text-lg [&>h1]:text-3xl [&>h1]:font-extrabold [&>h1]:text-[var(--color-primary)] [&>h1]:mt-8 [&>h1]:mb-4 [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-[var(--color-primary)] [&>h2]:mt-8 [&>h2]:mb-4 [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-[var(--color-primary)] [&>h3]:mt-6 [&>h3]:mb-3 [&>p]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:mb-4 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:mb-4 [&>strong]:font-bold [&>b]:font-bold [&>em]:italic"
+              dangerouslySetInnerHTML={{ __html: post.content_html }} 
+            />
+          ) : (
+            <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
+              {post.sections.map((section, idx) => {
+                if (section.type === 'heading' && section.text) {
+                  return (
+                    <h2
+                      key={idx}
+                      className="text-2xl md:text-3xl font-extrabold text-[var(--color-primary)] pt-4 pb-2 border-b border-gray-100"
+                    >
+                      {section.text}
+                    </h2>
+                  );
+                }
+                if (section.type === 'list' && section.items) {
+                  return (
+                    <ul key={idx} className="list-disc pl-6 space-y-3 my-4 text-gray-600">
+                      {section.items.map((item, itemIdx) => (
+                        <li key={itemIdx}>{item}</li>
+                      ))}
+                    </ul>
+                  );
+                }
+                if (section.type === 'paragraph' && section.text) {
+                  return (
+                    <p key={idx} className="text-gray-600">
+                      {section.text}
+                    </p>
+                  );
+                }
+                return null;
+              })}
+            </div>
+          )}
         </div>
 
         {/* Expert Author CTA */}

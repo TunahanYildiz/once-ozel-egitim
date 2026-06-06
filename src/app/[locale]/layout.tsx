@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ScrollToTop from '@/components/layout/ScrollToTop';
+import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
       <body className={`${inter.variable} font-sans antialiased bg-[var(--background)] text-[var(--foreground)] min-h-screen flex flex-col`}>
         <NextIntlClientProvider messages={messages}>
           <ScrollToTop />
+          <WhatsAppButton />
           <Navbar />
           <main className="flex-grow">
             {children}

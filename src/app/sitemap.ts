@@ -7,6 +7,7 @@ const PAGES = [
   { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
   { path: '/kurumsal', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/egitimlerimiz', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/hizmetlerimiz', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/uzman-kadromuz', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/blog', priority: 0.9, changeFrequency: 'daily' as const },
   { path: '/galeri', priority: 0.7, changeFrequency: 'monthly' as const },

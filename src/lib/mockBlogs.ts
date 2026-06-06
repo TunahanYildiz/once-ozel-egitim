@@ -12,6 +12,7 @@ export interface BlogPostDetail {
   cover_url: string;
   created_at: string;
   sections: BlogPostSection[];
+  content_html?: string;
 }
 
 export const MOCK_BLOGS_DETAIL: Record<string, Record<string, BlogPostDetail>> = {

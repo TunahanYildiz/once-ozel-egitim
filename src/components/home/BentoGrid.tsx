@@ -138,7 +138,7 @@ export default function BentoGrid() {
           >
             <div className="absolute inset-0">
               <Image
-                src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1400&q=80"
+                src="/images/gebze-ozel-egitim-ve-rehabilitasyon-sinifi.webp"
                 alt={t('title4')}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
