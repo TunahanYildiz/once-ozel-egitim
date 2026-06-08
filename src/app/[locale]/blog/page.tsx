@@ -138,6 +138,29 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://onceozelegitim.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": t('pageTitle'),
+                "item": `https://onceozelegitim.com/${locale}/blog`
+              }
+            ]
+          })
+        }}
+      />
       {/* Page Header */}
       <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-10 pb-4 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_center,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>

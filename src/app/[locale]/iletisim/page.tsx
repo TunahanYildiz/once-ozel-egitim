@@ -70,6 +70,29 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://onceozelegitim.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": t('pageTitle'),
+                "item": `https://onceozelegitim.com/${locale}/iletisim`
+              }
+            ]
+          })
+        }}
+      />
       {/* Page Header */}
       <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-8 pb-8 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>
@@ -154,28 +177,6 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
                     </svg>
                   </a>
-                  <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                    className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg shadow-blue-600/30"
-                  >
-                    <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://youtube.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="YouTube"
-                    className="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg shadow-red-600/30"
-                  >
-                    <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                    </svg>
-                  </a>
                 </div>
               </div>
 
@@ -186,11 +187,11 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
                   {[
                     { days: t('weekdays'), hours: t('weekdayHours') },
                     { days: t('saturday'), hours: t('saturdayHours') },
-                    { days: t('sunday'), hours: t('closed') },
+                    { days: t('sunday'), hours: t('sundayHours') },
                   ].map((item, i) => (
                     <div key={i} className="flex justify-between items-center py-1.5 border-b border-[var(--color-primary)]/10 last:border-0">
                       <span className="font-medium text-gray-700">{item.days}</span>
-                      <span className={`font-bold ${item.hours === t('closed') ? 'text-red-500' : 'text-[var(--color-secondary)]'}`}>{item.hours}</span>
+                      <span className="font-bold text-[var(--color-secondary)]">{item.hours}</span>
                     </div>
                   ))}
                 </div>

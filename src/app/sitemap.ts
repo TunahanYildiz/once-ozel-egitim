@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { supabase } from '@/lib/supabase';
 
 const BASE_URL = 'https://onceozelegitim.com';
 const LOCALES = ['tr', 'en', 'de', 'ru'];
@@ -14,16 +15,61 @@ const PAGES = [
   { path: '/iletisim', priority: 0.8, changeFrequency: 'monthly' as const },
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+// Mock blog slugs as fallback
+const MOCK_BLOG_SLUGS = [
+  { slug: 'cocuklarda-dil-gelisimi', updated_at: '2026-05-01T00:00:00Z' },
+  { slug: 'otizmde-erken-tani', updated_at: '2026-04-15T00:00:00Z' },
+  { slug: 'duyu-butunleme-nedir', updated_at: '2026-03-20T00:00:00Z' },
+];
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const locale of LOCALES) {
-    for (const page of PAGES) {
+  // Static pages with hreflang alternates
+  for (const page of PAGES) {
+    for (const locale of LOCALES) {
       entries.push({
         url: `${BASE_URL}/${locale}${page.path}`,
-        lastModified: new Date(),
+        lastModified: new Date('2026-06-09'),
         changeFrequency: page.changeFrequency,
         priority: page.priority,
+        alternates: {
+          languages: Object.fromEntries(
+            LOCALES.map(l => [l, `${BASE_URL}/${l}${page.path}`])
+          ),
+        },
+      });
+    }
+  }
+
+  // Dynamic blog posts
+  let blogSlugs = MOCK_BLOG_SLUGS;
+  try {
+    const { data, error } = await supabase
+      .from('blog_posts')
+      .select('slug, updated_at')
+      .eq('published', true)
+      .order('created_at', { ascending: false });
+
+    if (data && !error && data.length > 0) {
+      blogSlugs = data;
+    }
+  } catch {
+    // Use mock data
+  }
+
+  for (const post of blogSlugs) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.updated_at || '2026-06-01'),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            LOCALES.map(l => [l, `${BASE_URL}/${l}/blog/${post.slug}`])
+          ),
+        },
       });
     }
   }

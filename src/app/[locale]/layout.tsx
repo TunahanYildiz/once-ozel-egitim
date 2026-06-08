@@ -12,8 +12,17 @@ import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://onceozelegitim.com'),
+  verification: {
+    google: 'google-site-verification-code-buraya-gelecek',
+    yandex: 'yandex-verification-code-buraya-gelecek',
+  },
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/logo.png', type: 'image/png' },
+    ],
     apple: '/apple-icon.png',
   },
 };

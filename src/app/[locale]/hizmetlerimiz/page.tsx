@@ -92,6 +92,7 @@ export default async function HizmetlerimizPage({ params }: { params: Promise<{ 
     section2Para2: t('section2Para2'),
     section3Badge: t('section3Badge'),
     section3Title: t('section3Title'),
+    section3Desc: t('section3Desc'),
     section3Item1: t('section3Item1'),
     section3Item2: t('section3Item2'),
     section3Item3: t('section3Item3'),
@@ -99,5 +100,32 @@ export default async function HizmetlerimizPage({ params }: { params: Promise<{ 
     periods: [t('period1'), t('period3'), t('period6'), t('period9')],
   };
 
-  return <HizmetlerimizContent strings={strings} />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://onceozelegitim.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": t('pageTitle'),
+                "item": `https://onceozelegitim.com/${locale}/hizmetlerimiz`
+              }
+            ]
+          })
+        }}
+      />
+      <HizmetlerimizContent strings={strings} />
+    </>
+  );
 }

@@ -62,6 +62,7 @@ interface Strings {
   section2Para2: string;
   section3Badge: string;
   section3Title: string;
+  section3Desc: string;
   section3Item1: string;
   section3Item2: string;
   section3Item3: string;
@@ -276,33 +277,46 @@ export default function HizmetlerimizContent({ strings: s }: { strings: Strings 
       {/* ═══════════════════════════════════════════════
           SECTION 3 — SAĞLIKLI BESLENME
       ═══════════════════════════════════════════════ */}
-      <section className="py-24 bg-white overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-emerald-50/60 via-white to-teal-50/40 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="fade-in-section">
             <div className="flex items-center gap-3 mb-6">
-              <span className="inline-block bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+              <span className="inline-block bg-emerald-100 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                 {s.section3Badge}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-primary)] mb-10 leading-tight max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-primary)] mb-6 leading-tight max-w-2xl">
               {s.section3Title}
             </h2>
+            <p className="text-gray-500 text-lg max-w-2xl mb-14 leading-relaxed">
+              {s.section3Desc}
+            </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[s.section3Item1, s.section3Item2, s.section3Item3, s.section3Item4].map((item, i) => {
-                // Split emoji from text
-                const emojiMatch = item.match(/^(\p{Emoji_Presentation}|\p{Emoji}\uFE0F)\s*(.*)/u);
-                const emoji = emojiMatch ? emojiMatch[1] : '✨';
-                const text = emojiMatch ? emojiMatch[2] : item;
+                const icons = [
+                  <svg key="0" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2m6-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
+                  <svg key="1" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
+                  <svg key="2" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>,
+                  <svg key="3" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>,
+                ];
+                const gradients = [
+                  'from-emerald-500 to-teal-500',
+                  'from-teal-500 to-cyan-500',
+                  'from-cyan-500 to-blue-500',
+                  'from-rose-400 to-pink-500',
+                ];
 
                 return (
-                  <div key={i} className="bg-green-50/50 rounded-3xl p-6 border border-green-100 hover:border-green-300 transition-colors shadow-sm hover:shadow-md group">
-                    <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-3xl mb-4 shadow-sm group-hover:scale-110 transition-transform">
-                      {emoji}
+                  <div key={i} className="flex items-start gap-5 p-6 bg-white rounded-2xl border border-gray-100 hover:border-emerald-200 transition-all duration-300 shadow-sm hover:shadow-lg group">
+                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradients[i]} flex items-center justify-center text-white flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                      {icons[i]}
                     </div>
-                    <p className="text-gray-700 font-semibold leading-relaxed">
-                      {text}
-                    </p>
+                    <div>
+                      <p className="text-gray-800 font-semibold text-base leading-relaxed">
+                        {item}
+                      </p>
+                    </div>
                   </div>
                 );
               })}

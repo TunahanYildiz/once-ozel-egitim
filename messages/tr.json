@@ -32,7 +32,7 @@
     "description": "Her çocuk özeldir. Güven, şefkat ve sevgiyle yarınlara hazırlıyoruz.",
     "cta": "Bize Ulaşın",
     "heroTitle": "İstanbul'un Güvenilir Özel Eğitim ve Terapi Merkezi",
-    "heroSubtitle": "Önce Sevgi, Sonra Başarı. Sevgi, şefkat ve bilimsel yöntemlerle çocuklarınızın potansiyelini ortaya çıkarıyoruz.",
+    "heroSubtitle": "Önce Sevgi, Sonra Başarı. Pendik merkezli kurumumuzda, sevgi, şefkat ve bilimsel terapi yöntemleriyle çocuklarınızın potansiyelini ortaya çıkarıyoruz.",
     "heroBtn1": "Ücretsiz Değerlendirme",
     "heroBtn2": "Programlarımız",
     "stats1": "1000+ Mutlu Aile",
@@ -270,7 +270,7 @@
     "pageTitle": "İletişim",
     "pageSubtitle": "Doğru adımı atmaya hazır mısınız? Bize ulaşın.",
     "addressTitle": "Adresimiz",
-    "address": "Yenişehir Mah. Barbaros Cad. No:12 Kat:2, Pendik / İstanbul",
+    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/İstanbul",
     "phoneTitle": "Telefon",
     "phone": "0553 557 55 15",
     "emailTitle": "E-posta",
@@ -299,7 +299,8 @@
     "sunday": "Pazar",
     "closed": "Kapalı",
     "weekdayHours": "08:00 – 19:00",
-    "saturdayHours": "08:00 – 19:00"
+    "saturdayHours": "08:00 – 19:00",
+    "sundayHours": "08:00 – 19:00"
   },
   "Blog": {
     "pageTitle": "Bloglarımız",
@@ -312,7 +313,11 @@
   "Galeri": {
     "pageTitle": "Galeri",
     "pageSubtitle": "Merkezimizden kareler; sınıflarımız, eğitim alanlarımız ve etkinliklerimiz.",
-    "altText": "Önce Özel Eğitim Merkezi",
+    "altText": "Önce Özel Eğitim Merkezi Pendik",
+    "altTherapy": "Önce Özel Eğitim terapi odası — Pendik özel eğitim merkezi",
+    "altEducation": "Önce Özel Eğitim sınıf ortamı — Pendik çocuk eğitimi",
+    "altVenue": "Önce Özel Eğitim merkez binası — Pendik İstanbul",
+    "altActivity": "Önce Özel Eğitim etkinlik — Pendik çocuk etkinlikleri",
     "badge": "Merkezimizden Kareler",
     "statPhotos": "Fotoğraf",
     "statCategories": "Kategori",
@@ -379,9 +384,10 @@
     "period9": "9 Aylık",
     "section3Badge": "Bölüm 3",
     "section3Title": "Sağlıklı ve Dengeli Beslenme",
-    "section3Item1": "🥗 Günlük 3 öğün sağlıklı ve dengeli beslenme",
-    "section3Item2": "🍎 Taze ve kaliteli gıdalarla hazırlanan menüler",
-    "section3Item3": "🥦 Çocuğun ihtiyaçlarına göre planlanabilen beslenme programları",
-    "section3Item4": "👨‍👩‍👧‍👦 Ailelerin tercih ve hassasiyetlerine uygun yemek seçenekleri"
+    "section3Desc": "Kamp eğitimimiz süresince öğrencilerimizin bedensel ve zihinsel gelişimini desteklemek için profesyonel beslenme danışmanlarımız tarafından hazırlanan sağlıklı menüler sunuyoruz.",
+    "section3Item1": "Günlük 3 öğün sağlıklı ve dengeli beslenme",
+    "section3Item2": "Taze ve kaliteli gıdalarla hazırlanan menüler",
+    "section3Item3": "Çocuğun ihtiyaçlarına göre planlanabilen beslenme programları",
+    "section3Item4": "Ailelerin tercih ve hassasiyetlerine uygun yemek seçenekleri"
   }
 }

@@ -104,6 +104,29 @@ export default async function GaleriPage({ params }: { params: Promise<{ locale:
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://onceozelegitim.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": t('pageTitle'),
+                "item": `https://onceozelegitim.com/${locale}/galeri`
+              }
+            ]
+          })
+        }}
+      />
       {/* Hero Header */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-primary)]/90 to-[var(--color-secondary)] pt-16 pb-12">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />

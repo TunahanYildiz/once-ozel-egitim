@@ -112,10 +112,12 @@ export default function Navbar() {
   const t = useTranslations('Navbar');
   const [isOpen, setIsOpen] = useState(false);
   const [eduOpen, setEduOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
   const pathname = usePathname();
   const params = useParams();
   const currentLocale = params.locale as string;
   const eduRef = useRef<HTMLDivElement>(null);
+  const langRef = useRef<HTMLDivElement>(null);
 
   // Close mega menu on outside click
   useEffect(() => {
@@ -123,10 +125,13 @@ export default function Navbar() {
       if (eduRef.current && !eduRef.current.contains(e.target as Node)) {
         setEduOpen(false);
       }
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
     }
-    if (eduOpen) document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [eduOpen]);
+  }, []);
 
   const links = [
     { href: '/kurumsal', label: t('corporate') },
@@ -154,7 +159,7 @@ export default function Navbar() {
           aria-hidden="true"
         />
       )}
-      <nav className="sticky top-0 z-50 glass border-b border-gray-200/50">
+      <nav className="sticky top-0 z-50 glass border-b border-gray-200/50" aria-label="Ana navigasyon">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
 
@@ -174,7 +179,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
+            <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 ml-4">
 
               {/* Eğitimlerimiz with mega menu */}
               <div ref={eduRef} className="relative">
@@ -183,6 +188,8 @@ export default function Navbar() {
                   className={`flex items-center gap-1 text-sm font-medium transition-colors ${
                     eduOpen ? 'text-[var(--color-secondary)]' : 'text-gray-700 hover:text-[var(--color-secondary)]'
                   }`}
+                  aria-expanded={eduOpen}
+                  aria-haspopup="true"
                 >
                   {t('education')}
                   <ChevronDown
@@ -217,8 +224,7 @@ export default function Navbar() {
 
             {/* Right Side: Phone + Language + CTA */}
             <div className="hidden lg:flex items-center space-x-3 xl:space-x-4">
-              {/* Visual separator */}
-              <div className="h-5 w-px bg-gray-200" aria-hidden="true" />
+
               {/* Phone — only show on xl to avoid crowding on DE/RU */}
               <a
                 href={`tel:${t('phone').replace(/\s|\(|\)|-/g, '')}`}
@@ -230,18 +236,35 @@ export default function Navbar() {
               </a>
 
               {/* Language */}
-              <div className="relative group">
-                <button className="flex items-center space-x-1 text-gray-600 hover:text-[var(--color-primary)] transition-colors py-2">
+              <div className="relative" ref={langRef}>
+                <button
+                  onClick={() => setLangOpen((v) => !v)}
+                  className={`flex items-center space-x-1 transition-colors py-2 ${
+                    langOpen ? 'text-[var(--color-primary)]' : 'text-gray-600 hover:text-[var(--color-primary)]'
+                  }`}
+                  aria-expanded={langOpen}
+                  aria-haspopup="true"
+                >
                   <Globe className="w-4 h-4" />
                   <span className="text-sm font-medium uppercase">{currentLocale}</span>
-                  <ChevronDown className="w-3.5 h-3.5" />
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
                 </button>
-                <div className="absolute right-0 top-full mt-0 w-32 bg-white rounded-xl shadow-lg border border-gray-100 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 flex flex-col overflow-hidden">
-                  <Link href={pathname as any} locale="tr" className="px-4 py-2 hover:bg-gray-50 text-sm">Türkçe</Link>
-                  <Link href={pathname as any} locale="en" className="px-4 py-2 hover:bg-gray-50 text-sm">English</Link>
-                  <Link href={pathname as any} locale="de" className="px-4 py-2 hover:bg-gray-50 text-sm">Deutsch</Link>
-                  <Link href={pathname as any} locale="ru" className="px-4 py-2 hover:bg-gray-50 text-sm">Русский</Link>
-                </div>
+                <AnimatePresence>
+                  {langOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ duration: 0.18 }}
+                      className="absolute right-0 top-full mt-2 w-32 bg-white rounded-xl shadow-lg border border-gray-100 flex flex-col overflow-hidden z-50"
+                    >
+                      <Link href={pathname as any} locale="tr" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Türkçe</Link>
+                      <Link href={pathname as any} locale="en" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>English</Link>
+                      <Link href={pathname as any} locale="de" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Deutsch</Link>
+                      <Link href={pathname as any} locale="ru" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Русский</Link>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
 
               {/* CTA */}
@@ -257,7 +280,9 @@ export default function Navbar() {
             <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-600 hover:text-[var(--color-primary)] focus:outline-none p-2"
+                className="text-gray-600 hover:text-[var(--color-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)] rounded-md p-2"
+                aria-label={isOpen ? 'Menüyü kapat' : 'Menüyü aç'}
+                aria-expanded={isOpen}
               >
                 {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>

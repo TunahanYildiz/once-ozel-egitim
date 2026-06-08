@@ -90,6 +90,29 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://onceozelegitim.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": t('pageTitle'),
+                "item": `https://onceozelegitim.com/${locale}/uzman-kadromuz`
+              }
+            ]
+          })
+        }}
+      />
       {/* Page Header */}
       <section className="relative bg-gradient-to-b from-[var(--color-primary)]/6 to-white pt-10 pb-4 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-[var(--color-secondary)]/10 via-transparent to-transparent pointer-events-none"></div>

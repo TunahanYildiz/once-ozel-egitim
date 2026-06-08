@@ -17,7 +17,7 @@ type Props = { params: Promise<{ locale: string }> };
 const homeMeta: Record<string, { title: string; description: string }> = {
   tr: {
     title: 'Önce Özel Eğitim | Pendik\'te Özel Eğitim & Terapi Merkezi',
-    description: 'Pendik, İstanbul\'da özel eğitim ve terapi hizmetleri. Otizm, dil-konuşma terapisi, disleksi, ABA, duyu bütünleme ve daha fazlası. Ücretsiz ilk değerlendirme için hemen arayın.',
+    description: 'Pendik, İstanbul\'da özel eğitim ve terapi merkezi. Otizm, disleksi, dil terapisi, ABA ve duyu bütünleme hizmetleri. Ücretsiz değerlendirme için arayın.',
   },
   en: {
     title: 'Önce Özel Eğitim | Special Education & Therapy Center in Pendik, Istanbul',
@@ -130,7 +130,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     "priceRange": "₺₺",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Yenişehir Mah. Barbaros Cad. No:12 Kat:2",
+      "streetAddress": "Kavakpınar Mah, Bulvar Cd. No:28A",
       "addressLocality": "Pendik",
       "addressRegion": "İstanbul",
       "postalCode": "34899",
@@ -153,6 +153,12 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
         "dayOfWeek": "Saturday",
         "opens": "08:00",
         "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "08:00",
+        "closes": "19:00"
       }
     ],
     "areaServed": [
@@ -162,9 +168,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     ],
     "hasMap": "https://www.google.com/maps/search/?api=1&query=40.868194,29.280861",
     "sameAs": [
-      "https://www.instagram.com/onceozelegitim/",
-      "https://facebook.com",
-      "https://youtube.com"
+      "https://www.instagram.com/onceozelegitim/"
     ],
     "medicalSpecialty": [
       "Speech Therapy",

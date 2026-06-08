@@ -302,7 +302,7 @@
     "pageTitle": "Contact",
     "pageSubtitle": "Ready to take the right step? Contact us.",
     "addressTitle": "Our Address",
-    "address": "Yenişehir Mah. Barbaros Cad. No:12 Floor:2, Pendik / Istanbul",
+    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/Istanbul",
     "phoneTitle": "Phone",
     "phone": "0553 557 55 15",
     "emailTitle": "Email",
@@ -331,7 +331,8 @@
     "sunday": "Sunday",
     "closed": "Closed",
     "weekdayHours": "08:00 – 19:00",
-    "saturdayHours": "08:00 – 19:00"
+    "saturdayHours": "08:00 – 19:00",
+    "sundayHours": "08:00 – 19:00"
   },
   "Blog": {
     "pageTitle": "Our Blogs",
@@ -344,7 +345,11 @@
   "Galeri": {
     "pageTitle": "Gallery",
     "pageSubtitle": "Moments from our center: classrooms, educational areas and activities.",
-    "altText": "Önce Özel Eğitim Center",
+    "altText": "Önce Özel Eğitim Center Pendik",
+    "altTherapy": "Önce Özel Eğitim therapy room — Special education center in Pendik",
+    "altEducation": "Önce Özel Eğitim classroom — Child education in Pendik, Istanbul",
+    "altVenue": "Önce Özel Eğitim facility — Pendik, Istanbul",
+    "altActivity": "Önce Özel Eğitim activity — Children's activities in Pendik",
     "badge": "Moments from Our Center",
     "statPhotos": "Photos",
     "statCategories": "Categories",
@@ -411,9 +416,10 @@
     "period9": "9 Months",
     "section3Badge": "Section 3",
     "section3Title": "Healthy & Balanced Diet",
-    "section3Item1": "🥗 3 healthy and balanced meals daily",
-    "section3Item2": "🍎 Menus prepared with fresh, high-quality ingredients",
-    "section3Item3": "🥦 Nutrition programs tailored to the child's needs",
-    "section3Item4": "👨‍👩‍👧‍👦 Meal options suited to families' preferences and sensitivities"
+    "section3Desc": "During our camp education, we offer healthy menus prepared by our professional nutrition consultants to support the physical and mental development of our students.",
+    "section3Item1": "3 healthy and balanced meals daily",
+    "section3Item2": "Menus prepared with fresh, high-quality ingredients",
+    "section3Item3": "Nutrition programs tailored to the child's needs",
+    "section3Item4": "Meal options suited to families' preferences and sensitivities"
   }
 }

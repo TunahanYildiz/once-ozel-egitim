@@ -274,7 +274,7 @@
     "pageTitle": "Kontakt",
     "pageSubtitle": "Bereit, den richtigen Schritt zu unternehmen? Kontaktieren Sie uns.",
     "addressTitle": "Unsere Adresse",
-    "address": "Yenişehir Mah. Barbaros Cad. No:12 Etage:2, Pendik / Istanbul",
+    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/Istanbul",
     "phoneTitle": "Telefon",
     "phone": "0553 557 55 15",
     "emailTitle": "E-Mail",
@@ -303,7 +303,8 @@
     "sunday": "Sonntag",
     "closed": "Geschlossen",
     "weekdayHours": "08:00 – 19:00",
-    "saturdayHours": "08:00 – 19:00"
+    "saturdayHours": "08:00 – 19:00",
+    "sundayHours": "08:00 – 19:00"
   },
   "Blog": {
     "pageTitle": "Unsere Blogs",
@@ -316,7 +317,11 @@
   "Galeri": {
     "pageTitle": "Galerie",
     "pageSubtitle": "Eindrücke aus unserem Zentrum: Klassenzimmer, Lernbereiche und Aktivitäten.",
-    "altText": "Önce Özel Eğitim Zentrum",
+    "altText": "Önce Özel Eğitim Zentrum Pendik",
+    "altTherapy": "Önce Özel Eğitim Therapieraum — Förderzentrum in Pendik",
+    "altEducation": "Önce Özel Eğitim Klassenzimmer — Kinderbildung in Pendik, Istanbul",
+    "altVenue": "Önce Özel Eğitim Einrichtung — Pendik, Istanbul",
+    "altActivity": "Önce Özel Eğitim Aktivität — Kinderaktivitäten in Pendik",
     "badge": "Eindrücke aus unserem Zentrum",
     "statPhotos": "Fotos",
     "statCategories": "Kategorien",
@@ -383,9 +388,10 @@
     "period9": "9 Monate",
     "section3Badge": "Abschnitt 3",
     "section3Title": "Gesunde & Ausgewogene Ernährung",
-    "section3Item1": "🥗 3 gesunde und ausgewogene Mahlzeiten täglich",
-    "section3Item2": "🍎 Menüs mit frischen, hochwertigen Zutaten zubereitet",
-    "section3Item3": "🥦 Auf die Bedürfnisse des Kindes abgestimmte Ernährungsprogramme",
-    "section3Item4": "👨‍👩‍👧‍👦 Mahlzeitenoptionen passend zu den Vorlieben und Empfindlichkeiten der Familien"
+    "section3Desc": "Während unserer Camp-Ausbildung bieten wir gesunde Menüs, die von unseren professionellen Ernährungsberatern zubereitet werden, um die körperliche und geistige Entwicklung unserer Schüler zu unterstützen.",
+    "section3Item1": "3 gesunde und ausgewogene Mahlzeiten täglich",
+    "section3Item2": "Menüs mit frischen, hochwertigen Zutaten zubereitet",
+    "section3Item3": "Auf die Bedürfnisse des Kindes abgestimmte Ernährungsprogramme",
+    "section3Item4": "Mahlzeitenoptionen passend zu den Vorlieben und Empfindlichkeiten der Familien"
   }
 }

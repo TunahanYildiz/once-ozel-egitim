@@ -31,9 +31,16 @@ export default function GalleryClient({ initialImages }: { initialImages: Galler
     etkinlik: t('overlayActivity'),
   };
 
-  const GALLERY_ITEMS = initialImages.map((item) => ({
+  const CATEGORY_ALT_MAP: Record<string, string> = {
+    terapi: t('altTherapy'),
+    egitim: t('altEducation'),
+    mekan: t('altVenue'),
+    etkinlik: t('altActivity'),
+  };
+
+  const GALLERY_ITEMS = initialImages.map((item, index) => ({
     ...item,
-    alt: t('altText'),
+    alt: `${CATEGORY_ALT_MAP[item.category] || t('altText')} - ${index + 1}`,
   }));
 
   const filtered = activeCategory === 'hepsi'
@@ -48,7 +55,7 @@ export default function GalleryClient({ initialImages }: { initialImages: Galler
   return (
     <>
       {/* Filter Bar */}
-      <section className="bg-white py-6 sticky top-20 z-30 shadow-sm border-b border-gray-100">
+      <section className="bg-white py-6 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 overflow-x-auto pb-1 scrollbar-hide">
             <Camera className="w-5 h-5 text-[var(--color-secondary)] flex-shrink-0" />
