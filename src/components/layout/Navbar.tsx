@@ -7,6 +7,7 @@ import { Menu, X, Globe, ChevronDown, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
+import { PROGRAMS } from '@/lib/programs';
 
 // Program groups for the Education mega menu
 function EduMegaMenu({ t, onClose }: { t: ReturnType<typeof useTranslations<'Navbar'>>; onClose: () => void }) {
@@ -89,17 +90,21 @@ function EduMegaMenu({ t, onClose }: { t: ReturnType<typeof useTranslations<'Nav
               {group.cat}
             </p>
             <ul className="space-y-1">
-              {group.items.map((item) => (
+              {group.items.map((item) => {
+                const prog = PROGRAMS.find(p => p.translationKey === item.key);
+                const href = prog ? `/egitimlerimiz/${prog.slug}` : '/egitimlerimiz';
+                return (
                 <li key={item.key}>
                   <Link
-                    href="/egitimlerimiz"
+                    href={href as any}
                     onClick={onClose}
                     className="block text-sm text-gray-600 hover:text-[var(--color-primary)] hover:bg-gray-50 rounded-lg px-2 py-1 transition-colors leading-snug"
                   >
                     {item.label}
                   </Link>
                 </li>
-              ))}
+                );
+              })}
             </ul>
           </div>
         ))}

@@ -65,11 +65,15 @@ export default function QuickContactForm() {
 
     setFormState('loading');
 
+    const fullNameTrimmed = values.fullName.trim();
+    const phoneTrimmed = values.phone.trim();
+    const categoryVal = values.category;
+
     const { error } = await supabase.from('appointments').insert([
       {
-        full_name: values.fullName.trim(),
-        phone: values.phone.trim(),
-        category: values.category,
+        full_name: fullNameTrimmed,
+        phone: phoneTrimmed,
+        category: categoryVal,
         status: 'new',
       },
     ]);
@@ -78,6 +82,18 @@ export default function QuickContactForm() {
       console.error('Supabase insert error:', error);
       setFormState('error');
     } else {
+      // Send email notification in the background
+      fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: fullNameTrimmed,
+          phone: phoneTrimmed,
+          category: categoryVal,
+          source: 'Hızlı İletişim / Değerlendirme Formu',
+        }),
+      }).catch(err => console.error('Failed to send email notification:', err));
+
       setFormState('success');
       setValues({ fullName: '', phone: '', category: '' });
       setErrors({});

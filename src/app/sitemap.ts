@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { supabase } from '@/lib/supabase';
+import { PROGRAMS } from '@/lib/programs';
 
 const BASE_URL = 'https://onceozelegitim.com';
 const LOCALES = ['tr', 'en', 'de', 'ru'];
@@ -68,6 +69,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: Object.fromEntries(
             LOCALES.map(l => [l, `${BASE_URL}/${l}/blog/${post.slug}`])
+          ),
+        },
+      });
+    }
+  }
+  // Individual education program pages
+  for (const program of PROGRAMS) {
+    for (const locale of LOCALES) {
+      const path = `/egitimlerimiz/${program.slug}`;
+      entries.push({
+        url: `${BASE_URL}/${locale}${path}`,
+        lastModified: new Date('2026-06-10'),
+        changeFrequency: 'monthly' as const,
+        priority: 0.85,
+        alternates: {
+          languages: Object.fromEntries(
+            LOCALES.map(l => [l, `${BASE_URL}/${l}${path}`])
           ),
         },
       });

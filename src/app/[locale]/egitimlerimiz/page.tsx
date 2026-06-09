@@ -6,6 +6,7 @@ import {
   BarChart2, Users, Activity, Focus, Gamepad2, HeartHandshake,
   ArrowRight
 } from 'lucide-react';
+import { PROGRAMS } from '@/lib/programs';
 import type { Metadata } from 'next';
 
 const BASE_URL = 'https://onceozelegitim.com';
@@ -174,10 +175,14 @@ export default async function EgitimlerimizPage({ params }: { params: Promise<{ 
                 {cat.keys.map((progKey, idx) => {
                   // Pseudo-random icon selection
                   const ProgramIcon = ICONS[(catIndex * 5 + idx) % ICONS.length];
+                  // Find matching slug for this program
+                  const programData = PROGRAMS.find(p => p.translationKey === progKey);
+                  const programHref = programData ? `/egitimlerimiz/${programData.slug}` : '/iletisim';
                   return (
-                    <div
+                    <Link
+                      href={programHref as any}
                       key={progKey}
-                      className={`group relative bg-gradient-to-br ${cat.color} rounded-3xl p-8 border border-white/80 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden`}
+                      className={`group relative bg-gradient-to-br ${cat.color} rounded-3xl p-8 border border-white/80 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden block`}
                     >
                       {/* Background number */}
                       <span className="absolute top-4 right-6 text-6xl font-black text-black/[0.03] select-none">
@@ -194,15 +199,14 @@ export default async function EgitimlerimizPage({ params }: { params: Promise<{ 
                         <p className="text-gray-600 text-sm leading-relaxed mb-6">
                           {t(`${progKey}_desc` as any)}
                         </p>
-                        <Link
-                          href="/iletisim"
+                        <span
                           className="inline-flex items-center gap-2 text-sm font-bold text-[var(--color-secondary)] hover:text-[var(--color-primary)] transition-colors group/btn"
                         >
                           {t('ctaBtn')}
                           <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                        </Link>
+                        </span>
                       </div>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>

@@ -33,15 +33,32 @@ export default function ContactPageForm() {
     if (!validate()) return;
     setFormState('loading');
 
+    const fullNameTrimmed = values.fullName.trim();
+    const phoneTrimmed = values.phone.trim();
+    const topicTrimmed = values.topic.trim();
+
     const { error } = await supabase.from('appointments').insert([{
-      full_name: values.fullName.trim(),
-      phone: values.phone.trim(),
-      category: values.topic.trim(),
+      full_name: fullNameTrimmed,
+      phone: phoneTrimmed,
+      category: topicTrimmed,
       status: 'new',
     }]);
 
-    if (error) { setFormState('error'); }
-    else {
+    if (error) { 
+      setFormState('error'); 
+    } else {
+      // Send email notification in the background
+      fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: fullNameTrimmed,
+          phone: phoneTrimmed,
+          category: topicTrimmed,
+          source: 'İletişim Sayfası Formu',
+        }),
+      }).catch(err => console.error('Failed to send email notification:', err));
+
       setFormState('success');
       setValues({ fullName: '', phone: '', topic: '' });
       setErrors({});
