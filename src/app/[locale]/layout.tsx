@@ -14,7 +14,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://onceozelegitim.com'),
   verification: {
-    google: 'google-site-verification-code-buraya-gelecek',
+    google: 'uHP7KHzra0VNF_nGG7sbUg1CgSvCMUg3UTbG4U5faUY',
     yandex: 'yandex-verification-code-buraya-gelecek',
   },
   icons: {
