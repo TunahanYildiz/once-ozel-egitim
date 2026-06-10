@@ -5,12 +5,18 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { fullName, phone, category, source } = body;
 
+    console.log('[API] send-email route triggered!');
+    console.log('[API] Body payload:', JSON.stringify(body));
+
     const resendApiKey = process.env.RESEND_API_KEY;
     const toEmail = process.env.NOTIFICATION_EMAIL || 'onceozelegitim@gmail.com';
     const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
 
+    console.log('[API] RESEND_API_KEY exists:', !!resendApiKey);
+    console.log('[API] Sending from:', fromEmail, 'to:', toEmail);
+
     if (!resendApiKey) {
-      console.warn('RESEND_API_KEY is not defined. Email notification skipped.');
+      console.error('[API] RESEND_API_KEY env variable is missing.');
       return NextResponse.json(
         { success: false, error: 'RESEND_API_KEY env variable is missing.' },
         { status: 500 }
@@ -58,9 +64,11 @@ export async function POST(request: Request) {
     });
 
     const data = await emailResponse.json();
+    console.log('[API] Resend API response status:', emailResponse.status);
+    console.log('[API] Resend API response data:', JSON.stringify(data));
 
     if (!emailResponse.ok) {
-      console.error('Resend API error:', data);
+      console.error('[API] Resend API error:', data);
       return NextResponse.json({ success: false, error: data }, { status: emailResponse.status });
     }
 

@@ -68,7 +68,7 @@ function EduMegaMenu({ t, onClose }: { t: ReturnType<typeof useTranslations<'Nav
   ];
 
   return (
-    <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[1000px] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden z-50">
+    <div className="w-full bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden">
       {/* Header strip */}
       <div className="bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary)]/80 px-6 py-3 flex items-center justify-between">
         <span className="text-white font-bold text-sm tracking-wide uppercase">
@@ -165,7 +165,7 @@ export default function Navbar() {
         />
       )}
       <nav className="sticky top-0 z-50 glass border-b border-gray-200/50" aria-label="Ana navigasyon">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
 
             {/* Logo */}
@@ -187,7 +187,7 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 ml-4">
 
               {/* Eğitimlerimiz with mega menu */}
-              <div ref={eduRef} className="relative">
+              <div ref={eduRef}>
                 <button
                   onClick={() => setEduOpen((v) => !v)}
                   className={`flex items-center gap-1 text-sm font-medium transition-colors ${
@@ -208,6 +208,7 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.18 }}
+                      className="absolute left-4 right-4 lg:left-8 lg:right-8 mx-auto max-w-[1000px] top-full mt-2 z-50"
                     >
                       <EduMegaMenu t={t} onClose={() => setEduOpen(false)} />
                     </motion.div>
