@@ -7,7 +7,7 @@ export const programContentDE1: Record<string, ProgramContent> = {
       'Professionelle Logopädie und Sprachtherapie in Pendik, Istanbul. Individuelle Therapieprogramme für Kinder & Erwachsene. Jetzt Termin vereinbaren!',
     heroSubtitle:
       'Wir helfen Ihrem Kind, seine Stimme in der Welt hörbar zu machen.',
-    intro: `Die Sprach- und Logopädetherapie ist ein umfassender Rehabilitationsprozess zur Verbesserung der Kommunikationsfähigkeiten, zur Förderung der Sprachentwicklung und zur Behebung von Sprachstörungen. Als Önce Özel Eğitim bereichern wir in unserem Zentrum in Pendik, Istanbul, die Kommunikationswelt von Kindern und Erwachsenen mit unseren fachkundigen Sprachtherapeuten. Im Bewusstsein, dass jeder Mensch einzigartige Bedürfnisse hat, erstellen wir maßgeschneiderte Therapiepläne.
+    intro: `Die Sprach- und Sprechtherapie (Sprach- und Logopädetherapie) ist ein umfassender Rehabilitationsprozess zur Verbesserung der Kommunikationsfähigkeiten, zur Förderung der Sprachentwicklung und zur Behebung von Sprachstörungen. Als Önce Özel Eğitim bereichern wir in unserem Zentrum in Pendik, Istanbul, die Kommunikationswelt von Kindern und Erwachsenen mit unseren fachkundigen Sprachtherapeuten. Im Bewusstsein, dass jeder Mensch einzigartige Bedürfnisse hat, erstellen wir maßgeschneiderte Therapiepläne.
 
 Sprach- und Sprechstörungen sind ein wichtiger Bereich, der das tägliche Leben, die sozialen Beziehungen und den akademischen Erfolg des Einzelnen direkt beeinflusst. Eine frühzeitige Intervention ist einer der kritischsten Faktoren in diesem Prozess. Gemeinsam mit den Familien, die sich aus Pendik und den umliegenden Bezirken an unser Zentrum wenden, unterstützen wir die Sprach- und Sprechentwicklung von Kindern mit wissenschaftlichen Methoden. Wir bieten ein breites Spektrum an Dienstleistungen wie Artikulation, Redefluss, Stimmstörungen sowie Probleme mit dem rezeptiven und expressiven Sprachvermögen.
 
@@ -54,10 +54,10 @@ Die in unserem Zentrum durchgeführten Programme zur Sprach- und Logopädetherap
   'gecikmis-dil-ve-konusma': {
     metaTitle: 'Therapie bei Sprachverzögerung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Behandlung von Sprachverzögerungen in Pendik, Istanbul. Wir unterstützen die Sprachentwicklung Ihres Kindes durch frühzeitige Intervention. Kostenloses Erstgespräch!',
+      'Sprachverzögerungen in Pendik, Istanbul. Wir unterstützen die Sprachentwicklung Ihres Kindes durch frühzeitige Intervention. Erstgespräch kostenlos!',
     heroSubtitle:
       'Mit frühzeitiger Intervention gewinnen wir verlorene Zeit in der Sprachentwicklung zurück.',
-    intro: `Eine verzögerte Sprach- und Sprechentwicklung liegt vor, wenn ein Kind die für seine Altersgruppe erwarteten Sprach- und Kommunikationsfähigkeiten nicht rechtzeitig erwirbt. Während einige Kinder ihre ersten Worte spät sprechen, erreichen andere die Stufe der Satzbildung viel später als ihre Gleichaltrigen. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Abklärungen und Frühförderprogramme im Bereich der verzögerten Sprachentwicklung an.
+    intro: `Eine Verzögerte Sprachentwicklung (verzögerte Sprach- und Sprechentwicklung) liegt vor, wenn ein Kind die für seine Altersgruppe erwarteten Sprach- und Kommunikationsfähigkeiten nicht rechtzeitig erwirbt. Während einige Kinder ihre ersten Worte spät sprechen, erreichen andere die Stufe der Satzbildung viel später als ihre Gleichaltrigen. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Abklärungen und Frühförderprogramme im Bereich der verzögerten Sprachentwicklung an.
 
 Eine Verzögerung der Sprachentwicklung kann viele verschiedene Ursachen haben: Genetische Veranlagung, mangelnde Sprachreize, Hörprobleme, neurologische Faktoren oder Entwicklungsstörungen sind nur einige davon. Wichtig ist es, die Ursache der Verzögerung richtig zu diagnostizieren und einen entsprechenden Interventionsplan zu erstellen. Wir betreuen Familien, die sich aus Pendik und der Umgebung an unser Zentrum wenden, mit einem multidisziplinären Ansatz und arbeiten bei Bedarf eng mit der Kinderneurologie, der Audiologie und Entwicklungsspezialisten zusammen.
 
@@ -152,7 +152,7 @@ Die in unserem Zentrum angebotene Stottertherapie basiert auf Ansätzen, deren W
   'artikulasyon-bozukluklari': {
     metaTitle: 'Therapie bei Artikulationsstörungen | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Behandlung von Artikulationsstörungen in Pendik, Istanbul. Fachkundige Therapie für ein korrektes und verständliches Sprechen Ihres Kindes. Jetzt informieren!',
+      'Artikulationsstörungen in Pendik, Istanbul. Fachkundige Therapie für verständliches Sprechen Ihres Kindes. Jetzt informieren!',
     heroSubtitle:
       'Professionelle Artikulationstherapie, damit jeder Laut korrekt und deutlich ausgesprochen wird.',
     intro: `Artikulationsstörungen sind Zustände, bei denen Sprechlaute nicht altersgemäß korrekt gebildet werden können. Kinder können bestimmte Laute auslassen, durch andere Laute ersetzen, fehlerhaft aussprechen oder zusätzliche Laute hinzufügen. Dies mindert die Verständlichkeit des Sprechens und beeinträchtigt die Kommunikationsfähigkeit des Kindes negativ. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, individualisierte und evidenzbasierte Therapieprogramme für Artikulationsstörungen an.
@@ -204,7 +204,7 @@ Die Artikulationstherapie ist ein systematischer Prozess, bei dem das Kind lernt
       'Rehabilitation bei Aphasie & motorischen Sprechstörungen in Pendik, Istanbul. Fachliche Unterstützung für Sprachtherapie nach Schlaganfall erhalten!',
     heroSubtitle:
       'Wir bauen Kommunikationsfähigkeiten nach Schlaganfall und Hirnschädigung wieder auf.',
-    intro: `Eine Aphasie ist eine Sprachstörung, die in der Regel infolge neurologischer Ereignisse wie eines Schlaganfalls, eines Schädel-Hirn-Traumas oder eines Hirntumors auftritt und die Sprachfähigkeiten beeinträchtigt. Menschen mit Aphasie können in unterschiedlichem Maße Schwierigkeiten mit dem Sprachverständnis, der Sprachproduktion sowie dem Lesen und Schreiben haben. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Rehabilitationsprogramme im Bereich der Aphasie und motorischen Sprechstörungen (Dysarthrie, Apraxie) an.
+    intro: `Aphasie & Motorische Sprechstörungen sind komplexe Störungen. Eine Aphasie ist eine Sprachstörung, die in der Regel infolge neurologischer Ereignisse wie eines Schlaganfalls, eines Schädel-Hirn-Traumas oder eines Hirntumors auftritt und die Sprachfähigkeiten beeinträchtigt. Menschen mit Aphasie können in unterschiedlichem Maße Schwierigkeiten mit dem Sprachverständnis, der Sprachproduktion sowie dem Lesen und Schreiben haben. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Rehabilitationsprogramme im Bereich der Aphasie und motorischen Sprechstörungen (Dysarthrie, Apraxie) an.
 
 Motorische Sprechstörungen hingegen resultieren aus Problemen in der Nerven-Muskel-Koordination zwischen dem Gehirn und den Sprechmuskeln. Eine Dysarthrie liegt vor, wenn das Sprechen aufgrund von Schwäche oder Koordinationsstörungen der Sprechmuskulatur verwaschen, langsam oder nur mit Mühe produziert werden kann. Die Sprechapraxie bezeichnet die Schwierigkeit bei der Planung und Abfolge der korrekten Bewegungen. Diese Störungen beeinträchtigen die Lebensqualität und Unabhängigkeit des Einzelnen erheblich. Wir betreuen erwachsene Klienten, die sich aus Pendik und dem gesamten Großraum Istanbul an uns wenden, mit Therapeuten, die in der neurologischen Rehabilitation spezialisiert sind.
 
@@ -253,7 +253,7 @@ Bei der Rehabilitation von Aphasien und motorischen Sprechstörungen ist der Zei
       'Unterstützung bei Legasthenie & Lernschwierigkeiten in Pendik, Istanbul. Entdecken Sie das Potenzial Ihres Kindes mit individuellen Förderprogrammen!',
     heroSubtitle:
       'Wir entfalten das Potenzial von Kindern, die anders lernen.',
-    intro: `Die spezifische Lernstörung ist eine neurobiologische Entwicklungsstörung, die bei Personen diagnostiziert wird, die trotz normaler oder überdurchschnittlicher Intelligenz in den Bereichen Lesen, Schreiben und/oder Mathematik deutlich hinter ihren Gleichaltrigen zurückbleiben. Die am weitesten verbreitete Form ist die Legasthenie (Dyslexie), die als Lese-Rechtschreib-Schwäche bekannt ist. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende und individuelle sonderpädagogische Förderprogramme für Kinder mit spezifischen Lernstörungen an.
+    intro: `Spezifische Lernschwäche (spezifische Lernstörung) ist eine neurobiologische Entwicklungsstörung, die bei Personen diagnostiziert wird, die trotz normaler oder überdurchschnittlicher Intelligenz in den Bereichen Lesen, Schreiben und/oder Mathematik deutlich hinter ihren Gleichaltrigen zurückbleiben. Die am weitesten verbreitete Form ist die Legasthenie (Dyslexie), die als Lese-Rechtschreib-Schwäche bekannt ist. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende und individuelle sonderpädagogische Förderprogramme für Kinder mit spezifischen Lernstörungen an.
 
 Eine spezifische Lernstörung darf nicht mit Faulheit oder mangelnder Motivation des Kindes verwechselt werden. Diese Kinder haben trotz großer Anstrengungen Schwierigkeiten mit der Lesegeschwindigkeit, dem Leseverständnis, der Rechtschreibung oder mathematischen Rechenfertigkeiten. Durch eine frühzeitige Diagnose und angemessene Förderung ist es möglich, die schulischen Leistungen dieser Kinder signifikant zu steigern. Gemeinsam mit den Familien, die sich aus Pendik und den umliegenden Bezirken an unser Zentrum wenden, analysieren wir das Lernprofil jedes Kindes detailliert und entwickeln Strategien, die das Lernen unter Nutzung der jeweiligen Stärken unterstützen.
 
@@ -349,7 +349,7 @@ Die in unserem Zentrum durchgeführten Dyskalkulie-Förderprogramme zielen darau
   'disgrafi': {
     metaTitle: 'Dysgraphietherapie | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Behandlung von Dysgraphie (Schreibstörung) in Pendik, Istanbul. Individuelle Therapieprogramme zur Verbesserung der Schreibfertigkeiten Ihres Kindes. Jetzt informieren!',
+      'Dysgraphie in Pendik, Istanbul. Individuelle Therapieprogramme zur Verbesserung der Schreibfertigkeiten Ihres Kindes. Jetzt informieren!',
     heroSubtitle:
       'Wir sorgen dafür, dass Schreiben zu einer Freude statt zu einer Qual wird.',
     intro: `Dysgraphie ist eine neurologisch bedingte Störung der Schreibfähigkeit. Die Lesbarkeit der Handschrift, die Schreibgeschwindigkeit, die Buchstabengestaltung, das Einhalten von Abständen, die Zeilenführung und schriftliche Ausdrucksfähigkeiten sind Bereiche, die im Rahmen einer Dysgraphie beeinträchtigt sein können. Als Önce Özel Eğitim führen wir in unserem Zentrum in Pendik, Istanbul, umfassende individuelle Therapieprogramme für Kinder mit diagnostizierter Dysgraphie oder Anzeichen von Schreibschwierigkeiten durch.
@@ -399,10 +399,10 @@ In unserem Zentrum wird die Dysgraphietherapie als mehrdimensionales Programm du
   'okula-hazirlik-programlari': {
     metaTitle: 'Vorschulprogramme & Schulvorbereitung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Schulvorbereitungsprogramme in Pendik, Istanbul. Wir bereiten Ihr Kind akademisch, sozial und emotional auf die Grundschule vor. Jetzt Informationen anfordern!',
+      'Schulvorbereitung in Pendik, Istanbul. Wir bereiten Ihr Kind akademisch, sozial und emotional auf die Grundschule vor. Jetzt informieren!',
     heroSubtitle:
       'Umfassende Vorbereitung für einen starken, bereiten und selbstbewussten Start in die Grundschule.',
-    intro: `Die Schulvorbereitung ist eine kritische Phase mit dem Ziel, dass das Kind vor dem Eintritt in die Grundschule die notwendige Reife und Fähigkeiten in den Bereichen akademische, soziale, emotionale und motorische Entwicklung erlangt. Jedes Kind entwickelt sich unterschiedlich schnell, und manche Kinder bleiben in bestimmten Bereichen hinter ihren Gleichaltrigen zurück. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Vorbereitungsprogramme an, die Kindern einen erfolgreichen Start in die Grundschule ermöglichen.
+    intro: `Schulvorbereitungsprogramme sind wichtig. Die Schulvorbereitung ist eine kritische Phase mit dem Ziel, dass das Kind vor dem Eintritt in die Grundschule die notwendige Reife und Fähigkeiten in den Bereichen akademische, soziale, emotionale und motorische Entwicklung erlangt. Jedes Kind entwickelt sich unterschiedlich schnell, und manche Kinder bleiben in bestimmten Bereichen hinter ihren Gleichaltrigen zurück. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende Vorbereitungsprogramme an, die Kindern einen erfolgreichen Start in die Grundschule ermöglichen.
 
 Die Schulfähigkeit besteht nicht nur darin, Buchstaben und Zahlen zu kennen. Aufmerksamkeitspanne, Befolgen von Anweisungen, Abwarten, Stifthaltung, Umgang mit der Schere, visuelle Wahrnehmung, phonologische Bewusstheit, Selbstversorgungskompetenzen und soziale Interaktion sind Bereiche, die unter diesen Begriff fallen. Wir bewerten Kinder von Familien, die sich aus Pendik und den umliegenden Bezirken an unser Zentrum wenden, in all diesen Bereichen ganzheitlich und legen individuelle Entwicklungsziele fest.
 
@@ -449,10 +449,10 @@ Die in unserem Zentrum durchgeführten Schulvorbereitungsprogramme basieren auf 
   'akademik-destek-egitimleri': {
     metaTitle: 'Schulische Unterstützung & Lernförderung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Schulische Lernunterstützung in Pendik, Istanbul. Individuelle Lehrpläne zur Förderung des schulischen Erfolgs von Schülern mit Förderbedarf. Jetzt informieren!',
+      'Schulische Lernunterstützung in Pendik, Istanbul. Lehrpläne zur Förderung des schulischen Erfolgs bei Förderbedarf. Jetzt informieren!',
     heroSubtitle:
       'Der Lernweg jedes Schülers ist einzigartig; wir bauen diesen Weg gemeinsam auf.',
-    intro: `Schulische Lernförderung umfasst individualisierte Lernprogramme für Schüler, deren schulische Leistungen durch Lernschwierigkeiten, Entwicklungsbesonderheiten oder andere Gründe beeinträchtigt sind. Diese Programme laufen parallel zum schulischen Lehrplan, werden jedoch an das individuelle Lerntempo, den Lernstil und das Niveau des Kindes angepasst. Sie zielen darauf ab, den schulischen Erfolg zu steigern und gleichzeitig die Lernmotivation sowie das Selbstvertrauen zu stärken. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende schulische Unterstützung für die Grund- und Sekundarstufe an.
+    intro: `Akademische Förderausbildung (schulische Lernförderung) umfasst individualisierte Lernprogramme für Schüler, deren schulische Leistungen durch Lernschwierigkeiten, Entwicklungsbesonderheiten oder andere Gründe beeinträchtigt sind. Diese Programme laufen parallel zum schulischen Lehrplan, werden jedoch an das individuelle Lerntempo, den Lernstil und das Niveau des Kindes angepasst. Sie zielen darauf ab, den schulischen Erfolg zu steigern und gleichzeitig die Lernmotivation sowie das Selbstvertrauen zu stärken. Als Önce Özel Eğitim bieten wir in unserem Zentrum in Pendik, Istanbul, umfassende schulische Unterstützung für die Grund- und Sekundarstufe an.
 
 Das Lernprofil jedes Schülers ist anders. Manche Kinder lernen visuell, während andere über auditive oder kinästhetische Kanäle besser aufnehmen. Bei Schülern mit diagnostizierten Lernstörungen reichen die Standardlehrmethoden im Klassenzimmer oft nicht aus. Bei Schülern, die aus Pendik und der asiatischen Seite Istanbuls zu uns kommen, führen wir zunächst eine umfassende schulische Leistungsermittlung durch und strukturieren dann den Lernprozess unter Nutzung der Stärken des Kindes neu.
 

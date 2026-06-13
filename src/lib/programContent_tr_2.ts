@@ -4,7 +4,7 @@ export const programContentTR2: Record<string, ProgramContent> = {
   'otizm-spektrum-bozuklugu': {
     metaTitle: 'Otizm Eğitimi | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da otizm spektrum bozukluğu için bireysel özel eğitim programları. Uzman kadromuzla çocuğunuzun gelişimini destekliyoruz. Hemen bilgi alın.',
+      'Pendik İstanbul\'da otizm spektrum bozukluğu için özel eğitim. Uzman kadromuzla çocuğunuzun gelişimini destekliyoruz. Hemen bilgi alın.',
     heroSubtitle:
       'Otizmli çocukların potansiyelini açığa çıkaran, kanıta dayalı bireysel eğitim programları.',
     intro: `Otizm Spektrum Bozukluğu (OSB), bireyin sosyal iletişim, etkileşim ve davranış örüntülerini etkileyen nörogelişimsel bir durumdur. Erken tanı ve uygun eğitim müdahaleleri, otizmli çocukların yaşam kalitesini ve bağımsız yaşam becerilerini önemli ölçüde artırabilir. Önce Özel Eğitim olarak, Pendik İstanbul'daki merkezimizde otizm spektrumundaki her çocuğun benzersiz ihtiyaçlarına yönelik kapsamlı ve bireyselleştirilmiş eğitim programları sunuyoruz.
@@ -65,10 +65,10 @@ Merkezimizde uygulanan otizm eğitim programı, çocuk psikologları, özel eği
   'dehb-programi': {
     metaTitle: 'DEHB Eğitim Programı | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da DEHB tanılı çocuklar için uzman özel eğitim desteği. Dikkat, dürtü kontrolü ve akademik başarı için bireysel programlar. Randevu alın.',
+      'Pendik İstanbul\'da DEHB tanılı çocuklar için özel eğitim. Dikkat, dürtü kontrolü ve akademik gelişim için bireysel programlar. Randevu alın.',
     heroSubtitle:
       'Dikkat eksikliği ve hiperaktivite ile başa çıkmayı öğreten, odaklanmayı güçlendiren bireysel destek programı.',
-    intro: `Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB), çocukluk çağında en sık karşılaşılan nörogelişimsel durumlardan biridir. Dikkat süresinde kısalma, dürtüsellik ve aşırı hareketlilik gibi belirtilerle kendini gösteren DEHB, çocuğun akademik başarısını, sosyal ilişkilerini ve günlük yaşam işlevselliğini olumsuz etkileyebilir. Önce Özel Eğitim olarak Pendik İstanbul'da, DEHB tanılı çocuklara yönelik kapsamlı ve bireyselleştirilmiş eğitim programları sunmaktayız.
+    intro: `Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB) Programı, çocukluk çağında en sık karşılaşılan nörogelişimsel durumlardan biridir. Dikkat süresinde kısalma, dürtüsellik ve aşırı hareketlilik gibi belirtilerle kendini gösteren DEHB, çocuğun akademik başarısını, sosyal ilişkilerini ve günlük yaşam işlevselliğini olumsuz etkileyebilir. Önce Özel Eğitim olarak Pendik İstanbul'da, DEHB tanılı çocuklara yönelik kapsamlı ve bireyselleştirilmiş eğitim programları sunmaktayız.
 
 DEHB eğitim programımız, dikkat ve konsantrasyon becerilerini geliştirmeye, dürtü kontrolünü güçlendirmeye, yürütücü işlev becerilerini (planlama, organizasyon, zaman yönetimi) desteklemeye ve akademik performansı artırmaya odaklanmaktadır. Pendik merkezimizde görev yapan deneyimli özel eğitim uzmanları ve psikologlar, her çocuğun bireysel güçlü yanlarını ve ihtiyaçlarını belirleyerek hedefe yönelik müdahale planları oluşturmaktadır. Bilişsel davranışçı stratejiler, dikkat eğitimi teknikleri ve yapılandırılmış öğrenme ortamları programımızın temelini oluşturur.
 
@@ -407,7 +407,7 @@ Pendik merkezimizde sunulan ergoterapi programı, çocuğun yaşına ve gelişim
   'aba-terapisi': {
     metaTitle: 'ABA Terapisi | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da ABA terapisi (Uygulamalı Davranış Analizi) ile otizmli çocuklara bireysel destek. Kanıta dayalı yöntemlerle gelişimi destekliyoruz.',
+      'Pendik İstanbul\'da ABA terapisi ile otizmli çocuklara bireysel destek. Kanıta dayalı yöntemlerle çocuğunuzun gelişimini destekliyoruz.',
     heroSubtitle:
       'Uygulamalı Davranış Analizi ile hedef davranışları sistematik olarak geliştiren, bilimsel temelli terapi programı.',
     intro: `ABA Terapisi (Uygulamalı Davranış Analizi – Applied Behavior Analysis), davranış bilimi ilkelerine dayanan ve özellikle otizm spektrum bozukluğunda en geniş kanıt tabanına sahip müdahale yöntemlerinden biridir. ABA, istenen davranışların artırılması, problem davranışların azaltılması ve yeni becerilerin sistematik olarak öğretilmesi amacıyla yapılandırılmış bir çerçeve sunar. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, sertifikalı uzmanlarımız tarafından bireyselleştirilmiş ABA terapi programları uygulanmaktadır.
@@ -521,7 +521,7 @@ Pendik merkezimizde uygulanan hareket eğitimi programı, çocuğun gelişimsel 
   'fizyoterapi-ve-rehabilitasyon': {
     metaTitle: 'Fizyoterapi ve Rehabilitasyon | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da çocuklara yönelik fizyoterapi ve rehabilitasyon hizmetleri. Motor gelişim, kas kuvveti ve hareket kapasitesi için profesyonel destek.',
+      'Pendik İstanbul\'da çocuklara yönelik fizyoterapi ve rehabilitasyon. Motor gelişim ve hareket kapasitesi için profesyonel destek alın.',
     heroSubtitle:
       'Çocukların motor kapasitesini ve fiziksel bağımsızlığını artıran, kişiye özel fizyoterapi programları.',
     intro: `Fizyoterapi ve Rehabilitasyon, çocukların hareket kapasitesini, kas kuvvetini, eklem hareketliliğini, denge ve koordinasyonunu geliştirmeye yönelik tıbbi temelli bir sağlık hizmetidir. Nörolojik, ortopedik veya gelişimsel nedenlerle motor fonksiyonlarında güçlük yaşayan çocuklarda fizyoterapi, fiziksel bağımsızlığın artırılması ve yaşam kalitesinin yükseltilmesi açısından kritik öneme sahiptir. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, pediatrik fizyoterapi alanında uzmanlaşmış terapistlerimiz tarafından kapsamlı rehabilitasyon programları sunulmaktadır.
@@ -578,7 +578,7 @@ Pendik merkezimizde sunulan fizyoterapi ve rehabilitasyon programı, çocuğun t
   'floortime-terapisi': {
     metaTitle: 'Floortime Terapisi (DIR/Floortime) | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da DIR/Floortime terapisi ile çocuğunuzun duygusal ve sosyal gelişimini destekliyoruz. Oyun temelli ilişkisel terapi için bize ulaşın.',
+      'Pendik İstanbul\'da DIR/Floortime terapisi ile çocuğunuzun duygusal ve sosyal gelişimi için oyun temelli ilişkisel terapi sunuyoruz. Bize ulaşın.',
     heroSubtitle:
       'Çocuğun dünyasına katılarak duygusal bağı ve sosyal iletişimi güçlendiren, ilişki temelli terapi yaklaşımı.',
     intro: `Floortime Terapisi (DIR/Floortime — Developmental, Individual Differences, Relationship-based), Dr. Stanley Greenspan tarafından geliştirilen ve çocuğun duygusal-sosyal gelişimini ilişki temelli bir yaklaşımla destekleyen bir terapi modelidir. "Floortime" adı, terapistin veya ebeveynin çocuğun düzeyine inerek (yere oturarak) onun yönlendirdiği oyuna katılması prensibinden gelmektedir. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, DIR/Floortime modelini uygulayan uzman ekibimiz, çocuğun duygusal gelişim basamaklarını doğal etkileşim ve oyun yoluyla tırmanmasını desteklemektedir.
@@ -806,7 +806,7 @@ Pendik merkezimizde sunulan oyun terapisi programı, yönlendirmeli ve yönlendi
   'aile-danismanligi': {
     metaTitle: 'Aile Danışmanlığı ve Psikolojik Destek | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da özel gereksinimli çocuk ailelerine danışmanlık ve psikolojik destek. Uzman psikologlarımızla ailenizi güçlendirin. İletişime geçin.',
+      'Pendik İstanbul\'da özel gereksinimli çocuk ailelerine danışmanlık ve psikolojik destek. Uzmanlarımızla ailenizi güçlendirin. İletişime geçin.',
     heroSubtitle:
       'Özel gereksinimli çocuk ailelerine rehberlik ve psikolojik güç veren, bütüncül aile destek programı.',
     intro: `Aile Danışmanlığı ve Psikolojik Destek programı, özel gereksinimli çocuğa sahip ailelerin yaşadığı duygusal, ilişkisel ve pratik güçlüklere yönelik profesyonel destek sunan kapsamlı bir hizmettir. Özel gereksinimli bir çocuğun ailesi olmak, tanı sürecinden eğitim planlamasına, günlük bakımdan gelecek kaygısına kadar pek çok alanda stres ve belirsizlik yaşanmasına neden olabilir. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, deneyimli psikologlarımız ailelere bu süreçte güçlü ve dayanıklı kalmalarını sağlayacak profesyonel destek sunmaktadır.
@@ -863,7 +863,7 @@ Pendik merkezimizde sunulan aile danışmanlığı programı, ailenin bir bütü
   'kamp-egitimi': {
     metaTitle: 'Kamp Eğitimi (Yoğunlaştırılmış Program) | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da yoğunlaştırılmış kamp eğitimi programı. Tatil dönemlerinde çocuğunuzun gelişimini hızlandıran yoğun özel eğitim. Kayıt için arayın.',
+      'Pendik İstanbul\'da yoğunlaştırılmış kamp eğitimi. Tatil dönemlerinde çocuğunuzun gelişimini hızlandıran yoğun özel eğitim. Bilgi için arayın.',
     heroSubtitle:
       'Tatil dönemlerinde gelişimi hızlandıran, yoğun ve çok yönlü eğitim deneyimi sunan kamp programı.',
     intro: `Kamp Eğitimi (Yoğunlaştırılmış Eğitim Programı), okul tatili dönemlerinde özel gereksinimli çocukların eğitim sürecindeki kazanımlarını pekiştirmek, yeni beceriler kazandırmak ve gelişim hızını artırmak amacıyla tasarlanmış yoğun bir eğitim programıdır. Tatil dönemlerinde eğitime ara verilmesi, özel gereksinimli çocuklarda beceri kaybına (regresyon) neden olabilmektedir. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, bu kayıpları önlemek ve gelişimi hızlandırmak için kamp eğitimi programları düzenlemekteyiz.
@@ -977,7 +977,7 @@ Pendik merkezimizde sunulan psikolojik danışmanlık hizmeti, çocuğun gelişi
   'erken-cocukluk-mudahale': {
     metaTitle: 'Erken Çocukluk Müdahale Programı | Pendik İstanbul — Önce Özel Eğitim',
     metaDescription:
-      'Pendik İstanbul\'da 0-6 yaş erken çocukluk müdahale programı. Gelişimsel gecikmelerde erken dönem uzman desteği. Bebeğinizin geleceği için hemen arayın.',
+      'Pendik İstanbul\'da 0-6 yaş erken çocukluk müdahale programı. Gelişimsel gecikmelerde erken dönem uzman desteği almak için hemen arayın.',
     heroSubtitle:
       'Yaşamın ilk yıllarında gelişimi destekleyerek geleceğe güçlü bir başlangıç sağlayan erken müdahale programı.',
     intro: `Erken Çocukluk Müdahale Programı, 0-6 yaş arasındaki bebek ve küçük çocuklarda gelişimsel gecikme riski veya tanısı durumunda en erken dönemde müdahale ederek gelişimi desteklemeyi amaçlayan kapsamlı bir programdır. Beyin plastisitesinin en yüksek olduğu yaşamın ilk yıllarında sağlanan uygun eğitim ve terapi desteği, çocuğun gelişimsel sonuçlarını kalıcı ve olumlu yönde etkileme potansiyeline sahiptir. Önce Özel Eğitim olarak Pendik İstanbul'daki merkezimizde, erken müdahale alanında uzmanlaşmış multidisipliner ekibimiz, bebek ve küçük çocukların tüm gelişim alanlarını destekleyen bireysel programlar sunmaktadır.

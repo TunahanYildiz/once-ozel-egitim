@@ -51,12 +51,14 @@ export default function Hero() {
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4 items-start">
-              <Link 
-                href="/iletisim" 
+              <a 
+                href="https://b2c.beeasist.com/c/3lBkwZOb" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-4 bg-[var(--color-secondary)] text-white rounded-full font-bold text-lg hover:bg-[var(--color-secondary-light)] transition-all shadow-lg shadow-[var(--color-secondary)]/30 hover:-translate-y-1 text-center"
               >
                 {t('heroBtn1')}
-              </Link>
+              </a>
               <Link 
                 href="/egitimlerimiz" 
                 className="w-full sm:w-auto px-8 py-4 bg-white/80 backdrop-blur-sm text-[var(--color-primary)] border-2 border-[var(--color-primary)] rounded-full font-bold text-lg hover:bg-[var(--color-primary)] hover:text-white transition-all shadow-md hover:-translate-y-1 text-center"

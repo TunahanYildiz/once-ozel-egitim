@@ -31,24 +31,18 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6 }}
-            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group cursor-pointer shadow-md hover:shadow-2xl transition-shadow duration-500 h-[480px] md:h-auto"
+            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-[var(--color-primary)] h-[480px] md:h-auto flex flex-col"
           >
-            <Image
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80"
-              alt={t('title1')}
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary)] via-[var(--color-primary)]/40 to-transparent"></div>
+            {/* Decorative glow */}
+            <div className="absolute -top-20 -right-20 w-80 h-80 bg-[var(--color-secondary)] rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition-opacity pointer-events-none"></div>
 
             {/* Top badge */}
-            <div className="absolute top-6 left-6 bg-[var(--color-secondary)] text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+            <div className="absolute top-6 left-6 bg-[var(--color-secondary)] text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
               ⭐ {t('title1')}
             </div>
 
-            {/* Bottom content */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
+            {/* Content */}
+            <div className="flex-1 flex flex-col justify-end p-6 md:p-8 relative z-10">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20">
                   <GraduationCap className="w-6 h-6 text-white" />

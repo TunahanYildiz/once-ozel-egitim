@@ -1,0 +1,60 @@
+# Önce Özel Eğitim ve Rehabilitasyon Merkezi
+
+> [Önce Özel Eğitim](https://onceozelegitim.com), İstanbul Pendik'te hizmet veren, uzman kadroya sahip, Milli Eğitim Bakanlığı (MEB) onaylı özel eğitim, terapi ve rehabilitasyon merkezidir. Bu dosya, büyük dil modellerinin (LLM) sitemizin içeriğini, programlarını ve yapısını kolayca anlaması için hazırlanmıştır.
+
+## İletişim Bilgileri
+- **Telefon:** +90 553 557 55 15
+- **E-posta:** onceozelegitim@gmail.com
+- **Adres:** Kavakpınar Mah, Bulvar Cd. No:28A, Pendik / İstanbul
+- **Hizmet Bölgeleri:** Pendik, Kartal, Tuzla, Maltepe, Gebze, Kadıköy, Ataşehir, Üsküdar, Ümraniye, Sultanbeyli, Sancaktepe.
+
+## Ana Bağlantılar
+- [Ana Sayfa (tr)](https://onceozelegitim.com/tr): Merkezimizin genel tanıtımı ve hizmet özeti.
+- [Kurumsal](https://onceozelegitim.com/tr/kurumsal): Hikayemiz, misyonumuz, vizyonumuz ve kurumsal değerlerimiz.
+- [Eğitimlerimiz](https://onceozelegitim.com/tr/egitimlerimiz): Bireyselleştirilmiş eğitim programlarımız (BEP) ve terapilerimiz.
+- [Hizmetlerimiz](https://onceozelegitim.com/tr/hizmetlerimiz): Yoğunlaştırılmış kamp eğitimi ve yurt dışından gelen aileler için konaklama ve VIP transfer hizmetlerimiz.
+- [Uzman Kadromuz](https://onceozelegitim.com/tr/uzman-kadromuz): Deneyimli psikolog, özel eğitim öğretmeni ve terapist kadromuz.
+- [Galeri](https://onceozelegitim.com/tr/galeri): Sınıflarımız, terapi odalarımız ve merkezimizden fotoğraflar.
+- [Blog](https://onceozelegitim.com/tr/blog): Özel eğitim ve gelişim alanında uzman yazıları.
+- [İletişim](https://onceozelegitim.com/tr/iletisim): İletişim formu, telefon ve Google Harita konumu.
+- [Değerlendirme Testi](https://onceozelegitim.com/tr/test): Çocuklar için hızlı disleksi ve öğrenme güçlüğü ön değerlendirme testi.
+
+## Eğitim ve Terapi Programları (28 Program)
+
+### 1. Dil & Konuşma
+- [Dil ve Konuşma Terapisi](https://onceozelegitim.com/tr/egitimlerimiz/dil-ve-konusma-terapisi): Dil gelişiminde gerilik ve iletişim bozuklukları yaşayan bireyler için bireysel terapiler.
+- [Gecikmiş Dil ve Konuşma](https://onceozelegitim.com/tr/egitimlerimiz/gecikmis-dil-ve-konusma): Yaşıtlarına kıyasla kelime dağarcığı sınırlı olan ve konuşmaya geç başlayan çocuklar için erken müdahale.
+- [Kekemelik Terapisi](https://onceozelegitim.com/tr/egitimlerimiz/kekemelik-terapisi): Akıcı konuşma becerilerini destekleyen, kekemeliği yönetmeye yönelik bilimsel programlar.
+- [Artikülasyon Bozuklukları](https://onceozelegitim.com/tr/egitimlerimiz/artikulasyon-bozukluklari): Sesleri doğru üretememe ve kelimeleri anlaşılmaz telaffuz etme sorunlarına yönelik terapiler.
+- [Afazi ve Motor Konuşma Bozuklukları](https://onceozelegitim.com/tr/egitimlerimiz/afazi-ve-motor-konusma-bozukluklari): İnme, beyin travması ve nörolojik hastalıklar sonrası konuşma yetisini yeniden kazandırma çalışmaları.
+
+### 2. Öğrenme & Akademik
+- [Özgül Öğrenme Güçlüğü (Disleksi)](https://onceozelegitim.com/tr/egitimlerimiz/ozgul-ogrenme-guclugu): Normal zeka seviyesine rağmen okuma, yazma ve öğrenme zorluğu çeken çocuklara özel destek.
+- [Diskalkuli](https://onceozelegitim.com/tr/egitimlerimiz/diskalkuli): Matematiksel kavramları, sayı hissini ve aritmetik işlemleri anlamakta güçlük çeken çocuklara yönelik eğitim.
+- [Disgrafi](https://onceozelegitim.com/tr/egitimlerimiz/disgrafi): Yazı yazmada, harf formlarında ve ince motor koordinasyonunda güçlük çeken çocuklara özel terapi.
+- [Okula Hazırlık Programları](https://onceozelegitim.com/tr/egitimlerimiz/okula-hazirlik-programlari): Okul öncesi çocukların ilkokula uyumunu kolaylaştıran akademik, sosyal ve motor beceri hazırlığı.
+- [Akademik Destek Eğitimleri](https://onceozelegitim.com/tr/egitimlerimiz/akademik-destek-egitimleri): Öğrencilerin okul başarısını artırmaya yönelik kişiye özel destek dersleri.
+
+### 3. Nörogelişimsel
+- [Otizm Spektrum Bozukluğu](https://onceozelegitim.com/tr/egitimlerimiz/otizm-spektrum-bozuklugu): Otizmli bireylerin sosyal iletişim ve bağımsız yaşam becerilerini geliştiren kapsamlı eğitimler.
+- [DEHB Programı](https://onceozelegitim.com/tr/egitimlerimiz/dehb-programi): Dikkat eksikliği ve hiperaktivitesi olan çocuklarda dikkat süresini artırma ve dürtü kontrolü eğitimleri.
+- [Down Sendromu](https://onceozelegitim.com/tr/egitimlerimiz/down-sendromu): Down sendromlu çocukların motor, dil ve zihinsel gelişimini bütüncül yaklaşımla destekleyen programlar.
+- [Asperger Sendromu](https://onceozelegitim.com/tr/egitimlerimiz/asperger-sendromu): Sosyal etkileşim becerilerini ve günlük yaşama uyumu güçlendiren bireysel rehberlik.
+- [Yaygın Gelişimsel Bozukluklar (YGB)](https://onceozelegitim.com/tr/egitimlerimiz/yaygin-gelisimsel-bozukluklar): Gelişim süreçlerinde yaşanan çeşitli gecikmeleri bilimsel yöntemlerle destekleyen eğitimler.
+
+### 4. Terapi & Rehabilitasyon
+- [Duyu Bütünleme Terapisi](https://onceozelegitim.com/tr/egitimlerimiz/duyu-butunleme-terapisi): Çevresel duyusal uyarılara doğru tepki verilmesini sağlayan hareket ve oyun temelli terapi.
+- [Ergoterapi](https://onceozelegitim.com/tr/egitimlerimiz/ergoterapi): Çocukların günlük yaşam aktivitelerinde, ince motor becerilerinde ve duyusal alanlarda bağımsızlık kazanması.
+- [ABA Terapisi (Uygulamalı Davranış Analizi)](https://onceozelegitim.com/tr/egitimlerimiz/aba-terapisi): Bilimsel davranış analiz yöntemleriyle olumlu davranışları artırıp istenmeyen davranışları azaltma.
+- [Hareket Eğitimi](https://onceozelegitim.com/tr/egitimlerimiz/hareket-egitimi): Spor ve oyun yoluyla çocukların fiziksel koordinasyon, denge ve kaba motor becerilerini geliştirme.
+- [Fizyoterapi ve Rehabilitasyon](https://onceozelegitim.com/tr/egitimlerimiz/fizyoterapi-ve-rehabilitasyon): Motor gelişim gerilikleri, kas gücü yetersizliği ve fiziksel kısıtlılıkları en aza indiren uzman desteği.
+- [Floortime Terapisi](https://onceozelegitim.com/tr/egitimlerimiz/floortime-terapisi): Çocuğun oyununa katılarak sosyal-duygusal gelişimi ve çift yönlü iletişimi hedefleyen etkileşim terapisi.
+
+### 5. Destek Programları
+- [Bilişsel Gelişim Destek](https://onceozelegitim.com/tr/egitimlerimiz/bilissel-gelisim-destek): Hafıza, akıl yürütme, problem çözme ve analitik düşünme becerilerini üst seviyeye çıkaran zihinsel egzersizler.
+- [Fiziksel Gelişim](https://onceozelegitim.com/tr/egitimlerimiz/fiziksel-gelisim): Yaşa uygun fiziksel gelişimin izlenmesi ve çocuklara özel motor gelişim planlarının uygulanması.
+- [Oyun Terapisi ve Sosyal Beceri](https://onceozelegitim.com/tr/egitimlerimiz/oyun-terapisi-ve-sosyal-beceri): Çocukların duygusal dünyalarını oyunla ifade etmelerini ve akran ilişkileri kurmalarını sağlayan terapi.
+- [Aile Danışmanlığı](https://onceozelegitim.com/tr/egitimlerimiz/aile-danismanligi): Özel eğitim sürecinde ailelerin karşılaştığı psikolojik zorlukları aşmalarını ve ev sürecini yönetmelerini sağlayan destek.
+- [Kamp Eğitimi (Yoğunlaştırılmış Eğitim)](https://onceozelegitim.com/tr/egitimlerimiz/kamp-egitimi): Kısa sürede maksimum gelişim hedefleyen, haftada 25-30 saatlik yoğunlaştırılmış özel eğitim kampları.
+- [Psikolojik Danışmanlık](https://onceozelegitim.com/tr/egitimlerimiz/psikolojik-danismanlik): Çocuk ve ergenlerin ruh sağlığını koruma, kaygı ve duygusal sorunlarla baş etme desteği.
+- [Erken Çocukluk Müdahale](https://onceozelegitim.com/tr/egitimlerimiz/erken-cocukluk-mudahale): 0-6 yaş grubunda gelişimsel gecikme riski taşıyan bebekler ve küçük çocuklar için koruyucu erken müdahale.

@@ -6,7 +6,6 @@ import BentoGrid from '@/components/home/BentoGrid';
 import TestBanner from '@/components/home/TestBanner';
 import Testimonials from '@/components/home/Testimonials';
 import FAQ from '@/components/home/FAQ';
-import QuickContactForm from '@/components/home/QuickContactForm';
 import { supabase } from '@/lib/supabase';
 import type { Metadata } from 'next';
 
@@ -195,7 +194,6 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <TestBanner />
       <Testimonials />
       <FAQ items={faqs} />
-      <QuickContactForm />
     </>
   );
 }

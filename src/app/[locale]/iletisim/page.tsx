@@ -163,7 +163,7 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
               {/* Social Media */}
               <div>
                 <h3 className="text-lg font-bold text-[var(--color-primary)] mb-4">{t('socialTitle')}</h3>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                   <a
                     href="https://www.instagram.com/onceozelegitim/"
                     target="_blank"
@@ -176,6 +176,26 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
                       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
                     </svg>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@once.ozel.egitim?_r=1&_t=ZS-97BWQopEMVx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                    className="w-12 h-12 bg-black rounded-xl flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg shadow-black/30"
+                  >
+                    <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.12-3.44-3.17-3.8-5.46-.4-2.51.33-5.11 1.99-6.95 1.5-1.57 3.65-2.43 5.82-2.31v4.04c-1.38-.13-2.82.43-3.69 1.52-.75.98-1.04 2.27-.77 3.48.24 1.17 1.05 2.15 2.13 2.58 1.05.42 2.25.32 3.2-.23.83-.51 1.39-1.38 1.5-2.35.09-.94.04-1.88.04-2.82V.02h4.59z"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://share.google/vmu6tCjXUN8pS8pA1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Google Maps Profili"
+                    className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg shadow-blue-500/30"
+                  >
+                    <MapPin className="w-5 h-5" />
                   </a>
                 </div>
               </div>
@@ -214,10 +234,10 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
               </div>
               <div className="relative w-full rounded-3xl overflow-hidden shadow-xl border border-gray-100" style={{ height: '480px' }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.8282928509427!2d29.27828607653655!3d40.86819402598379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDUyJzA1LjUiTiAyOcKwMTYnNTEuMSJF!5e0!3m2!1str!2str!4v1716666666666!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.167384232681!2d29.278690976200036!3d40.86820072803814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadddc827a0205%3A0xc05b8d8e3700049f!2s%C3%96nce%20%C3%96zel%20E%C4%9Fitim%20ve%20Rehabilitasyon%20Merkezi!5e0!3m2!1str!2str!4v1781114756832!5m2!1str!2str"
                   width="100%"
-                  height="540px"
-                  style={{ border: 0, marginTop: '-60px', display: 'block' }}
+                  height="100%"
+                  style={{ border: 0, display: 'block' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

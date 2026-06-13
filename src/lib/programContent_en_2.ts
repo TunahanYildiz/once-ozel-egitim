@@ -4,7 +4,7 @@ export const programContentEN2: Record<string, ProgramContent> = {
   'otizm-spektrum-bozuklugu': {
     metaTitle: 'Autism Education | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Individualized special education programs for autism spectrum disorder in Pendik, Istanbul. We support your child\'s development with our expert staff. Get information now.',
+      'Individual special education for autism in Pendik, Istanbul. We support your child\'s development with our expert staff. Get information now.',
     heroSubtitle:
       'Evidence-based individualized education programs that unlock the potential of children with autism.',
     intro: `Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects an individual's social communication, interaction, and behavioral patterns. Early diagnosis and appropriate educational interventions can significantly increase the quality of life and independent living skills of children with autism. As Önce Special Education, we offer comprehensive and individualized education programs tailored to the unique needs of each child on the autism spectrum at our center in Pendik, Istanbul.
@@ -65,10 +65,10 @@ Located in Pendik on the Anatolian side of Istanbul, our center is based on curr
   'dehb-programi': {
     metaTitle: 'ADHD Education Program | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Expert special education support for children diagnosed with ADHD in Pendik, Istanbul. Individual programs for attention, impulse control, and academic success. Book an appointment.',
+      'Expert special education support for children with ADHD in Pendik, Istanbul. Individual programs for attention, impulse control and academic success.',
     heroSubtitle:
       'An individual support program that teaches coping with attention deficit and hyperactivity, and strengthens focus.',
-    intro: `Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental conditions in childhood. ADHD, which manifests with symptoms such as shortened attention span, impulsivity, and excessive activity, can negatively affect the child's academic success, social relationships, and daily life functionality. As Önce Special Education, we offer comprehensive and individualized education programs for children diagnosed with ADHD in Pendik, Istanbul.
+    intro: `ADHD Program (Attention Deficit Hyperactivity Disorder) is one of the most common neurodevelopmental conditions in childhood. ADHD, which manifests with symptoms such as shortened attention span, impulsivity, and excessive activity, can negatively affect the child's academic success, social relationships, and daily life functionality. As Önce Special Education, we offer comprehensive and individualized education programs for children diagnosed with ADHD in Pendik, Istanbul.
 
 Our ADHD education program focuses on developing attention and concentration skills, strengthening impulse control, supporting executive function skills (planning, organization, time management), and increasing academic performance. Experienced special education specialists and psychologists working at our Pendik center create goal-oriented intervention plans by identifying the individual strengths and needs of each child. Cognitive behavioral strategies, attention training techniques, and structured learning environments form the basis of our program.
 
@@ -122,7 +122,7 @@ In our center located in Pendik, Istanbul, ADHD education is not limited only to
   'down-sendromu': {
     metaTitle: 'Down Syndrome Education | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Individualized special education programs for children with Down syndrome in Pendik, Istanbul. Motor, language, and cognitive development support. Meet our expert team.',
+      'Individual special education for Down syndrome in Pendik, Istanbul. Motor, language, and cognitive development support. Meet our expert team.',
     heroSubtitle:
       'Special education programs that support the independent living skills and social participation of individuals with Down syndrome.',
     intro: `Down Syndrome is a genetic condition that occurs with an extra copy of chromosome 21 (Trisomy 21). Individuals with Down syndrome may need different levels of support in cognitive development, motor skills, language, and speech areas. As Önce Special Education, we offer a comprehensive and loving education environment that supports all developmental areas of children with Down syndrome at our center in Pendik, Istanbul.
@@ -179,10 +179,10 @@ At our center serving in Pendik, Istanbul, the importance of early intervention 
   'asperger-sendromu': {
     metaTitle: 'Asperger Syndrome Education | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Special education focused on social skills and communication for Asperger syndrome in Pendik, Istanbul. We are with your child with individual support programs.',
+      'Special education for Asperger syndrome in Pendik, Istanbul. We support your child with individual social skills and communication programs.',
     heroSubtitle:
       'Expert education support that increases the social communication skills and quality of life of individuals with Asperger syndrome.',
-    intro: `Asperger Syndrome is a neurodevelopmental condition located at the high-functioning end of the autism spectrum, causing individuals to experience difficulties in social interaction, communication, and flexibility areas. While individuals with Asperger syndrome generally have normal or superior intelligence levels, they need support in understanding social cues, establishing empathy, and flexible thinking. As Önce Special Education, we offer individual education programs that highlight the strengths of children and youth with Asperger syndrome and develop their social skills in Pendik, Istanbul.
+    intro: `Asperger's Syndrome is a neurodevelopmental condition located at the high-functioning end of the autism spectrum, causing individuals to experience difficulties in social interaction, communication, and flexibility areas. While individuals with Asperger syndrome generally have normal or superior intelligence levels, they need support in understanding social cues, establishing empathy, and flexible thinking. As Önce Special Education, we offer individual education programs that highlight the strengths of children and youth with Asperger syndrome and develop their social skills in Pendik, Istanbul.
 
 Our Asperger syndrome education program focuses on core areas such as social skills education, pragmatic language skills, emotion recognition and expression, flexible thinking, and problem-solving. Expert psychologists and special educators working at our Pendik center create intervention plans suitable for the needs of each individual by deeply understanding the difficulties unique to Asperger syndrome. Peer interaction is supported in natural environments through social skill groups in addition to one-on-one sessions.
 
@@ -236,7 +236,7 @@ Our center located in the Pendik district of Istanbul aims to increase the socia
   'yaygin-gelisimsel-bozukluklar': {
     metaTitle: 'Pervasive Developmental Disorders (PDD) Education | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Special education for pervasive developmental disorders in Pendik, Istanbul. Meet our expert staff offering communication, social skill, and developmental support.',
+      'Special education for pervasive developmental disorders in Pendik, Istanbul. Meet our experts offering communication and developmental support.',
     heroSubtitle:
       'A holistic special education approach covering all developmental areas of children with pervasive developmental disorders.',
     intro: `Pervasive Developmental Disorders (PDD) cover a group of neurodevelopmental conditions showing differences in social interaction, communication skills, and behavioral patterns. Subcategories such as autism spectrum disorder, childhood disintegrative disorder, and pervasive developmental disorder not otherwise specified (PDD-NOS) are included under the PDD diagnosis. As Önce Special Education, we offer comprehensive and individual education programs for the developmental needs of children diagnosed with PDD at our center in Pendik, Istanbul.
@@ -293,7 +293,7 @@ Located in Pendik, Istanbul, our center offers education programs based on curre
   'duyu-butunleme-terapisi': {
     metaTitle: 'Sensory Integration Therapy | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'We resolve sensory processing difficulties with sensory integration therapy in Pendik, Istanbul. Book an appointment with our expert occupational therapists.',
+      'Sensory integration therapy in Pendik, Istanbul. We resolve sensory processing difficulties with our expert occupational therapists. Book today!',
     heroSubtitle:
       'A therapy approach that facilitates making sense of the sensory world and strengthens the child\'s brain-body connection.',
     intro: `Sensory Integration Therapy is a specialized therapy approach developed for difficulties in the brain's receiving, organizing, and processing of sensory information (touch, movement, balance, vision, hearing, taste, smell, proprioception). Children with sensory processing difficulties may exhibit hypersensitivity, distractibility, motor coordination problems, or behavioral responses in daily life. As Önce Special Education, we offer comprehensive sensory integration therapy programs run by our expert occupational therapists at our center in Pendik, Istanbul.
@@ -350,7 +350,7 @@ The sensory integration therapy implemented in our center in Pendik, Istanbul, c
   'ergoterapi': {
     metaTitle: 'Occupational Therapy | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Occupational therapy services for children in Pendik, Istanbul. Daily life, fine motor, and sensory skill support. Apply to our expert occupational therapists.',
+      'Occupational therapy for children in Pendik, Istanbul. Daily life, fine motor, and sensory skill support. Contact our expert therapists today.',
     heroSubtitle:
       'A therapy program that increases the child\'s independence in daily life, developing fine motor and sensory skills.',
     intro: `Occupational therapy (Ergotherapy) is a health discipline that supports individuals in gaining independence in daily life activities, developing fine motor skills, and participating in meaningful life occupations. In children, occupational therapy covers fine motor skills such as handwriting, cutting with scissors, buttoning, as well as self-care activities, sensory processing, visual-motor integration, and play skills. As Önce Special Education, our experienced occupational therapists offer individual therapy programs to increase your child's daily quality of life at our center in Pendik, Istanbul.
@@ -407,7 +407,7 @@ At our center serving in the Pendik district of Istanbul, occupational therapy i
   'aba-terapisi': {
     metaTitle: 'ABA Therapy | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Individual support for children with autism with ABA therapy (Applied Behavior Analysis) in Pendik, Istanbul. We support development with evidence-based methods.',
+      'ABA therapy for children with autism in Pendik, Istanbul. Individual support with evidence-based behavioral methods. Get information now.',
     heroSubtitle:
       'A science-based therapy program that systematically develops target behaviors with Applied Behavior Analysis.',
     intro: `ABA Therapy (Applied Behavior Analysis), which is based on behavior science principles, is one of the intervention methods with the broadest evidence base, especially in autism spectrum disorder. ABA offers a structured framework to increase desired behaviors, reduce problem behaviors, and systematically teach new skills. As Önce Special Education, individualized ABA therapy programs are implemented by our certified specialists at our center in Pendik, Istanbul.
@@ -521,10 +521,10 @@ At our center located in Pendik, Istanbul, movement education is carried out in 
   'fizyoterapi-ve-rehabilitasyon': {
     metaTitle: 'Physiotherapy and Rehabilitation | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Physiotherapy and rehabilitation services for children in Pendik, Istanbul. Professional support for motor development, muscle strength, and movement capacity.',
+      'Physiotherapy and rehabilitation for children in Pendik, Istanbul. Support for motor development, muscle strength, and movement capacity.',
     heroSubtitle:
       'Personalized physiotherapy programs that increase children\'s motor capacity and physical independence.',
-    intro: `Physiotherapy and Rehabilitation is a medical-based health service aimed at developing children's movement capacity, muscle strength, joint mobility, balance, and coordination. For children experiencing difficulties in motor functions due to neurological, orthopedic, or developmental reasons, physiotherapy is of critical importance in increasing physical independence and raising quality of life. As Önce Special Education, comprehensive rehabilitation programs are offered by our therapists specialized in pediatric physiotherapy at our center in Pendik, Istanbul.
+    intro: `Physiotherapy & Rehabilitation is a medical-based health service aimed at developing children's movement capacity, muscle strength, joint mobility, balance, and coordination. For children experiencing difficulties in motor functions due to neurological, orthopedic, or developmental reasons, physiotherapy is of critical importance in increasing physical independence and raising quality of life. As Önce Special Education, comprehensive rehabilitation programs are offered by our therapists specialized in pediatric physiotherapy at our center in Pendik, Istanbul.
 
 Our physiotherapy and rehabilitation program offered at our Pendik center is designed individually according to the child's diagnosis and physical capacity. Services are provided in a wide range including cerebral palsy, spina bifida, muscular dystrophy, motor development delay, hypotonia, torticollis, scoliosis, and post-surgical rehabilitation. Neurodevelopmental therapy approaches (Bobath, Vojta), functional exercise program, stretching and strengthening exercises, and balance and gait training are the core components of our program.
 
@@ -578,7 +578,7 @@ Our physiotherapy unit serving in Pendik, Istanbul, works in a rehabilitation ar
   'floortime-terapisi': {
     metaTitle: 'Floortime Therapy (DIR/Floortime) | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'We support your child\'s emotional and social development with DIR/Floortime therapy in Pendik, Istanbul. Contact us for play-based relational therapy.',
+      'DIR/Floortime therapy in Pendik, Istanbul. We support your child\'s emotional and social development with play-based relational therapy.',
     heroSubtitle:
       'A relationship-based therapy approach that strengthens emotional bond and social communication by participating in the child\'s world.',
     intro: `Floortime Therapy (DIR/Floortime — Developmental, Individual Differences, Relationship-based) is a therapy model developed by Dr. Stanley Greenspan that supports the child's emotional-social development with a relationship-based approach. The name "Floortime" comes from the principle of the therapist or parent getting down to the child's level (sitting on the floor) and participating in the play they direct. As Önce Special Education, our expert team applying the DIR/Floortime model at our center in Pendik, Istanbul, supports the child in climbing the emotional development stages through natural interaction and play.
@@ -635,7 +635,7 @@ At our center serving in the Pendik district of Istanbul, Floortime therapy is a
   'bilissel-gelisim-destek': {
     metaTitle: 'Cognitive Development Support Program | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Strengthen your child\'s thinking, problem-solving, and learning skills with the cognitive development support program in Pendik, Istanbul. Book an appointment.',
+      'Cognitive development support program in Pendik, Istanbul. Strengthen your child\'s thinking, problem-solving, and learning skills. Book now.',
     heroSubtitle:
       'A support program that strengthens the child\'s thinking, learning, and problem-solving capacities using scientific methods.',
     intro: `Cognitive Development Support Program is a structured special education program aimed at developing children's high-level thinking skills such as attention, memory, perception, reasoning, problem-solving, and decision-making. Cognitive development forms the basis of the child's academic success, social adaptation, and independent living skills. As Önce Special Education, we offer individual and evidence-based intervention programs for children in need of support in cognitive development at our center in Pendik, Istanbul.
@@ -695,7 +695,7 @@ In our center located in the Pendik district of Istanbul, cognitive development 
       'Physical development support program for children in Pendik, Istanbul. Motor skill, coordination, and physical capacity development. Get information.',
     heroSubtitle:
       'A holistic program that supports the child\'s physical capacity, motor skills, and healthy growth process.',
-    intro: `Physical Development and Support Program is a comprehensive education program that aims for children to acquire motor skills suitable for their age, increase their physical capacities, and maintain a healthy body development. Gross motor skills (walking, running, jumping, climbing), fine motor skills (grasping, manipulating, drawing), balance, coordination, and physical endurance are the core focal points of this program. As Önce Special Education, we offer comprehensive and individual physical development programs for children in need of support in physical development at our center in Pendik, Istanbul.
+    intro: `Physical Development Support (Physical Development and Support Program) is a comprehensive education program that aims for children to acquire motor skills suitable for their age, increase their physical capacities, and maintain a healthy body development. Gross motor skills (walking, running, jumping, climbing), fine motor skills (grasping, manipulating, drawing), balance, coordination, and physical endurance are the core focal points of this program. As Önce Special Education, we offer comprehensive and individual physical development programs for children in need of support in physical development at our center in Pendik, Istanbul.
 
 Our physical development and support program implemented at our Pendik center is run in coordination with special education specialists, physiotherapists, and movement education specialists. At the beginning of the program, the physical development level of each child is evaluated in detail, identifying the difference between developmental age and chronological age. Individual goals are created based on these evaluation results. Developing muscle strength, flexibility studies, balance and coordination exercises, functional movement education, and fine motor skill activities form the content of our program.
 
@@ -749,10 +749,10 @@ Our physical development program serving in Pendik, Istanbul, is designed consid
   'oyun-terapisi-ve-sosyal-beceri': {
     metaTitle: 'Play Therapy and Social Skills Training | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Play therapy and social skills training in Pendik, Istanbul. We support your child\'s peer relationships and emotional development through play. Apply.',
+      'Play therapy and social skills training in Pendik, Istanbul. We support peer relationships and emotional development through play. Contact us.',
     heroSubtitle:
       'A therapy program that develops the child\'s emotional world and social skills with the healing power of play.',
-    intro: `Play Therapy and Social Skills Training is a therapeutic approach focusing on developing children's emotional expression, social interaction, problem-solving, and communication skills through play. Play is the natural language of children and their most powerful learning tool. Children express their emotions, try out social roles, learn rules, and develop conflict resolution strategies through play. As Önce Special Education, we enrich children's emotional and social worlds with play therapy and social skills training programs run by our expert therapists at our center in Pendik, Istanbul.
+    intro: `Play Therapy & Social Skills Training is a therapeutic approach focusing on developing children's emotional expression, social interaction, problem-solving, and communication skills through play. Play is the natural language of children and their most powerful learning tool. Children express their emotions, try out social roles, learn rules, and develop conflict resolution strategies through play. As Önce Special Education, we enrich children's emotional and social worlds with play therapy and social skills training programs run by our expert therapists at our center in Pendik, Istanbul.
 
 Our play therapy program offered at our Pendik center offers a combination of directive and non-directive play therapy techniques, structured social skills training, and group studies. In individual play therapy sessions, emotional expression, the child's inner world, and emotional regulation skills are supported through the therapeutic relationship. Under social skills training, basic social competencies such as waiting in line, sharing, cooperating, understanding and expressing emotions, establishing empathy, and conflict resolution are taught with structured activities.
 
@@ -806,10 +806,10 @@ At our center located in the Pendik district of Istanbul, play therapy and socia
   'aile-danismanligi': {
     metaTitle: 'Family Counseling and Psychological Support | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Counseling and psychological support for families of children with special needs in Pendik, Istanbul. Strengthen your family with our expert psychologists. Contact us.',
+      'Family counseling and psychological support in Pendik, Istanbul. Support for families of children with special needs. Contact our experts.',
     heroSubtitle:
       'A holistic family support program that gives guidance and psychological strength to families of children with special needs.',
-    intro: `Family Counseling and Psychological Support program is a comprehensive service offering professional support for emotional, relational, and practical difficulties experienced by families of children with special needs. Being the family of a child with special needs can cause stress and uncertainty in many areas, from the diagnosis process to education planning, daily care, and future anxiety. As Önce Special Education, our experienced psychologists at our center in Pendik, Istanbul, offer professional support to ensure families remain strong and resilient in this process.
+    intro: `Family Counseling & Psychological Support program is a comprehensive service offering professional support for emotional, relational, and practical difficulties experienced by families of children with special needs. Being the family of a child with special needs can cause stress and uncertainty in many areas, from the diagnosis process to education planning, daily care, and future anxiety. As Önce Special Education, our experienced psychologists at our center in Pendik, Istanbul, offer professional support to ensure families remain strong and resilient in this process.
 
 Our family counseling program offered at our Pendik center adopts a multi-faceted approach aiming to strengthen the family as a whole. Individual parent counseling, couple counseling, sibling support, family system intervention, and psychoeducation are the core components of our program. Families are informed about their child's diagnosis and education process, supported in processing their emotional responses, and taught effective communication and behavior management strategies they can apply at home. Parents' own psychological health is also among the priority areas of the program.
 
@@ -863,7 +863,7 @@ At our center serving in the Pendik district of Istanbul, family counseling is r
   'kamp-egitimi': {
     metaTitle: 'Camp Education (Intensive Program) | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'Intensive camp education program in Pendik, Istanbul. Intensive special education that accelerates your child\'s development during holiday periods. Call for registration.',
+      'Intensive camp education in Pendik, Istanbul. Intensive special education that accelerates your child\'s development during holiday periods.',
     heroSubtitle:
       'A camp program that accelerates development during holiday periods, offering an intensive and multi-faceted education experience.',
     intro: `Camp Education (Intensive Education Program) is an intensive education program designed to reinforce special needs children's gains in the education process, teach new skills, and accelerate development speed during school holiday periods. Suspending education during holiday periods can cause skill loss (regression) in special needs children. As Önce Special Education, we organize camp education programs to prevent these losses and accelerate development at our center in Pendik, Istanbul.
@@ -923,7 +923,7 @@ Our camp education program organized in Pendik, Istanbul, is generally offered i
       'Psychological counseling and guidance services for children and adolescents in Pendik, Istanbul. Contact us to reach emotional and behavioral support.',
     heroSubtitle:
       'Professional guidance that understands the emotional world of children and adolescents, supporting their behavioral and psychological developments.',
-    intro: `Psychological Counseling and Guidance service is a professional service aiming to support children and adolescents in coping with emotional, behavioral, and psychological difficulties. Expert support is offered to children and their families in areas such as anxiety, depression, adaptation difficulties, behavior problems, anger control, lack of self-confidence, trauma, and loss. As Önce Special Education, our psychologists experienced in child and adolescent psychology offer individual counseling services at our center in Pendik, Istanbul.
+    intro: `Psychological Counseling & Guidance service is a professional service aiming to support children and adolescents in coping with emotional, behavioral, and psychological difficulties. Expert support is offered to children and their families in areas such as anxiety, depression, adaptation difficulties, behavior problems, anger control, lack of self-confidence, trauma, and loss. As Önce Special Education, our psychologists experienced in child and adolescent psychology offer individual counseling services at our center in Pendik, Istanbul.
 
 Our psychological counseling service offered at our Pendik center covers therapeutic approaches suitable for the child's developmental level. Cognitive behavioral therapy, play therapy, art therapy, and family-oriented intervention techniques are applied according to the child's age and the nature of the problem. Each counseling process starts with a detailed evaluation and formulation. A comprehensive assessment is made to understand the child's emotional needs, strengths, and risk factors, creating the intervention plan accordingly.
 
@@ -977,7 +977,7 @@ At our center serving in the Pendik district of Istanbul, psychological counseli
   'erken-cocukluk-mudahale': {
     metaTitle: 'Early Childhood Intervention Program | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      '0-6 age early childhood intervention program in Pendik, Istanbul. Early period expert support in developmental delays. Call now for your baby\'s future.',
+      '0-6 age early childhood intervention program in Pendik, Istanbul. Early period expert support in developmental delays. Call now for information.',
     heroSubtitle:
       'An early intervention program that supports development in the first years of life, providing a strong start to the future.',
     intro: `Early Childhood Intervention Program is a comprehensive program aiming to support development by intervening in the earliest period in case of developmental delay risk or diagnosis in infants and young children aged 0-6 years. Appropriate education and therapy support provided in the first years of life, when brain plasticity is highest, has the potential to permanently and positively affect the child's developmental results. As Önce Special Education, our multidisciplinary team specialized in early intervention offers individual programs supporting all developmental areas of infants and young children at our center in Pendik, Istanbul.

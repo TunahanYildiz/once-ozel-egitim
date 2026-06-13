@@ -136,10 +136,10 @@ export default async function ProgramDetailPage({
 
   // Labels by locale
   const labels = {
-    tr: { whoIsItFor: 'Kimler İçin?', howItWorks: 'Nasıl Çalışır?', benefits: 'Faydaları', faq: 'Sık Sorulan Sorular', related: 'Benzer Programlar', cta: 'Ücretsiz Değerlendirme Randevusu', ctaSub: 'Uzmanlarımız çocuğunuzun gelişim ihtiyaçlarını ücretsiz değerlendirir.', callNow: 'Hemen Arayın', whatsapp: 'WhatsApp', backToAll: 'Tüm Programlar', learnMore: 'Detaylı Bilgi' },
-    en: { whoIsItFor: 'Who Is It For?', howItWorks: 'How Does It Work?', benefits: 'Benefits', faq: 'Frequently Asked Questions', related: 'Related Programs', cta: 'Free Assessment Appointment', ctaSub: 'Our experts evaluate your child\'s developmental needs for free.', callNow: 'Call Now', whatsapp: 'WhatsApp', backToAll: 'All Programs', learnMore: 'Learn More' },
-    de: { whoIsItFor: 'Für wen?', howItWorks: 'Wie funktioniert es?', benefits: 'Vorteile', faq: 'Häufig gestellte Fragen', related: 'Ähnliche Programme', cta: 'Kostenloser Beurteilungstermin', ctaSub: 'Unsere Experten bewerten die Entwicklungsbedürfnisse Ihres Kindes kostenlos.', callNow: 'Jetzt anrufen', whatsapp: 'WhatsApp', backToAll: 'Alle Programme', learnMore: 'Mehr erfahren' },
-    ru: { whoIsItFor: 'Для кого?', howItWorks: 'Как это работает?', benefits: 'Преимущества', faq: 'Часто задаваемые вопросы', related: 'Похожие программы', cta: 'Бесплатная консультация', ctaSub: 'Наши специалисты бесплатно оценят потребности развития вашего ребёнка.', callNow: 'Позвонить', whatsapp: 'WhatsApp', backToAll: 'Все программы', learnMore: 'Подробнее' },
+    tr: { whoIsItFor: 'Kimler İçin?', howItWorks: 'Nasıl Çalışır?', benefits: 'Faydaları', faq: 'Sık Sorulan Sorular', related: 'Benzer Programlar', cta: 'Ücretsiz Değerlendirme Randevusu', ctaSub: 'Uzmanlarımız çocuğunuzun gelişim ihtiyaçlarını ücretsiz değerlendirir.', heroCallNow: 'Hemen Arayın', heroWhatsapp: 'WhatsApp Destek', sidebarCallNow: 'Bizi Telefonla Arayın', sidebarWhatsapp: 'WhatsApp ile İletişime Geçin', backToAll: 'Tüm Programlar', learnMore: 'Detaylı Bilgi' },
+    en: { whoIsItFor: 'Who Is It For?', howItWorks: 'How Does It Work?', benefits: 'Benefits', faq: 'Frequently Asked Questions', related: 'Related Programs', cta: 'Free Assessment Appointment', ctaSub: 'Our experts evaluate your child\'s developmental needs for free.', heroCallNow: 'Call Now', heroWhatsapp: 'WhatsApp Chat', sidebarCallNow: 'Call Us via Phone', sidebarWhatsapp: 'Contact via WhatsApp', backToAll: 'All Programs', learnMore: 'Learn More' },
+    de: { whoIsItFor: 'Für wen?', howItWorks: 'Wie funktioniert es?', benefits: 'Vorteile', faq: 'Häufig gestellte Fragen', related: 'Ähnliche Programme', cta: 'Kostenloser Beurteilungstermin', ctaSub: 'Unsere Experten bewerten die Entwicklungsbedürfnisse Ihres Kindes kostenlos.', heroCallNow: 'Jetzt anrufen', heroWhatsapp: 'WhatsApp Chat', sidebarCallNow: 'Rufen Sie uns an', sidebarWhatsapp: 'Per WhatsApp kontaktieren', backToAll: 'Alle Programme', learnMore: 'Mehr erfahren' },
+    ru: { whoIsItFor: 'Для кого?', howItWorks: 'Как это работает?', benefits: 'Преимущества', faq: 'Часто задаваемые вопросы', related: 'Похожие программы', cta: 'Бесплатная консультация', ctaSub: 'Наши специалисты бесплатно оценят потребности развития вашего ребёнка.', heroCallNow: 'Позвонить', heroWhatsapp: 'Чат в WhatsApp', sidebarCallNow: 'Связаться по телефону', sidebarWhatsapp: 'Написать в WhatsApp', backToAll: 'Все программы', learnMore: 'Подробнее' },
   };
   const l = labels[locale as keyof typeof labels] || labels.tr;
 
@@ -186,7 +186,7 @@ export default async function ProgramDetailPage({
               className="inline-flex items-center gap-2 bg-[var(--color-secondary)] text-white font-bold px-6 py-3 rounded-xl hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300 shadow-lg"
             >
               <Phone className="w-4 h-4" />
-              {l.callNow}
+              {l.heroCallNow}
             </Link>
             <a
               href="https://wa.me/905535575515"
@@ -195,7 +195,7 @@ export default async function ProgramDetailPage({
               className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-bold px-6 py-3 rounded-xl hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300"
             >
               <MessageCircle className="w-4 h-4" />
-              {l.whatsapp}
+              {l.heroWhatsapp}
             </a>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default async function ProgramDetailPage({
                       className="flex items-center justify-center gap-2 w-full bg-[var(--color-secondary)] text-white font-bold py-3 px-6 rounded-xl hover:brightness-110 transition-all shadow-md"
                     >
                       <Phone className="w-4 h-4" />
-                      {l.callNow}
+                      {l.sidebarCallNow}
                     </Link>
                     <a
                       href="https://wa.me/905535575515"
@@ -311,7 +311,7 @@ export default async function ProgramDetailPage({
                       className="flex items-center justify-center gap-2 w-full bg-white/10 border border-white/20 text-white font-bold py-3 px-6 rounded-xl hover:bg-white/20 transition-all"
                     >
                       <MessageCircle className="w-4 h-4" />
-                      {l.whatsapp}
+                      {l.sidebarWhatsapp}
                     </a>
                   </div>
                 </div>

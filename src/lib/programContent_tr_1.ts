@@ -106,7 +106,7 @@ Gecikmiş dil ve konuşma müdahalesinde altın kural erken tanı ve erken terap
       'Pendik İstanbul\'da uzman kekemelik terapisi. Çocuk ve yetişkinlerde akıcı konuşma için kanıta dayalı terapi programları. Randevu alın!',
     heroSubtitle:
       'Akıcı ve özgüvenli konuşma için bilimsel temelli kekemelik terapisi.',
-    intro: `Kekemelik, konuşma akıcılığını etkileyen ve ses, hece veya kelime tekrarları, uzatmalar ve bloklamalar şeklinde kendini gösteren bir iletişim bozukluğudur. Genellikle 2-5 yaş arasında başlayan kekemelik, bazı çocuklarda kendiliğinden geçebilirken, müdahale edilmediğinde yetişkinliğe kadar devam edebilir. Önce Özel Eğitim olarak Pendik, İstanbul'daki merkezimizde hem çocuklara hem de yetişkinlere yönelik kapsamlı kekemelik terapi programları sunuyoruz.
+    intro: `Kekemelik Terapisi, konuşma akıcılığını etkileyen ve ses, hece veya kelime tekrarları, uzatmalar ve bloklamalar şeklinde kendini gösteren bir iletişim bozukluğudur. Genellikle 2-5 yaş arasında başlayan kekemelik, bazı çocuklarda kendiliğinden geçebilirken, müdahale edilmediğinde yetişkinliğe kadar devam edebilir. Önce Özel Eğitim olarak Pendik, İstanbul'daki merkezimizde hem çocuklara hem de yetişkinlere yönelik kapsamlı kekemelik terapi programları sunuyoruz.
 
 Kekemelik yalnızca bir konuşma sorunu değildir; bireyin sosyal yaşamını, akademik performansını, iş hayatını ve özsaygısını derinden etkileyen çok boyutlu bir durumdur. Kekeleyen çocuklar konuşmaktan kaçınabilir, söz sırası almada geri durabilir ve zamanla iletişim kaygısı geliştirebilir. Pendik ve İstanbul genelinden merkezimize başvuran danışanlarımızla, kekemeliğin hem motor-konuşma hem de duygusal-bilişsel boyutlarını kapsayan bütüncül bir terapi yaklaşımı uyguluyoruz.
 

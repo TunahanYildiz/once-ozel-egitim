@@ -274,12 +274,14 @@ export default function Navbar() {
               </div>
 
               {/* CTA */}
-              <Link
-                href="/iletisim"
+              <a
+                href="https://b2c.beeasist.com/c/3lBkwZOb"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2.5 xl:px-5 bg-[var(--color-secondary)] text-white rounded-full font-semibold hover:bg-[var(--color-secondary-light)] transition-all shadow-md shadow-[var(--color-secondary)]/20 transform hover:-translate-y-0.5 whitespace-nowrap text-sm"
               >
                 {t('cta')}
-              </Link>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -339,13 +341,15 @@ export default function Navbar() {
                     <Link href={pathname as any} locale="de" className="text-sm font-medium hover:text-[var(--color-secondary)]">DE</Link>
                     <Link href={pathname as any} locale="ru" className="text-sm font-medium hover:text-[var(--color-secondary)]">RU</Link>
                   </div>
-                  <Link
-                    href="/iletisim"
+                  <a
+                    href="https://b2c.beeasist.com/c/3lBkwZOb"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={() => setIsOpen(false)}
                     className="block text-center px-6 py-3 bg-[var(--color-secondary)] text-white rounded-full font-semibold"
                   >
                     {t('cta')}
-                  </Link>
+                  </a>
                 </div>
               </div>
             </motion.div>

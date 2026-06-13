@@ -54,7 +54,7 @@ Our speech and language therapy programs at our center are based on current evid
   'gecikmis-dil-ve-konusma': {
     metaTitle: 'Late Talking & Delayed Speech Therapy | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      "Delayed speech and language therapy in Pendik, Istanbul. We support your child's language development with early intervention. Free initial consultation!",
+      "Delayed speech therapy in Pendik, Istanbul. We support your child's language development with early intervention. Free initial consultation!",
     heroSubtitle:
       'With early intervention, we reclaim lost time in language development.',
     intro: `Delayed speech and language is a condition where a child fails to acquire the expected language and communication skills for their age group on time. While some children say their first words late, others reach the stage of sentence construction much later than their peers. As Önce Special Education, we offer comprehensive evaluation and early intervention programs in the field of delayed speech and language at our center in Pendik, Istanbul.
@@ -204,7 +204,7 @@ Articulation therapy is a systematic process that enables the child to learn to 
       'Aphasia and motor speech disorders rehabilitation in Pendik, Istanbul. Reach out for expert support in speech therapy after stroke!',
     heroSubtitle:
       'Rebuilding communication skills after stroke and brain injury.',
-    intro: `Aphasia is a disorder that affects language skills, typically occurring as a result of neurological events such as a stroke, head trauma, or brain tumor. Individuals experiencing aphasia may face varying levels of difficulty in language functions such as understanding speech, producing speech, reading, and writing. As Önce Special Education, we offer comprehensive rehabilitation programs in the field of aphasia and motor speech disorders (dysarthria, apraxia) at our center in Pendik, Istanbul.
+    intro: `Aphasia & Motor Speech Disorders are complex conditions. Aphasia is a disorder that affects language skills, typically occurring as a result of neurological events such as a stroke, head trauma, or brain tumor. Individuals experiencing aphasia may face varying levels of difficulty in language functions such as understanding speech, producing speech, reading, and writing. As Önce Special Education, we offer comprehensive rehabilitation programs in the field of aphasia and motor speech disorders (dysarthria, apraxia) at our center in Pendik, Istanbul.
 
 Motor speech disorders, on the other hand, result from problems in the neuromuscular coordination between the brain and speech muscles. Dysarthria is a condition where speech is produced unclearly, slowly, or with difficulty due to weakness or coordination problems of the speech muscles. Speech apraxia is the difficulty in planning and sequencing correct movements. These disorders seriously affect the individual's quality of life and independence. We serve our adult clients applying to our center from Pendik and across Istanbul with our expert therapists experienced in neurological rehabilitation.
 
@@ -253,7 +253,7 @@ Timing is critical in the rehabilitation of aphasia and motor speech disorders. 
       "Dyslexia and specific learning difficulty support in Pendik, Istanbul. Discover your child's potential with individual education programs!",
     heroSubtitle:
       'We unlock the potential of children who learn differently.',
-    intro: `Specific learning difficulty (SLD) is a neurodevelopmental condition diagnosed in individuals who fall significantly behind their peers in reading, writing, and/or mathematics despite having normal or above-normal intelligence levels. The most common form, dyslexia, is known as a reading difficulty. As Önce Special Education, we offer comprehensive and individualized special education programs for children diagnosed with specific learning difficulties at our center in Pendik, Istanbul.
+    intro: `Specific Learning Disability (Specific Learning Difficulty) is a neurodevelopmental condition diagnosed in individuals who fall significantly behind their peers in reading, writing, and/or mathematics despite having normal or above-normal intelligence levels. The most common form, dyslexia, is known as a reading difficulty. As Önce Special Education, we offer comprehensive and individualized special education programs for children diagnosed with specific learning difficulties at our center in Pendik, Istanbul.
 
 Specific learning difficulty should not be confused with a child's laziness or lack of motivation. Although these children make a lot of effort, they experience difficulties in reading speed, reading comprehension, spelling accuracy, or mathematical processing skills. With early diagnosis and appropriate intervention, it is possible to significantly increase the academic success of these children. Together with families applying to our center from Pendik and surrounding districts, we analyze each child's learning profile in detail and develop strategies that support learning by using their strengths.
 
@@ -399,7 +399,7 @@ Dysgraphia therapy at our center is carried out with a multi-dimensional program
   'okula-hazirlik-programlari': {
     metaTitle: 'School Readiness Programs | Pendik Istanbul — Önce Special Education',
     metaDescription:
-      'School readiness programs in Pendik, Istanbul. We prepare your child academically, socially, and emotionally for primary school. Get registration info!',
+      'School readiness programs in Pendik, Istanbul. We prepare your child academically, socially, and emotionally for primary school. Register today!',
     heroSubtitle:
       'A comprehensive preparation for a strong, ready, and confident start to primary school.',
     intro: `School preparation is a critical period that aims for the child to acquire the necessary maturity and skills in academic, social, emotional, and motor development areas before starting primary school. Every child's developmental pace is different, and some children may lag behind their peers in certain areas. As Önce Special Education, we offer comprehensive school readiness programs that ensure children start primary school with a solid foundation at our center in Pendik, Istanbul.

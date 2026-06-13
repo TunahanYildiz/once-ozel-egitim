@@ -4,7 +4,7 @@ export const programContentDE2: Record<string, ProgramContent> = {
   'otizm-spektrum-bozuklugu': {
     metaTitle: 'Autismus-Therapie & Förderung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Individuelle sonderpädagogische Förderprogramme bei Autismus-Spektrum-Störung in Pendik, Istanbul. Wir unterstützen die Entwicklung Ihres Kindes. Mehr erfahren!',
+      'Sonderpädagogische Förderung bei Autismus in Pendik, Istanbul. Wir unterstützen die Entwicklung Ihres Kindes mit individuellen Plänen.',
     heroSubtitle:
       'Evidenzbasierte, individuelle Förderprogramme, die das Potenzial von Kindern mit Autismus entfalten.',
     intro: `Die Autismus-Spektrum-Störung (ASS) ist eine neurologische Entwicklungsstörung, die sich auf die soziale Kommunikation, die Interaktion und das Verhalten der Person auswirkt. Eine frühzeitige Diagnose und angemessene pädagogische Maßnahmen können die Lebensqualität und die selbstständigen Lebenskompetenzen von Kindern mit Autismus erheblich verbessern. Bei Önce Özel Eğitim in unserem Zentrum in Pendik, Istanbul, bieten wir umfassende und individuelle Förderprogramme an, die auf die einzigartigen Bedürfnisse jedes Kindes im Autismus-Spektrum abgestimmt sind.
@@ -65,10 +65,10 @@ Unser Zentrum in Pendik auf der asiatischen Seite Istanbuls basiert auf aktuelle
   'dehb-programi': {
     metaTitle: 'Förderung bei ADHS | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle sonderpädagogische Unterstützung bei ADHS in Pendik, Istanbul. Individuelle Programme für Aufmerksamkeit, Impulskontrolle & Schulerfolg. Jetzt Termin vereinbaren.',
+      'Sonderpädagogische Unterstützung bei ADHS in Pendik, Istanbul. Individuelle Programme für Aufmerksamkeit & Schulerfolg. Jetzt Termin vereinbaren!',
     heroSubtitle:
       'Individuelle Unterstützungsprogramme, die den Umgang mit Aufmerksamkeit und Hyperaktivität erleichtern und die Konzentration stärken.',
-    intro: `Die Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS / DEHB) ist eine der am häufigsten auftretenden neurologischen Entwicklungsstörungen im Kindesalter. ADHS äußert sich durch eine verkürzte Aufmerksamkeitsspanne, Impulsivität und ausgeprägte körperliche Unruhe, was sich negativ auf die schulischen Leistungen, sozialen Beziehungen und die Alltagsbewältigung des Kindes auswirken kann. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir umfassende und maßgeschneiderte Förderprogramme für Kinder mit ADHS an.
+    intro: `Das ADHS-Programm für Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS / DEHB) ist eine der am häufigsten auftretenden neurologischen Entwicklungsstörungen im Kindesalter. ADHS äußert sich durch eine verkürzte Aufmerksamkeitsspanne, Impulsivität und ausgeprägte körperliche Unruhe, was sich negativ auf die schulischen Leistungen, sozialen Beziehungen und die Alltagsbewältigung des Kindes auswirken kann. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir umfassende und maßgeschneiderte Förderprogramme für Kinder mit ADHS an.
 
 Unser ADHS-Förderprogramm konzentriert sich auf die Verbesserung der Aufmerksamkeits- und Konzentrationsfähigkeit, die Stärkung der Impulskontrolle, die Förderung exekutiver Funktionen (Planung, Organisation, Zeitmanagement) und die Steigerung schulischer Leistungen. Unsere erfahrenen Sonderpädagogen und Psychologen im Zentrum in Pendik ermitteln die individuellen Stärken und Bedürfnisse des Kindes, um zielgerichtete Interventionspläne zu erstellen. Kognitiv-verhaltenstherapeutische Strategien, Aufmerksamkeitstraining und strukturierte Lernumgebungen bilden das Fundament unseres Programms.
 
@@ -122,7 +122,7 @@ Die ADHS-Förderung in unserem Zentrum in Istanbul Pendik beschränkt sich nicht
   'down-sendromu': {
     metaTitle: 'Förderung bei Down-Syndrom | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Individuelle sonderpädagogische Förderung für Kinder mit Down-Syndrom in Pendik, Istanbul. Unterstützung für Motorik, Sprache und Kognition. Jetzt Kontakt aufnehmen!',
+      'Förderung für Kinder mit Down-Syndrom in Pendik, Istanbul. Unterstützung für Motorik, Sprache und Kognition. Jetzt Kontakt aufnehmen!',
     heroSubtitle:
       'Sonderpädagogische Förderprogramme zur Unterstützung der selbstständigen Lebensführung und der gesellschaftlichen Teilhabe von Menschen mit Down-Syndrom.',
     intro: `Das Down-Syndrom ist eine genetische Besonderheit, die durch eine zusätzliche Kopie des 21. Chromosoms (Trisomie 21) verursacht wird. Menschen mit Down-Syndrom benötigen häufig individuelle Unterstützung in den Bereichen kognitive Entwicklung, Motorik sowie Sprach- und Sprechentwicklung. Bei Önce Özel Eğitim in unserem Zentrum in Pendik, Istanbul, bieten wir ein ganzheitliches und liebevolles Lernumfeld, das alle Entwicklungsbereiche von Kindern mit Down-Syndrom fördert.
@@ -179,7 +179,7 @@ In unserem Zentrum in Istanbul Pendik setzen wir auf wissenschaftlich erprobte M
   'asperger-sendromu': {
     metaTitle: 'Förderung bei Asperger-Syndrom | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Sonderpädagogische Förderung bei Asperger-Syndrom in Pendik, Istanbul. Fokus auf Sozialkompetenz und Kommunikation. Erfahren Sie mehr über unsere Programme.',
+      'Förderung bei Asperger-Syndrom in Pendik, Istanbul. Fokus auf Sozialkompetenz und Kommunikation. Erfahren Sie mehr über unsere Programme!',
     heroSubtitle:
       'Professionelle Unterstützung zur Förderung sozialer Kommunikationsfähigkeiten und der Lebensqualität von Personen mit Asperger-Syndrom.',
     intro: `Das Asperger-Syndrom ist eine Form der Autismus-Spektrum-Störung, bei der die Betroffenen in den Bereichen soziale Interaktion, Kommunikation und Verhaltensflexibilität Unterstützung benötigen. Während Personen mit Asperger-Syndrom in der Regel über eine normale bis überdurchschnittliche Intelligenz verfügen, fällt es ihnen oft schwer, soziale Signale zu deuten, Empathie zu zeigen und flexibel zu denken. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir individuelle Programme an, die die Stärken von Kindern und Jugendlichen mit Asperger-Syndrom betonen und ihre sozialen Kompetenzen weiterentwickeln.
@@ -236,7 +236,7 @@ Unser Zentrum im Bezirk Pendik in Istanbul möchte die gesellschaftliche Teilhab
   'yaygin-gelisimsel-bozukluklar': {
     metaTitle: 'Förderung bei Tiefgreifenden Entwicklungsstörungen | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle sonderpädagogische Förderung bei tiefgreifenden Entwicklungsstörungen (YGB) in Pendik, Istanbul. Unser Fachteam unterstützt soziale und kommunikative Fähigkeiten.',
+      'Sonderpädagogische Förderung bei Entwicklungsstörungen (YGB) in Pendik, Istanbul. Unser Fachteam unterstützt Kommunikation und Sozialkompetenz.',
     heroSubtitle:
       'Ein ganzheitlicher sonderpädagogischer Ansatz, der alle Entwicklungsbereiche von Kindern mit tiefgreifenden Entwicklungsstörungen umfasst.',
     intro: `Tiefgreifende Entwicklungsstörungen (in der Türkei unter dem Begriff YGB bekannt) umfassen eine Gruppe neurologischer Entwicklungsbesonderheiten, die sich durch Abweichungen in der sozialen Interaktion, den Kommunikationsfähigkeiten und den Verhaltensmustern äußern. Unter diese Kategorie fallen unter anderem die Autismus-Spektrum-Störung, die desintegrative Störung im Kindesalter und nicht näher bezeichnete tiefgreifende Entwicklungsstörungen. Bei Önce Özel Eğitim in unserem Zentrum in Pendik, Istanbul, bieten umfängliche und individuell angepasste Förderprogramme für betroffene Kinder an.
@@ -293,7 +293,7 @@ Unser verkehrsgünstig in Pendik, Istanbul, gelegenes Zentrum nutzt aktuelle, wi
   'duyu-butunleme-terapisi': {
     metaTitle: 'Duyu Bütünleme (Sensorische Integrationstherapie) | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle sensorische Integrationstherapie bei sensorischen Verarbeitungsstörungen in Pendik, Istanbul. Erfahrene Ergotherapeuten unterstützen Ihr Kind. Jetzt informieren!',
+      'Sensorische Integrationstherapie in Pendik, Istanbul. Erfahrene Therapeuten unterstützen Ihr Kind bei Verarbeitungsstörungen. Jetzt informieren!',
     heroSubtitle:
       'Eine gezielte Therapieform, die hilft, sensorische Reize besser zu verarbeiten, und die Verbindung zwischen Gehirn und Körper stärkt.',
     intro: `Die Sensorische Integrationstherapie (Duyu Bütünleme Terapisi) richtet sich an Kinder mit Schwierigkeiten bei der Aufnahme, Sortierung und Verarbeitung von Sinnesreizen (Berührung, Bewegung, Gleichgewicht, Sehen, Hören, Geschmack, Riechen, Tiefensensibilität). Kinder mit sensorischen Verarbeitungsstörungen können im Alltag überempfindlich auf Reize reagieren, leicht ablenkbar sein oder Probleme mit der motorischen Koordination haben. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir qualifizierte sensorische Integrationstherapie an, die von erfahrenen Ergotherapeuten durchgeführt wird.
@@ -350,7 +350,7 @@ In unserem Zentrum in Istanbul Pendik kann die Sensorische Integrationstherapie 
   'ergoterapi': {
     metaTitle: 'Ergotherapie für Kinder | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Qualifizierte Ergotherapie für Kinder in Pendik, Istanbul. Unterstützung für Feinmotorik, Alltagsfähigkeiten und Sensorik. Jetzt Beratungstermin buchen!',
+      'Ergotherapie für Kinder in Pendik, Istanbul. Unterstützung für Feinmotorik, Alltagsfähigkeiten und Sensorik. Jetzt Beratungstermin buchen!',
     heroSubtitle:
       'Gezielte Unterstützung für mehr Selbstständigkeit im Alltag sowie die Entwicklung feinmotorischer und sensorischer Fähigkeiten Ihres Kindes.',
     intro: `Die Ergotherapie (Ergoterapi) unterstützt Kinder dabei, Handlungsfähigkeit und Selbstständigkeit im Alltag zu erlangen und an für sie bedeutsamen Aktivitäten teilzunehmen. In der Pädiatrie umfasst die Ergotherapie das Training feinmotorischer Fertigkeiten (wie Schreiben, Schneiden, Knöpfe öffnen), die Bewältigung von Alltagsaufgaben (Ankleiden, Essen), die sensorische Verarbeitung, die visuomotorische Integration sowie die Förderung des Spielverhaltens. Bei Önce Özel Eğitim in Pendik, Istanbul, begleiten unsere qualifizierten Ergotherapeuten die Entwicklung Ihres Kindes durch individuell abgestimmte Therapieangebote.
@@ -407,7 +407,7 @@ In unserem Zentrum im Bezirk Pendik in Istanbul nutzen wir das Spiel als natürl
   'aba-terapisi': {
     metaTitle: 'ABA-Therapie (Angewandte Verhaltensanalyse) | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Evidenzbasierte ABA-Therapie für Kinder mit Autismus in Pendik, Istanbul. Individuelle Verhaltensförderung durch zertifizierte Therapeuten. Jetzt informieren!',
+      'ABA-Therapie für Kinder mit Autismus in Pendik, Istanbul. Individuelle Verhaltensförderung durch zertifizierte Therapeuten. Jetzt informieren!',
     heroSubtitle:
       'Wissenschaftlich fundierte Verhaltensförderung zur systematischen Weiterentwicklung von Alltags- und Lernkompetenzen.',
     intro: `Die ABA-Therapie (Applied Behavior Analysis / Angewandte Verhaltensanalyse) basiert auf den Prinzipien der Verhaltenswissenschaften und ist eine der am besten erforschten Fördermethoden im Bereich der Autismus-Spektrum-Störung. ABA bietet ein strukturiertes System, um erwünschtes Verhalten aufzubauen, Problemverhalten abzubauen und neue Kompetenzen kleinschrittig zu vermitteln. Bei Önce Özel Eğitim in Pendik, Istanbul, wird die ABA-Therapie von ausgebildeten Fachkräften individuell für jedes Kind geplant und umgesetzt.
@@ -464,7 +464,7 @@ Unser ABA-Therapieprogramm in Istanbul Pendik arbeitet streng datengestützt. In
   'hareket-egitimi': {
     metaTitle: 'Bewegungstherapie & Motopädie | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Gezielte Bewegungstherapie und Bewegungserziehung für Kinder in Pendik, Istanbul. Unterstützung für Motorik, Gleichgewicht und Körperwahrnehmung. Jetzt informieren!',
+      'Bewegungserziehung für Kinder in Pendik, Istanbul. Unterstützung für Motorik, Gleichgewicht und Körperwahrnehmung. Jetzt informieren!',
     heroSubtitle:
       'Ein spielerisches Bewegungsprogramm zur Förderung der Motorik, Koordination und Körperwahrnehmung Ihres Kindes.',
     intro: `Die Bewegungstherapie und Motopädie (Hareket Eğitimi) unterstützt Kinder beim Aufbau grob- und feinmotorischer Fähigkeiten, der Körperwahrnehmung, des Gleichgewichts, der Koordination und der Orientierung im Raum. Die motorische Entwicklung ist eng mit der kognitiven, sozialen und emotionalen Reifung des Kindes verknüpft. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir auf die Bedürfnisse des Kindes abgestimmte Bewegungsprogramme in Einzel- oder Gruppensitzungen an.
@@ -521,10 +521,10 @@ In unserem Zentrum in Istanbul Pendik arbeiten Sonderpädagogen und Physiotherap
   'fizyoterapi-ve-rehabilitasyon': {
     metaTitle: 'Physiotherapie & Kinderrehabilitation | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle Physiotherapie und Rehabilitation für Kinder in Pendik, Istanbul. Behandlung bei motorischen Entwicklungsstörungen, Spastik und Muskeltonusproblemen. Jetzt informieren!',
+      'Physiotherapie und Rehabilitation für Kinder in Pendik, Istanbul. Behandlung bei motorischen Entwicklungsstörungen und Spastik. Jetzt informieren!',
     heroSubtitle:
       'Individuelle physiotherapeutische Behandlung zur Förderung der Motorik und der körperlichen Unabhängigkeit Ihres Kindes.',
-    intro: `Die Physiotherapie und Rehabilitation in der Pädiatrie befasst sich mit der Befundung und Behandlung von Bewegungsstörungen, Muskelkraftdefiziten, Gelenkeinschränkungen sowie Koordinationsproblemen bei Kindern. Bei Einschränkungen durch neurologische, orthopädische oder genetische Ursachen ist eine professionelle Physiotherapie entscheidend, um die körperliche Unabhängigkeit des Kindes zu fördern und seine Lebensqualität zu sichern. In unserem Zentrum Önce Özel Eğitim in Pendik, Istanbul, bieten wir fundierte pädiatrische Physiotherapie durch spezialisierte Therapeuten an.
+    intro: `Physiotherapie & Rehabilitation in der Pädiatrie befasst sich mit der Befundung und Behandlung von Bewegungsstörungen, Muskelkraftdefiziten, Gelenkeinschränkungen sowie Koordinationsproblemen bei Kindern. Bei Einschränkungen durch neurologische, orthopädische oder genetische Ursachen ist eine professionelle Physiotherapie entscheidend, um die körperliche Unabhängigkeit des Kindes zu fördern und seine Lebensqualität zu sichern. In unserem Zentrum Önce Özel Eğitim in Pendik, Istanbul, bieten wir fundierte pädiatrische Physiotherapie durch spezialisierte Therapeuten an.
 
 Unser Behandlungsangebot in Pendik wird individuell auf die Diagnose und die körperlichen Voraussetzungen des Kindes abgestimmt. Wir behandeln Krankheitsbilder wie Infantile Zerebralparese (ICP), Spina bifida, Muskeldystrophien, allgemeine motorische Entwicklungsverzögerungen, Muskeltonusstörungen (Hypotonie/Hypertonie), Schiefhals (Tortikolis), Skoliose sowie Kinder nach orthopädischen Operationen. Zum Einsatz kommen bewährte neurophysiologische Behandlungskonzepte (wie Bobath oder Vojta), funktionelle Übungsprogramme sowie gezieltes Kraft- und Dehnungstraining.
 
@@ -578,7 +578,7 @@ Unsere physiotherapeutische Abteilung in Istanbul Pendik verfügt über einen mo
   'floortime-terapisi': {
     metaTitle: 'DIR/Floortime-Therapie | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'DIR/Floortime-Therapie in Pendik, Istanbul. Spiel- und beziehungsorientierte Förderung für die sozial-emotionale Entwicklung Ihres Kindes. Jetzt Termin anfragen!',
+      'DIR/Floortime-Therapie in Pendik, Istanbul. Spiel- und beziehungsorientierte Förderung für die sozial-emotionale Entwicklung Ihres Kindes.',
     heroSubtitle:
       'Ein beziehungsorientierter Therapieansatz, der über das gemeinsame Spiel auf Augenhöhe die emotionale Bindung und soziale Kommunikation stärkt.',
     intro: `Die Floortime-Therapie (DIR/Floortime — Developmental, Individual Differences, Relationship-based) ist ein von Dr. Stanley Greenspan entwickeltes Modell, das die sozial-emotionale Entwicklung des Kindes über die tragende Beziehung fördert. Der Name "Floortime" leitet sich vom Prinzip ab, sich auf die Ebene des Kindes (auf den Boden) zu begeben und sich aktiv an dem vom Kind gesteuerten Spiel zu beteiligen. Bei Önce Özel Eğitim in Pendik, Istanbul, begleiten zertifizierte Floortime-Therapeuten Kinder dabei, Entwicklungsschritte in der Kommunikation spielerisch zu meistern.
@@ -635,7 +635,7 @@ In unserem Zentrum im Bezirk Pendik in Istanbul setzen wir DIR/Floortime besonde
   'bilissel-gelisim-destek': {
     metaTitle: 'Kognitive Entwicklungsförderung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Kognitives Training und Entwicklungsförderung für Kinder in Pendik, Istanbul. Wir stärken Aufmerksamkeit, Merkfähigkeit und logisches Denken. Jetzt informieren!',
+      'Kognitives Training und Entwicklungsförderung in Pendik, Istanbul. Wir stärken Aufmerksamkeit, Merkfähigkeit und logisches Denken. Jetzt informieren!',
     heroSubtitle:
       'Strukturierte sonderpädagogische Förderung zur Stärkung der Denkprozesse, der Problemlösung und der Lernfähigkeit Ihres Kindes.',
     intro: `Das Kognitive Entwicklungsförderungsprogramm (Bilişsel Gelişim Destek Programı) richtet sich an Kinder, die Unterstützung in Bereichen wie Aufmerksamkeit, Gedächtnis, Wahrnehmung, logisches Denken, Problemlösung und Entscheidungsfindung benötigen. Kognitive Fähigkeiten sind das Fundament für schulisches Lernen, soziale Integration und eine selbstständige Lebensführung. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir auf wissenschaftlichen Erkenntnissen basierende Programme zur Förderung der kognitiven Entwicklung an.
@@ -692,10 +692,10 @@ In unserem Zentrum in Pendik setzen wir anschauliche Materialien, Lernspiele und
   'fiziksel-gelisim': {
     metaTitle: 'Physische Entwicklungsförderung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Gezielte physische Entwicklungsförderung für Kinder in Pendik, Istanbul. Förderung von Motorik, Muskelkraft und Fitness. Erfahren Sie mehr über unsere Angebote.',
+      'Physische Entwicklungsförderung für Kinder in Pendik, Istanbul. Förderung von Motorik, Muskelkraft und Fitness. Erfahren Sie mehr über uns!',
     heroSubtitle:
       'Ein ganzheitliches Programm zur Förderung der körperlichen Fitness, der Motorik und des gesunden Wachstums Ihres Kindes.',
-    intro: `Das physische Entwicklungs- und Unterstützungsprogramm (Fiziksel Gelişim ve Destek Programı) hilft Kindern, altersgerechte motorische Meilensteine zu erreichen, ihre körperliche Fitness aufzubauen und eine gesunde Körperhaltung zu entwickeln. Die Schwerpunkte liegen auf der Grobmotorik (Laufen, Klettern, Balancieren), der Feinmotorik (Greifen, Handgeschicklichkeit) sowie auf Koordination, Gleichgewicht und Ausdauer. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir individuelle Bewegungsprogramme an, die auf die physischen Bedürfnisse Ihres Kindes abgestimmt sind.
+    intro: `Physische Entwicklungsförderung durch das physische Entwicklungs- und Unterstützungsprogramm (Fiziksel Gelişim ve Destek Programı) hilft Kindern, altersgerechte motorische Meilensteine zu erreichen, ihre körperliche Fitness aufzubauen und eine gesunde Körperhaltung zu entwickeln. Die Schwerpunkte liegen auf der Grobmotorik (Laufen, Klettern, Balancieren), der Feinmotorik (Greifen, Handgeschicklichkeit) sowie auf Koordination, Gleichgewicht und Ausdauer. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir individuelle Bewegungsprogramme an, die auf die physischen Bedürfnisse Ihres Kindes abgestimmt sind.
 
 Unser Programm in Pendik wird in enger Abstimmung zwischen Sonderpädagogen, Physiotherapeuten und Bewegungstherapeuten durchgeführt. Zu Beginn bewerten wir den motorischen Entwicklungsstand des Kindes, um festzustellen, ob Abweichungen zum typischen Altersmittelwert vorliegen. Darauf aufzubauen umfasst der Trainingsplan Übungen zur Muskelkräftigung, Beweglichkeitsübungen, Gleichgewichtstraining und feinmotorische Stationen.
 
@@ -749,10 +749,10 @@ In unserem Zentrum in Istanbul Pendik verstehen wir die körperliche Entwicklung
   'oyun-terapisi-ve-sosyal-beceri': {
     metaTitle: 'Spieltherapie & Soziale Kompetenz | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle Spieltherapie und soziales Kompetenztraining für Kinder in Pendik, Istanbul. Wir fördern Sozialverhalten und emotionale Reife im Spiel. Jetzt informieren!',
+      'Spieltherapie und soziales Kompetenztraining für Kinder in Pendik, Istanbul. Wir fördern Sozialverhalten und emotionale Reife im Spiel.',
     heroSubtitle:
       'Wir nutzen die heilende Kraft des Spiels zur Unterstützung der emotionalen Entwicklung und sozialer Fähigkeiten Ihres Kindes.',
-    intro: `Die Spieltherapie und das soziale Kompetenztraining (Oyun Terapisi ve Sosyal Beceri Eğitimi) helfen Kindern, Gefühle auszudrücken, soziale Kontakte zu knüpfen, Konflikte zu lösen und Kommunikationsfähigkeiten spielerisch weiterzuentwickeln. Das Spiel ist die natürliche Sprache des Kindes. Über das Spiel verarbeiten Kinder Erlebtes, erproben soziale Rollen, lernen Regeln kennen und finden Lösungswege bei Konflikten. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir von qualifizierten Therapeuten geleitete Spieltherapie und Gruppenangebote an, um die emotionale und soziale Kompetenz von Kindern zu stärken.
+    intro: `Spieltherapie & Soziale Kompetenzen werden durch Spieltherapie und das soziale Kompetenztraining (Oyun Terapisi ve Sosyal Beceri Eğitimi) helfen Kindern, Gefühle auszudrücken, soziale Kontakte zu knüpfen, Konflikte zu lösen und Kommunikationsfähigkeiten spielerisch weiterzuentwickeln. Das Spiel ist die natürliche Sprache des Kindes. Über das Spiel verarbeiten Kinder Erlebtes, erproben soziale Rollen, lernen Regeln kennen und finden Lösungswege bei Konflikten. Bei Önce Özel Eğitim in Pendik, Istanbul, bieten wir von qualifizierten Therapeuten geleitete Spieltherapie und Gruppenangebote an, um die emotionale und soziale Kompetenz von Kindern zu stärken.
 
 Unser Angebot in Pendik kombiniert je nach Bedarf die personzentrierte Spieltherapie, strukturiertes Sozialkompetenztraining und angeleitete Kleingruppenarbeiten. In den therapeutischen Einzelsitzungen steht die Verarbeitung emotionaler Themen und der Aufbau von Selbstregulation über die therapeutische Beziehung im Vordergrund. Im sozialen Kompetenztraining vermitteln wir wichtige Meilensteine wie Abwarten, Teilen, Kooperieren, das Erkennen und Benennen von Gefühlen sowie Empathiefähigkeit.
 
@@ -806,7 +806,7 @@ In unserem Zentrum im Bezirk Pendik in Istanbul führen wir diese Programme in E
   'aile-danismanligi': {
     metaTitle: 'Familienberatung & Psychologische Unterstützung | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle Familienberatung und psychologische Unterstützung für Eltern von Kindern mit Förderbedarf in Pendik, Istanbul. Stärken Sie Ihre Familie. Kontaktieren Sie uns!',
+      'Familienberatung und psychologische Unterstützung für Eltern in Pendik, Istanbul. Stärken Sie Ihre Familie. Kontaktieren Sie uns!',
     heroSubtitle:
       'Ein ganzheitliches Beratungsangebot, das Familien von Kindern mit sonderpädagogischem Förderbedarf Orientierung, Entlastung und psychologische Stärke bietet.',
     intro: `Die Familienberatung und psychologische Unterstützung (Aile Danışmanlığı ve Psikolojik Destek) bietet Begleitung bei den emotionalen, partnerschaftlichen und praktischen Herausforderungen, denen sich Eltern von Kindern mit sonderpädagogischem Förderbedarf gegenübersehen. Die Diagnose einer Entwicklungsauffälligkeit, die Organisation der Förderung sowie Sorgen um die Zukunft können die gesamte Familie belasten. Bei Önce Özel Eğitim in Pendik, Istanbul, begleiten unsere erfahrenen Psychologen Sie und Ihre Familie auf diesem Weg.
@@ -863,10 +863,10 @@ In unserem Zentrum im Bezirk Pendik in Istanbul läuft die Familienberatung para
   'kamp-egitimi': {
     metaTitle: 'Intensivförderung & Feriencamps | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Intensivierte sonderpädagogische Feriencamps in Pendik, Istanbul. Nutzen Sie die Ferienzeiten zur gezielten Entwicklungsförderung Ihres Kindes. Jetzt anmelden!',
+      'Sonderpädagogische Feriencamps in Pendik, Istanbul. Nutzen Sie die Ferien zur gezielten Entwicklungsförderung Ihres Kindes. Jetzt anmelden!',
     heroSubtitle:
       'Kompakte, ganzheitliche Intensivförderung während der Ferienzeiten zur Festigung von Lernerfolgen und zum schnellen Aufbau neuer Fähigkeiten.',
-    intro: `Unsere Feriencamps und Intensivförderprogramme (Kamp Eğitimi) bieten eine strukturierte Möglichkeit, die schulfreie Zeit für die gezielte sonderpädagogische Unterstützung zu nutzen. Längere Pausen in den Ferien können bei Kindern mit sonderpädagogischem Förderbedarf zu einem Rückschritt der erlernten Fähigkeiten (Regression) führen. Bei Önce Özel Eğitim in Pendik, Istanbul, konzipieren wir diese Intensivprogramme, um Lücken zu schließen und die Entwicklung des Kindes durch ein dichtes Therapieangebot zu beschleunigen.
+    intro: `Die Camp-Ausbildung und unsere Intensivförderprogramme (Kamp Eğitimi) bieten eine strukturierte Möglichkeit, die schulfreie Zeit für die gezielte sonderpädagogische Unterstützung zu nutzen. Längere Pausen in den Ferien können bei Kindern mit sonderpädagogischem Förderbedarf zu einem Rückschritt der erlernten Fähigkeiten (Regression) führen. Bei Önce Özel Eğitim in Pendik, Istanbul, konzipieren wir diese Intensivprogramme, um Lücken zu schließen und die Entwicklung des Kindes durch ein dichtes Therapieangebot zu beschleunigen.
 
 Das Programm in unserem Zentrum in Pendik umfasst täglich 4–6 Stunden intensive Arbeit. Es kombiniert sonderpädagogische Einzelsitzungen, Logopädie, soziale Kompetenzgruppen, Bewegungserziehung, kreative Gestaltungsfächer, Wahrnehmungswerkstätten und das Training alltäglicher Lebenskompetenzen. Vor Beginn des Camps führen wir eine Entwicklungsdiagnostik durch, um konkrete Schwerpunkte zu definieren. Diese dichte Förderung ermöglicht oft erhebliche Fortschritte in kurzer Zeit.
 
@@ -920,7 +920,7 @@ Unsere Feriencamps in Istanbul Pendik finden in der Regel während der Sommerfer
   'psikolojik-danismanlik': {
     metaTitle: 'Psychologische Beratung für Kinder & Jugendliche | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Professionelle psychologische Beratung und Begleitung für Kinder und Jugendliche in Pendik, Istanbul. Unterstützung bei Ängsten, Krisen und Schulproblemen. Jetzt informieren!',
+      'Psychologische Beratung für Kinder und Jugendliche in Pendik, Istanbul. Unterstützung bei Ängsten, Krisen und Schulproblemen. Jetzt informieren!',
     heroSubtitle:
       'Einfühlsame psychologische Beratung zur Begleitung der emotionalen und mentalen Entwicklung von Kindern und Jugendlichen.',
     intro: `Die Psychologische Beratung und Begleitung (Psikolojik Danışmanlık ve Rehberlik) unterstützt Kinder und Jugendliche bei der Bewältigung emotionaler, verhaltensbezogener und psychischer Herausforderungen. Wir bieten qualifizierte Hilfe bei Themen wie Ängsten, depressiven Verstimmungen, Anpassungsproblemen, Schulunlust, Aggressionen, mangelndem Selbstwertgefühl sowie nach traumatischen Ereignissen oder Verlusten. In unserem Zentrum Önce Özel Eğitim in Pendik, Istanbul, stehen Ihnen erfahrene Psychologen zur Seite.
@@ -977,10 +977,10 @@ Das psychologische Beratungsangebot in unserem Zentrum in Pendik, Istanbul, steh
   'erken-cocukluk-mudahale': {
     metaTitle: 'Frühförderung & Frühintervention | Pendik Istanbul — Önce Özel Eğitim',
     metaDescription:
-      'Gezielte sonderpädagogische Frühförderung für Kinder von 0–6 Jahren in Pendik, Istanbul. Unterstützung bei Entwicklungsverzögerungen. Informieren Sie sich jetzt!',
+      'Frühförderung für Kinder von 0–6 Jahren in Pendik, Istanbul. Unterstützung bei Entwicklungsverzögerungen. Informieren Sie sich jetzt!',
     heroSubtitle:
       'Frühzeitige sonderpädagogische Unterstützung in den ersten Lebensjahren für einen bestmöglichen Start in die Zukunft.',
-    intro: `Das Frühförderungs- und Frühinterventionsprogramm (Erken Çocukluk Müdahale Programı) richtet sich an Säuglinge und Kleinkinder im Alter von 0–6 Jahren, bei denen eine Entwicklungsverzögerung oder ein entsprechendes Risiko vorliegt. Da das Gehirn in den ersten Lebensjahren eine besonders hohe Plastizität aufweist, kann eine gezielte sonderpädagogische Unterstützung in dieser Phase Entwicklungsrückstände effektiv ausgleichen oder abmildern. In unserem Zentrum Önce Özel Eğitim in Pendik, Istanbul, bietet ein spezialisiertes Team umfassende Frühförderangebote an.
+    intro: `Frühkindliche Intervention (Frühförderungs- und Frühinterventionsprogramm) (Erken Çocukluk Müdahale Programı) richtet sich an Säuglinge und Kleinkinder im Alter von 0–6 Jahren, bei denen eine Entwicklungsverzögerung oder ein entsprechendes Risiko vorliegt. Da das Gehirn in den ersten Lebensjahren eine besonders hohe Plastizität aufweist, kann eine gezielte sonderpädagogische Unterstützung in dieser Phase Entwicklungsrückstände effektiv ausgleichen oder abmildern. In unserem Zentrum Önce Özel Eğitim in Pendik, Istanbul, bietet ein spezialisiertes Team umfassende Frühförderangebote an.
 
 Unser Programm in Pendik nimmt Säuglinge und Kinder auf, die uns von Kinderärzten, Sozialpädiatrischen Zentren, Kinderneurologen oder Genetikern zugewiesen werden. Mögliche Indikationen sind Frühgeburtlichkeit, genetische Syndrome (wie Down-Syndrom), infantile Zerebralparese, Verdacht auf Autismus, ausgeprägte Sprachverzögerungen oder allgemeine globale Entwicklungsverzögerungen. Die Förderung umfasst Sonderpädagogik, Sprachtherapie, Physiotherapie, Ergotherapie und Elternanleitung.
 
