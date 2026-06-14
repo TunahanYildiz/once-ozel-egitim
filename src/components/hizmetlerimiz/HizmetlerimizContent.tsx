@@ -202,7 +202,7 @@ export default function HizmetlerimizContent({ strings: s }: { strings: Strings 
       {/* ═══════════════════════════════════════════════
           SECTION 2 — KONAKLAMA & TRANSFER
       ═══════════════════════════════════════════════ */}
-      <section className="py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+      <section id="bolum-2" className="py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="fade-in-section">
             <div className="flex items-center gap-3 mb-6">

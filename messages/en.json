@@ -38,7 +38,16 @@
     "stats1": "1000+ Happy Families",
     "stats2": "20+ Expert Instructors",
     "stats3": "Years of Experience",
-    "stats4": "100% Compassion"
+    "stats4": "100% Compassion",
+    "heroKonaklamaTitle": "For Our Families Coming from Abroad",
+    "heroKonaklamaSubtitle": "Accommodation and VIP Transfer Services. We organize your entire process from Sabiha Gökçen Airport to your fully equipped home.",
+    "heroKonaklamaBtn": "Review Our Services",
+    "heroKampTitle": "Intensive Camp Education",
+    "heroKampSubtitle": "Our residential camp education model, specially designed for families aiming for maximum development in a limited time.",
+    "heroKampBtn": "Examine Camp Education",
+    "heroEgitimlerTitle": "28 Different Programs with Our Expert Staff",
+    "heroEgitimlerSubtitle": "From speech and language therapy to occupational therapy, all the scientific support and education your child needs under one roof.",
+    "heroEgitimlerBtn": "Discover Educations"
   },
   "BentoGrid": {
     "whyUs": "Why Önce Özel Eğitim?",
@@ -285,8 +294,8 @@
     "headerBadge": "20+ Experts",
     "teamBannerTitle": "A Team Dedicated to Continuous Development",
     "teamBannerDesc": "All our team members hold national and international certifications and continue their professional development through regular supervision, conferences, and training.",
-    "staff1Name": "Ayşe Kılıç",
-    "staff1Role": "Founder & General Manager",
+    "staff1Name": "Ahmet Satan",
+    "staff1Role": "Physiotherapist",
     "staff1Expertise": "Special Education, Rehabilitation Management, Family Counseling",
     "staff2Name": "Mehmet Demir",
     "staff2Role": "Speech and Language Therapist",

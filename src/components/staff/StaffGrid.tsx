@@ -53,13 +53,9 @@ export default function StaffGrid({ members }: StaffGridProps) {
           {/* Info */}
           <div className="p-6">
             <h3 className="text-xl font-bold text-[var(--color-primary)] mb-1">{member.name}</h3>
-            <div className="flex items-center gap-1.5 mb-3">
+            <div className="flex items-center gap-1.5">
               <Briefcase className="w-4 h-4 text-[var(--color-secondary)] flex-shrink-0" />
               <span className="text-sm font-semibold text-[var(--color-secondary)]">{member.role}</span>
-            </div>
-            <div className="flex items-start gap-1.5">
-              <Star className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-              <p className="text-sm text-gray-500 leading-relaxed">{member.expertise}</p>
             </div>
           </div>
         </motion.div>

@@ -31,22 +31,24 @@ export default function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.6 }}
-            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 bg-[var(--color-primary)] h-[480px] md:h-auto flex flex-col"
+            className="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-400 h-[480px] md:h-auto flex flex-col bg-[var(--color-primary)]"
           >
-            {/* Decorative glow */}
-            <div className="absolute -top-20 -right-20 w-80 h-80 bg-[var(--color-secondary)] rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition-opacity pointer-events-none"></div>
-
-            {/* Top badge */}
-            <div className="absolute top-6 left-6 bg-[var(--color-secondary)] text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-10">
-              ⭐ {t('title1')}
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <Image
+                src="/images/yeni-dis-cekim.jpg"
+                alt={t('title1')}
+                fill
+                className="object-cover object-bottom transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary)]/95 via-[var(--color-primary)]/70 to-[var(--color-primary)]/20"></div>
             </div>
+
+            {/* Top badge removed per request */}
 
             {/* Content */}
             <div className="flex-1 flex flex-col justify-end p-6 md:p-8 relative z-10">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20">
-                  <GraduationCap className="w-6 h-6 text-white" />
-                </div>
                 <div className="flex gap-2">
                   {[1, 2, 3, 4, 5].map(i => (
                     <Star key={i} className="w-4 h-4 text-amber-400 fill-amber-400" />

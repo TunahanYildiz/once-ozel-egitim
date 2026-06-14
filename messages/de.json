@@ -38,7 +38,16 @@
     "stats1": "1000+ Glückliche Kinder",
     "stats2": "20+ Fachkräfte",
     "stats3": "Jahre Expertise",
-    "stats4": "100% Engagement"
+    "stats4": "100% Engagement",
+    "heroKonaklamaTitle": "Für unsere Familien aus dem Ausland",
+    "heroKonaklamaSubtitle": "Unterkunfts- und VIP-Transferservices. Wir organisieren Ihren gesamten Ablauf vom Flughafen Sabiha Gökçen bis zu Ihrem voll ausgestatteten Zuhause.",
+    "heroKonaklamaBtn": "Unsere Dienstleistungen prüfen",
+    "heroKampTitle": "Intensives Camp-Training",
+    "heroKampSubtitle": "Unser stationäres Camp-Trainingsmodell, speziell für Familien konzipiert, die in begrenzter Zeit maximale Entwicklung anstreben.",
+    "heroKampBtn": "Camp-Training untersuchen",
+    "heroEgitimlerTitle": "28 verschiedene Programme mit unserem Expertenpersonal",
+    "heroEgitimlerSubtitle": "Von der Sprach- und Sprechtherapie bis zur Ergotherapie – all die wissenschaftliche Unterstützung und Bildung, die Ihr Kind braucht, unter einem Dach.",
+    "heroEgitimlerBtn": "Bildungsangebote entdecken"
   },
   "BentoGrid": {
     "whyUs": "Warum Önce Özel Eğitim?",
@@ -257,8 +266,8 @@
     "headerBadge": "20+ Experten",
     "teamBannerTitle": "Ein Team, das sich der stetigen Weiterentwicklung verschrieben hat",
     "teamBannerDesc": "Alle unsere Teammitglieder besitzen nationale und internationale Zertifizierungen und setzen ihre berufliche Entwicklung durch regelmäßige Supervision, Konferenzen und Schulungen fort.",
-    "staff1Name": "Ayşe Kılıç",
-    "staff1Role": "Gründerin & Geschäftsführerin",
+    "staff1Name": "Ahmet Satan",
+    "staff1Role": "Physiotherapeut",
     "staff1Expertise": "Sonderpädagogik, Rehabilitationsmanagement, Familienberatung",
     "staff2Name": "Mehmet Demir",
     "staff2Role": "Sprach- und Sprechtherapeut",

@@ -38,7 +38,16 @@
     "stats1": "1000+ Mutlu Aile",
     "stats2": "20+ Uzman Eğitmen",
     "stats3": "Yıllık Tecrübe",
-    "stats4": "%100 Şefkat"
+    "stats4": "%100 Şefkat",
+    "heroKonaklamaTitle": "Yurt Dışından Gelen Ailelerimiz İçin",
+    "heroKonaklamaSubtitle": "Konaklama ve VIP Transfer Hizmetleri. Sabiha Gökçen Havalimanı'ndan tam donanımlı evinize kadar tüm sürecinizi biz organize ediyoruz.",
+    "heroKonaklamaBtn": "Hizmetlerimizi İnceleyin",
+    "heroKampTitle": "Yoğunlaştırılmış Kamp Eğitimi",
+    "heroKampSubtitle": "Kısıtlı zamanda maksimum gelişim hedefleyen aileler için özel olarak tasarlanan, konaklamalı kamp eğitimi modelimiz.",
+    "heroKampBtn": "Kamp Eğitimini İncele",
+    "heroEgitimlerTitle": "Uzman Kadromuzla 28 Farklı Program",
+    "heroEgitimlerSubtitle": "Dil ve konuşma terapisinden ergoterapiye, çocuğunuzun ihtiyacı olan tüm bilimsel destek ve eğitimler tek çatı altında.",
+    "heroEgitimlerBtn": "Eğitimleri Keşfedin"
   },
   "BentoGrid": {
     "whyUs": "Neden Önce Özel Eğitim?",
@@ -253,8 +262,8 @@
     "headerBadge": "20+ Uzman",
     "teamBannerTitle": "Sürekli Gelişime Adanmış Bir Ekip",
     "teamBannerDesc": "Tüm ekip üyelerimiz ulusal ve uluslararası sertifikalara sahip olup; düzenli süpervizyon, konferans ve eğitimlerle mesleki gelişimlerini sürdürmektedir.",
-    "staff1Name": "Ayşe Kılıç",
-    "staff1Role": "Kurucu & Genel Müdür",
+    "staff1Name": "Ahmet Satan",
+    "staff1Role": "Fizyoterapist",
     "staff1Expertise": "Özel Eğitim, Rehabilitasyon Yönetimi, Aile Danışmanlığı",
     "staff2Name": "Mehmet Demir",
     "staff2Role": "Dil ve Konuşma Terapisti",

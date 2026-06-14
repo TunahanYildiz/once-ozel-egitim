@@ -14,23 +14,12 @@ export default function WhatsAppButton() {
       rel="noopener noreferrer"
       id="whatsapp-float-btn"
       aria-label="WhatsApp ile İletişime Geçin"
-      className="whatsapp-float"
+      className="whatsapp-float fixed z-[9999] bottom-7 right-7 w-[60px] h-[60px] rounded-full flex items-center justify-center decoration-transparent"
       style={{
-        position: "fixed",
-        bottom: "28px",
-        right: "28px",
-        zIndex: 9999,
-        width: "60px",
-        height: "60px",
-        borderRadius: "50%",
         background: "linear-gradient(135deg, #25d366 60%, #128c7e 100%)",
         boxShadow: "0 4px 24px rgba(37,211,102,0.45), 0 2px 8px rgba(0,0,0,0.15)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
         transition: "transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s",
         animation: "wa-pulse 2.4s ease-in-out infinite",
-        textDecoration: "none",
       }}
       onMouseEnter={(e) => {
         (e.currentTarget as HTMLElement).style.transform = "scale(1.13)";

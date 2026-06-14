@@ -350,12 +350,14 @@ export default async function ProgramDetailPage({
             <div className="relative z-10">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">{l.cta}</h2>
               <p className="text-white/80 mb-8 text-lg max-w-xl mx-auto">{l.ctaSub}</p>
-              <Link
-                href="/iletisim"
+              <a
+                href="https://b2c.beeasist.com/c/3lBkwZOb"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block px-10 py-4 bg-[var(--color-secondary)] text-white font-bold text-lg rounded-full hover:bg-[var(--color-secondary-light)] transition-all shadow-lg shadow-[var(--color-secondary)]/30 hover:-translate-y-1"
               >
                 {t('ctaBtn')}
-              </Link>
+              </a>
             </div>
           </div>
         </div>

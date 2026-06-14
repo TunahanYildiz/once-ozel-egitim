@@ -223,12 +223,14 @@ export default async function EgitimlerimizPage({ params }: { params: Promise<{ 
               <p className="text-blue-200 mb-8 text-xl max-w-2xl mx-auto">
                 {t('ctaBannerDesc')}
               </p>
-              <Link
-                href="/iletisim"
+              <a
+                href="https://b2c.beeasist.com/c/3lBkwZOb"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block px-10 py-4 bg-[var(--color-secondary)] text-white font-bold text-lg rounded-full hover:bg-[var(--color-secondary-light)] transition-all shadow-lg shadow-[var(--color-secondary)]/30 hover:-translate-y-1"
               >
                 {t('ctaBtn')}
-              </Link>
+              </a>
             </div>
           </div>
         </div>
