@@ -185,49 +185,50 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
                   key={post.id}
                   className="group bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
                 >
-                  {/* Cover Image */}
-                  <div className="relative w-full aspect-video overflow-hidden bg-gray-100">
-                    {post.cover_url ? (
-                      <Image
-                        src={post.cover_url}
-                        alt={post.title}
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-primary)]/10 to-[var(--color-secondary)]/10 flex items-center justify-center">
-                        <BookOpen className="w-12 h-12 text-[var(--color-secondary)]/40" />
+                  <Link href={`/blog/${post.slug}` as any} className="flex flex-col flex-grow">
+                    {/* Cover Image */}
+                    <div className="relative w-full aspect-video overflow-hidden bg-gray-100">
+                      {post.cover_url ? (
+                        <Image
+                          src={post.cover_url}
+                          alt={post.title}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-gradient-to-br from-[var(--color-primary)]/10 to-[var(--color-secondary)]/10 flex items-center justify-center">
+                          <BookOpen className="w-12 h-12 text-[var(--color-secondary)]/40" />
+                        </div>
+                      )}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-7 flex flex-col flex-grow">
+                      {/* Date */}
+                      <div className="flex items-center gap-2 text-xs text-gray-400 mb-3">
+                        <Calendar className="w-3.5 h-3.5" />
+                        <span>{formatDate(post.created_at, locale)} {t('publishedOn')}</span>
                       </div>
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  </div>
 
-                  {/* Content */}
-                  <div className="p-7 flex flex-col flex-grow">
-                    {/* Date */}
-                    <div className="flex items-center gap-2 text-xs text-gray-400 mb-3">
-                      <Calendar className="w-3.5 h-3.5" />
-                      <span>{formatDate(post.created_at, locale)} {t('publishedOn')}</span>
+                      <h2 className="text-xl font-bold text-[var(--color-primary)] mb-3 leading-snug group-hover:text-[var(--color-secondary)] transition-colors">
+                        {post.title}
+                      </h2>
+
+                      {post.summary && (
+                        <p className="text-gray-600 text-sm leading-relaxed flex-grow mb-6">{post.summary}</p>
+                      )}
+
+                      <div className="mt-auto">
+                        <span
+                          className="inline-flex items-center gap-2 text-sm font-bold text-[var(--color-secondary)] hover:text-[var(--color-primary)] transition-colors group/btn"
+                        >
+                          {t('readMore')}
+                          <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                        </span>
+                      </div>
                     </div>
-
-                    <h2 className="text-xl font-bold text-[var(--color-primary)] mb-3 leading-snug group-hover:text-[var(--color-secondary)] transition-colors">
-                      {post.title}
-                    </h2>
-
-                    {post.summary && (
-                      <p className="text-gray-600 text-sm leading-relaxed flex-grow mb-6">{post.summary}</p>
-                    )}
-
-                    <div className="mt-auto">
-                      <Link
-                        href={`/blog/${post.slug}` as any}
-                        className="inline-flex items-center gap-2 text-sm font-bold text-[var(--color-secondary)] hover:text-[var(--color-primary)] transition-colors group/btn"
-                      >
-                        {t('readMore')}
-                        <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                      </Link>
-                    </div>
-                  </div>
+                  </Link>
                 </article>
               ))}
             </div>
