@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 
-export const revalidate = 3600;
+
 
 interface BlogPost {
   id: string;

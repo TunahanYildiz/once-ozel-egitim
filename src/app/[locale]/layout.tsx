@@ -11,7 +11,7 @@ import ScrollToTop from '@/components/layout/ScrollToTop';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import type { Metadata } from 'next';
 
-export const dynamicParams = false;
+export const runtime = 'edge';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://onceozelegitim.com'),
@@ -31,9 +31,7 @@ export const metadata: Metadata = {
 
 const inter = Inter({ subsets: ['latin', 'latin-ext', 'cyrillic'], variable: '--font-inter' });
 
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
-}
+
 
 export default async function LocaleLayout({
   children,

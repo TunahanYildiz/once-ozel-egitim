@@ -12,16 +12,7 @@ import type { Metadata } from 'next';
 
 const BASE_URL = 'https://onceozelegitim.com';
 
-// Generate static params for all programs x all locales
-export function generateStaticParams() {
-  const params: { locale: string; slug: string }[] = [];
-  for (const locale of ['tr', 'en', 'de', 'ru']) {
-    for (const program of PROGRAMS) {
-      params.push({ locale, slug: program.slug });
-    }
-  }
-  return params;
-}
+
 
 // Dynamic SEO metadata
 export async function generateMetadata({

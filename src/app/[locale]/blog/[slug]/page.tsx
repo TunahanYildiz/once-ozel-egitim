@@ -9,29 +9,9 @@ import type { Metadata } from 'next';
 
 const BASE_URL = 'https://onceozelegitim.com';
 
-export const revalidate = 3600;
 
-// Tell Next.js about locales to generate static routes
-export async function generateStaticParams() {
-  const params: { locale: string; slug: string }[] = [];
-  const locales = ['tr', 'en', 'de', 'ru'];
-  
-  const mockSlugs = Object.keys(MOCK_BLOGS_DETAIL);
-  let dbSlugs: string[] = [];
-  try {
-    const { data } = await supabase.from('blog_posts').select('slug').eq('published', true);
-    if (data) dbSlugs = data.map(d => d.slug);
-  } catch(e) {}
 
-  const allSlugs = Array.from(new Set([...mockSlugs, ...dbSlugs]));
 
-  for (const locale of locales) {
-    for (const slug of allSlugs) {
-      params.push({ locale, slug });
-    }
-  }
-  return params;
-}
 
 async function getPostFromSupabase(slug: string, locale: string): Promise<any | null> {
   try {

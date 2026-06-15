@@ -62,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 
-export const revalidate = 3600; // Cache page for 1 hour
+
 
 const MOCK_IMAGES = [
   { src: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80', category: 'terapi' },
