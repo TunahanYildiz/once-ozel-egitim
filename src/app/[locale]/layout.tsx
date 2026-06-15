@@ -11,7 +11,7 @@ import ScrollToTop from '@/components/layout/ScrollToTop';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import type { Metadata } from 'next';
 
-export const runtime = 'edge';
+export const dynamicParams = false;
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://onceozelegitim.com'),
