@@ -17,6 +17,20 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/tr',
+        permanent: false,
+      },
+      {
+        source: '/:path((?!tr|en|de|ru|_next|api|favicon|images|logo|.*\\.).*)',
+        destination: '/tr/:path',
+        permanent: false,
+      }
+    ];
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
