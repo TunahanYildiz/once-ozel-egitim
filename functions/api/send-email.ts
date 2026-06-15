@@ -1,27 +1,17 @@
-import { NextResponse } from 'next/server';
-
-export const runtime = 'edge';
-
-export async function POST(request: Request) {
+export async function onRequestPost(context: any) {
+  const { request, env } = context;
   try {
     const body = await request.json();
     const { fullName, phone, category, source } = body;
 
-    console.log('[API] send-email route triggered!');
-    console.log('[API] Body payload:', JSON.stringify(body));
-
-    const resendApiKey = process.env.RESEND_API_KEY;
-    const toEmail = process.env.NOTIFICATION_EMAIL || 'onceozelegitim@gmail.com';
-    const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
-
-    console.log('[API] RESEND_API_KEY exists:', !!resendApiKey);
-    console.log('[API] Sending from:', fromEmail, 'to:', toEmail);
+    const resendApiKey = env.RESEND_API_KEY;
+    const toEmail = env.NOTIFICATION_EMAIL || 'onceozelegitim@gmail.com';
+    const fromEmail = env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
 
     if (!resendApiKey) {
-      console.error('[API] RESEND_API_KEY env variable is missing.');
-      return NextResponse.json(
-        { success: false, error: 'RESEND_API_KEY env variable is missing.' },
-        { status: 500 }
+      return new Response(
+        JSON.stringify({ success: false, error: 'RESEND_API_KEY env variable is missing.' }),
+        { status: 500, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
@@ -66,17 +56,13 @@ export async function POST(request: Request) {
     });
 
     const data = await emailResponse.json();
-    console.log('[API] Resend API response status:', emailResponse.status);
-    console.log('[API] Resend API response data:', JSON.stringify(data));
 
     if (!emailResponse.ok) {
-      console.error('[API] Resend API error:', data);
-      return NextResponse.json({ success: false, error: data }, { status: emailResponse.status });
+      return new Response(JSON.stringify({ success: false, error: data }), { status: emailResponse.status, headers: { 'Content-Type': 'application/json' } });
     }
 
-    return NextResponse.json({ success: true, data });
+    return new Response(JSON.stringify({ success: true, data }), { status: 200, headers: { 'Content-Type': 'application/json' } });
   } catch (err: any) {
-    console.error('Send email route error:', err);
-    return NextResponse.json({ success: false, error: err.message }, { status: 500 });
+    return new Response(JSON.stringify({ success: false, error: err.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
   }
 }
