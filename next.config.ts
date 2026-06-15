@@ -5,32 +5,6 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'X-Frame-Options', value: 'DENY' },
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'Referrer-Policy', value: 'origin-when-cross-origin' },
-        ],
-      },
-    ];
-  },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/tr',
-        permanent: false,
-      },
-      {
-        source: '/:path((?!tr|en|de|ru|_next|api|favicon|images|logo|.*\\.).*)',
-        destination: '/tr/:path',
-        permanent: false,
-      }
-    ];
-  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
