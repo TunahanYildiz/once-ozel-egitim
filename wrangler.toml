@@ -2,3 +2,8 @@ name = "once-ozel-egitim"
 pages_build_output_dir = "out"
 compatibility_date = "2024-03-20"
 compatibility_flags = ["nodejs_compat"]
+
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://wandgpslzlnuspupujwq.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_O_SNuyT4U6FWyD_iSxLDww_4PHGfn-b"
+NODE_VERSION = "20"
