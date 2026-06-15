@@ -116,8 +116,8 @@ async function getPosts(locale: string): Promise<BlogPost[]> {
       slug: post.slug,
       cover_url: post.cover_url,
       created_at: post.created_at,
-      title: post[`title_${locale}`] || post.title_tr || '',
-      summary: post[`summary_${locale}`] || post.summary_tr || '',
+      title: post[`title_${locale}`] || post.title_tr || post.title || '',
+      summary: post[`summary_${locale}`] || post.summary_tr || post.summary || '',
     })) as BlogPost[];
   } catch {
     return MOCK_POSTS;

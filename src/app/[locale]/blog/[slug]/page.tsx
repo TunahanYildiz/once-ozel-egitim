@@ -46,9 +46,9 @@ async function getPostFromSupabase(slug: string, locale: string): Promise<any | 
       slug: data.slug,
       cover_url: data.cover_url,
       created_at: data.created_at,
-      title: data[`title_${locale}`] || data.title_tr || '',
-      summary: data[`summary_${locale}`] || data.summary_tr || '',
-      content: data[`content_${locale}`] || data.content_tr || '',
+      title: data[`title_${locale}`] || data.title_tr || data.title || '',
+      summary: data[`summary_${locale}`] || data.summary_tr || data.summary || '',
+      content: data[`content_${locale}`] || data.content_tr || data.content || '',
     };
   } catch {
     return null;
