@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { supabase } from '@/lib/supabase';
 import { PROGRAMS } from '@/lib/programs';
 
+export const dynamic = "force-static";
 const BASE_URL = 'https://onceozelegitim.com';
 const LOCALES = ['tr', 'en', 'de', 'ru'];
 
