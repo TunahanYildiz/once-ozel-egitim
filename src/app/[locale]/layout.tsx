@@ -20,13 +20,8 @@ export const metadata: Metadata = {
     yandex: 'yandex-verification-code-buraya-gelecek',
   },
   icons: {
-    icon: [
-      { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
-      { url: '/favicon-192.png', sizes: '192x192', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-icon.png' }
-    ]
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png'
   },
 };
 
