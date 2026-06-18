@@ -113,6 +113,53 @@ function EduMegaMenu({ t, onClose }: { t: ReturnType<typeof useTranslations<'Nav
   );
 }
 
+const FlagTR = () => (
+  <svg viewBox="0 0 1200 800" className="w-5 h-3.5 object-cover rounded-sm shadow-sm flex-shrink-0">
+    <rect width="1200" height="800" fill="#E30A17"/>
+    <circle cx="425" cy="400" r="200" fill="#FFF"/>
+    <circle cx="475" cy="400" r="160" fill="#E30A17"/>
+    <polygon fill="#FFF" points="583.334,400 736.425,449.732 641.808,319.539 641.808,480.461 736.425,350.268"/>
+  </svg>
+);
+
+const FlagEN = () => (
+  <svg viewBox="0 0 640 480" className="w-5 h-3.5 object-cover rounded-sm shadow-sm flex-shrink-0">
+    <path fill="#012169" d="M0 0h640v480H0z"/>
+    <path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"/>
+    <path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20 6 35L22 480H0v-50l240-129zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"/>
+    <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"/>
+    <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"/>
+  </svg>
+);
+
+const FlagDE = () => (
+  <svg viewBox="0 0 640 480" className="w-5 h-3.5 object-cover rounded-sm shadow-sm flex-shrink-0">
+    <path fill="#ffce00" d="M0 320h640v160H0z"/>
+    <path d="M0 0h640v160H0z"/>
+    <path fill="#d00" d="M0 160h640v160H0z"/>
+  </svg>
+);
+
+const FlagRU = () => (
+  <svg viewBox="0 0 640 480" className="w-5 h-3.5 object-cover rounded-sm shadow-sm flex-shrink-0">
+    <g fillRule="evenodd">
+      <path fill="#fff" d="M0 0h640v160H0z"/>
+      <path fill="#0039a6" d="M0 160h640v160H0z"/>
+      <path fill="#d52b1e" d="M0 320h640v160H0z"/>
+    </g>
+  </svg>
+);
+
+const getFlag = (locale: string) => {
+  switch (locale) {
+    case 'tr': return <FlagTR />;
+    case 'en': return <FlagEN />;
+    case 'de': return <FlagDE />;
+    case 'ru': return <FlagRU />;
+    default: return <FlagTR />;
+  }
+};
+
 export default function Navbar() {
   const t = useTranslations('Navbar');
   const [isOpen, setIsOpen] = useState(false);
@@ -251,8 +298,8 @@ export default function Navbar() {
                   aria-expanded={langOpen}
                   aria-haspopup="true"
                 >
-                  <Globe className="w-4 h-4" />
-                  <span className="text-sm font-medium uppercase">{currentLocale}</span>
+                  {getFlag(currentLocale)}
+                  <span className="text-sm font-semibold tracking-wide uppercase px-0.5">{currentLocale}</span>
                   <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
                 </button>
                 <AnimatePresence>
@@ -262,12 +309,20 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.18 }}
-                      className="absolute right-0 top-full mt-2 w-32 bg-white rounded-xl shadow-lg border border-gray-100 flex flex-col overflow-hidden z-50"
+                      className="absolute right-0 top-full mt-2 w-36 bg-white rounded-xl shadow-lg border border-gray-100 flex flex-col overflow-hidden z-50 py-1"
                     >
-                      <Link href={pathname as any} locale="tr" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Türkçe</Link>
-                      <Link href={pathname as any} locale="en" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>English</Link>
-                      <Link href={pathname as any} locale="de" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Deutsch</Link>
-                      <Link href={pathname as any} locale="ru" className="px-4 py-2 hover:bg-gray-50 text-sm focus:bg-gray-50 outline-none" onClick={() => setLangOpen(false)}>Русский</Link>
+                      <Link href={pathname as any} locale="tr" className={`px-4 py-2 hover:bg-gray-50 text-sm flex items-center gap-2.5 transition-colors ${currentLocale === 'tr' ? 'bg-gray-50 text-[var(--color-primary)] font-semibold' : 'text-gray-700 font-medium'}`} onClick={() => setLangOpen(false)}>
+                        <FlagTR /> <span className="tracking-wide">TÜRKÇE</span>
+                      </Link>
+                      <Link href={pathname as any} locale="en" className={`px-4 py-2 hover:bg-gray-50 text-sm flex items-center gap-2.5 transition-colors ${currentLocale === 'en' ? 'bg-gray-50 text-[var(--color-primary)] font-semibold' : 'text-gray-700 font-medium'}`} onClick={() => setLangOpen(false)}>
+                        <FlagEN /> <span className="tracking-wide">ENGLISH</span>
+                      </Link>
+                      <Link href={pathname as any} locale="de" className={`px-4 py-2 hover:bg-gray-50 text-sm flex items-center gap-2.5 transition-colors ${currentLocale === 'de' ? 'bg-gray-50 text-[var(--color-primary)] font-semibold' : 'text-gray-700 font-medium'}`} onClick={() => setLangOpen(false)}>
+                        <FlagDE /> <span className="tracking-wide">DEUTSCH</span>
+                      </Link>
+                      <Link href={pathname as any} locale="ru" className={`px-4 py-2 hover:bg-gray-50 text-sm flex items-center gap-2.5 transition-colors ${currentLocale === 'ru' ? 'bg-gray-50 text-[var(--color-primary)] font-semibold' : 'text-gray-700 font-medium'}`} onClick={() => setLangOpen(false)}>
+                        <FlagRU /> <span className="tracking-wide">РУССКИЙ</span>
+                      </Link>
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -335,11 +390,19 @@ export default function Navbar() {
                     <Phone className="w-4 h-4 text-[var(--color-secondary)]" />
                     {t('phone')}
                   </a>
-                  <div className="flex space-x-4">
-                    <Link href={pathname as any} locale="tr" className="text-sm font-medium hover:text-[var(--color-secondary)]">TR</Link>
-                    <Link href={pathname as any} locale="en" className="text-sm font-medium hover:text-[var(--color-secondary)]">EN</Link>
-                    <Link href={pathname as any} locale="de" className="text-sm font-medium hover:text-[var(--color-secondary)]">DE</Link>
-                    <Link href={pathname as any} locale="ru" className="text-sm font-medium hover:text-[var(--color-secondary)]">RU</Link>
+                  <div className="flex flex-wrap gap-2 pt-2">
+                    <Link href={pathname as any} locale="tr" className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-bold transition-colors ${currentLocale === 'tr' ? 'border-[var(--color-primary)] text-[var(--color-primary)] bg-[var(--color-primary)]/5' : 'border-gray-200 text-gray-600 hover:bg-gray-50'}`} onClick={() => setIsOpen(false)}>
+                      <FlagTR /> TR
+                    </Link>
+                    <Link href={pathname as any} locale="en" className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-bold transition-colors ${currentLocale === 'en' ? 'border-[var(--color-primary)] text-[var(--color-primary)] bg-[var(--color-primary)]/5' : 'border-gray-200 text-gray-600 hover:bg-gray-50'}`} onClick={() => setIsOpen(false)}>
+                      <FlagEN /> EN
+                    </Link>
+                    <Link href={pathname as any} locale="de" className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-bold transition-colors ${currentLocale === 'de' ? 'border-[var(--color-primary)] text-[var(--color-primary)] bg-[var(--color-primary)]/5' : 'border-gray-200 text-gray-600 hover:bg-gray-50'}`} onClick={() => setIsOpen(false)}>
+                      <FlagDE /> DE
+                    </Link>
+                    <Link href={pathname as any} locale="ru" className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-bold transition-colors ${currentLocale === 'ru' ? 'border-[var(--color-primary)] text-[var(--color-primary)] bg-[var(--color-primary)]/5' : 'border-gray-200 text-gray-600 hover:bg-gray-50'}`} onClick={() => setIsOpen(false)}>
+                      <FlagRU /> RU
+                    </Link>
                   </div>
                   <a
                     href="https://b2c.beeasist.com/c/3lBkwZOb"
