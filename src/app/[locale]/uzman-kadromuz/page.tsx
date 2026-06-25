@@ -92,7 +92,7 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
       name: t('staff5Name'),
       role: t('staff5Role'),
       expertise: '',
-      photo: '/images/uzman-fizyoterapist-ezgi.webp',
+      photo: '/images/uzman-fizyoterapist-ovunc-gucluer-yavas.webp',
       color: CARD_COLORS[1],
     }
   ];
