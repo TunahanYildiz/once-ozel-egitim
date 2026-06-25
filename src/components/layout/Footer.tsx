@@ -69,10 +69,19 @@ export default async function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="border-t border-white/10 pt-4 mt-4 text-center">
           <p className="text-gray-400 text-sm">
             {t('copyright')}
+            <span className="mx-2 text-white/20">|</span>
+            {t('developer')}:{' '}
+            <a
+              href="https://wa.me/905519482274"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-[var(--color-secondary)] underline decoration-transparent hover:decoration-current underline-offset-4 transition-all duration-300 font-medium"
+            >
+              Tunahan Yıldız
+            </a>
           </p>
         </div>
       </div>

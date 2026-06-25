@@ -130,7 +130,8 @@
     "address": "Пендик, Стамбул",
     "phone": "0553 557 55 15",
     "email": "onceozelegitim@gmail.com",
-    "copyright": "© 2026 Önce Özel Eğitim. Все права защищены."
+    "copyright": "© 2026 Önce Özel Eğitim. Все права защищены.",
+    "developer": "Разработчик сайта"
   },
   "StatsStrip": {
     "statsText1": "Счастливых семей",
