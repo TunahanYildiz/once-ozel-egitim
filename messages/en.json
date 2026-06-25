@@ -191,34 +191,6 @@
     "homeTitle": "Once Special Education and Rehabilitation Center | Pendik",
     "homeDesc": "Special education, autism, speech therapy, occupational therapy and sensory integration services in Pendik, Istanbul."
   },
-  "Test": {
-    "bannerTitle": "Learning Difficulty Test",
-    "bannerDesc": "Do you notice signs of Dyslexia, Dyscalculia, Dysgraphia, or Dyspraxia in your child? Take our quick test now.",
-    "bannerBtn": "Start Test",
-    "pageTitle": "Learning Difficulty Assessment Test",
-    "pageSubtitle": "Please answer the following questions with Yes or No, keeping your child's general behavior in mind.",
-    "questionPrefix": "Question",
-    "yes": "Yes",
-    "no": "No",
-    "next": "Next Question",
-    "finish": "Finish Test",
-    "resultTitle": "Test Completed",
-    "resultDesc": "This test is not a medical diagnosis; it is for preliminary evaluation purposes only. Some signs of learning difficulties may be present. Please contact us for a detailed and free assessment by our experts.",
-    "contactWhatsApp": "Contact via WhatsApp",
-    "contactPhone": "Call Now",
-    "q1": "Does your child confuse letters or syllables while reading (e.g., b/d, p/q)?",
-    "q2": "Is their reading speed slow compared to peers, and do they tire quickly while reading?",
-    "q3": "Do they have difficulty understanding or summarizing the meaning of the text they read?",
-    "q4": "Do they struggle with recognizing numbers, sequencing, or counting on fingers?",
-    "q5": "Do they have trouble learning concepts of time (yesterday, today) and reading clocks?",
-    "q6": "Do they frequently confuse mathematical symbols (+, -, x, /)?",
-    "q7": "Is their handwriting very messy and illegible compared to their peers?",
-    "q8": "Do they struggle holding a pencil or press too hard when writing?",
-    "q9": "Do they have trouble leaving spaces between words or keeping their writing on the line?",
-    "q10": "Are they behind peers in fine motor skills like buttoning a shirt or zipping?",
-    "q11": "Do they frequently bump into objects, fall, or show signs of clumsiness?",
-    "q12": "Do they struggle with physical activities requiring coordination, like catching a ball or jumping?"
-  },
   "Egitimlerimiz": {
     "pageTitle": "Our Programs",
     "pageSubtitle": "28 comprehensive science-based therapy and education programs delivered by our expert team.",
@@ -305,7 +277,10 @@
     "staff3Expertise": "IEP Development, ASD Support, Specific Learning Difficulties",
     "staff4Name": "Can Yıldız",
     "staff4Role": "Child Psychologist",
-    "staff4Expertise": "ADHD, Play Therapy, Family and Child Counseling"
+    "staff4Expertise": "ADHD, Play Therapy, Family and Child Counseling",
+    "staff5Name": "Ezgi",
+    "staff5Role": "Specialist Physiotherapist",
+    "staff5Expertise": ""
   },
   "Iletisim": {
     "pageTitle": "Contact",

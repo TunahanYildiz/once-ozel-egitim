@@ -80,13 +80,22 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
   setRequestLocale(locale);
   const t = await getTranslations('UzmanKadrosu');
 
-  const members = [1].map((n, i) => ({
-    name: t(`staff${n}Name` as any),
-    role: t(`staff${n}Role` as any),
-    expertise: '',
-    photo: '/images/fizyoterapist.jpeg',
-    color: CARD_COLORS[i],
-  }));
+  const members = [
+    {
+      name: t('staff1Name'),
+      role: t('staff1Role'),
+      expertise: '',
+      photo: '/images/fizyoterapist.jpeg',
+      color: CARD_COLORS[0],
+    },
+    {
+      name: t('staff5Name'),
+      role: t('staff5Role'),
+      expertise: '',
+      photo: '/images/uzman-fizyoterapist-ezgi.webp',
+      color: CARD_COLORS[1],
+    }
+  ];
 
   return (
     <>

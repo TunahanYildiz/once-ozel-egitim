@@ -273,7 +273,10 @@
     "staff3Expertise": "BEP Hazırlama, OSB Desteği, Özgül Öğrenme Güçlüğü",
     "staff4Name": "Can Yıldız",
     "staff4Role": "Çocuk Psikoloğu",
-    "staff4Expertise": "DEHB, Oyun Terapisi, Aile ve Çocuk Danışmanlığı"
+    "staff4Expertise": "DEHB, Oyun Terapisi, Aile ve Çocuk Danışmanlığı",
+    "staff5Name": "Ezgi",
+    "staff5Role": "Uzman Fizyoterapist",
+    "staff5Expertise": ""
   },
   "Iletisim": {
     "pageTitle": "İletişim",
