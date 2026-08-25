@@ -6,8 +6,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/', '/test'],
+        allow: ['/', '/_next/static/'],
+        disallow: ['/api/', '/test'],
       },
     ],
     sitemap: 'https://onceozelegitim.com/sitemap.xml',
