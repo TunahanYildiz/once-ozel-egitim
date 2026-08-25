@@ -84,15 +84,17 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
     {
       name: t('staff1Name'),
       role: t('staff1Role'),
+      university: t('staff1University'),
       expertise: '',
-      photo: '/images/fizyoterapist.jpeg',
+      photo: '/images/ergoterapist-enver-ermek.jpg',
       color: CARD_COLORS[0],
     },
     {
-      name: t('staff5Name'),
-      role: t('staff5Role'),
+      name: t('staff2Name'),
+      role: t('staff2Role'),
+      university: t('staff2University'),
       expertise: '',
-      photo: '/images/uzman-fizyoterapist-ovunc-gucluer-yavas.webp',
+      photo: '/images/dil-ve-konusma-terapisti-fatmanur-arikan.jpg',
       color: CARD_COLORS[1],
     }
   ];
