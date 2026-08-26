@@ -274,13 +274,18 @@
     "staff2Name": "Fatmanur Arıkan",
     "staff2Role": "Speech and Language Therapist",
     "staff2University": "Üsküdar University",
-    "staff2Expertise": "Delayed Speech, Stuttering Therapy, Articulation Disorders"
+    "staff2Expertise": "Delayed Speech, Stuttering Therapy, Articulation Disorders",
+    "staff3Name": "Fazilet Öztürk",
+    "staff3Role": "Special Education / Child Development Specialist",
+    "staff3University1": "Istanbul University — Child Development",
+    "staff3University2": "Çukurova University — Faculty of Arts & Sciences",
+    "staff3Expertise": "Special Education, Child Development, Individualized Education"
   },
   "Iletisim": {
     "pageTitle": "Contact",
     "pageSubtitle": "Ready to take the right step? Contact us.",
     "addressTitle": "Our Address",
-    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/Istanbul",
+    "address": "Kavakpınar Mah, Tersane Cad. No:28A, Pendik/Istanbul",
     "phoneTitle": "Phone",
     "phone": "0553 557 55 15",
     "emailTitle": "Email",

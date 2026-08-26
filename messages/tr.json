@@ -270,13 +270,18 @@
     "staff2Name": "Fatmanur Arıkan",
     "staff2Role": "Dil ve Konuşma Terapisti",
     "staff2University": "Üsküdar Üniversitesi",
-    "staff2Expertise": "Gecikmiş Dil, Kekemelik Terapisi, Artikülasyon Bozuklukları"
+    "staff2Expertise": "Gecikmiş Dil, Kekemelik Terapisi, Artikülasyon Bozuklukları",
+    "staff3Name": "Fazilet Öztürk",
+    "staff3Role": "Uzman Öğretici / Çocuk Gelişimi",
+    "staff3University1": "İstanbul Üniversitesi — Çocuk Gelişimi",
+    "staff3University2": "Çukurova Üniversitesi — Fen Edebiyat Bölümü",
+    "staff3Expertise": "Özel Eğitim, Çocuk Gelişimi, Bireysel Eğitim"
   },
   "Iletisim": {
     "pageTitle": "İletişim",
     "pageSubtitle": "Doğru adımı atmaya hazır mısınız? Bize ulaşın.",
     "addressTitle": "Adresimiz",
-    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/İstanbul",
+    "address": "Kavakpınar Mah, Tersane Cad. No:28A, Pendik/İstanbul",
     "phoneTitle": "Telefon",
     "phone": "0553 557 55 15",
     "emailTitle": "E-posta",

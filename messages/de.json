@@ -274,13 +274,18 @@
     "staff2Name": "Fatmanur Arıkan",
     "staff2Role": "Sprach- und Sprechtherapeutin",
     "staff2University": "Üsküdar-Universität",
-    "staff2Expertise": "Sprachverzögerung, Stottertherapie, Artikulationsstörungen"
+    "staff2Expertise": "Sprachverzögerung, Stottertherapie, Artikulationsstörungen",
+    "staff3Name": "Fazilet Öztürk",
+    "staff3Role": "Pädagogische Fachkraft / Kindesentwicklung",
+    "staff3University1": "Universität Istanbul — Kindesentwicklung",
+    "staff3University2": "Çukurova-Universität — Fakultät für Geistes- und Naturwissenschaften",
+    "staff3Expertise": "Sonderpädagogik, Kindesentwicklung, Individuelle Förderung"
   },
   "Iletisim": {
     "pageTitle": "Kontakt",
     "pageSubtitle": "Bereit, den richtigen Schritt zu unternehmen? Kontaktieren Sie uns.",
     "addressTitle": "Unsere Adresse",
-    "address": "Kavakpınar Mah, Bulvar Cd. No:28A, Pendik/Istanbul",
+    "address": "Kavakpınar Mah, Tersane Cad. No:28A, Pendik/Istanbul",
     "phoneTitle": "Telefon",
     "phone": "0553 557 55 15",
     "emailTitle": "E-Mail",

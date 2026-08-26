@@ -116,7 +116,7 @@ export default async function ProgramDetailPage({
       'telephone': '+905535575515',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': 'Kavakpınar Mah, Bulvar Cd. No:28A',
+        'streetAddress': 'Kavakpınar Mah, Tersane Cad. No:28A',
         'addressLocality': 'Pendik',
         'addressRegion': 'İstanbul',
         'addressCountry': 'TR',

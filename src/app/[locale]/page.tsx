@@ -129,7 +129,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     "priceRange": "₺₺",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Kavakpınar Mah, Bulvar Cd. No:28A",
+      "streetAddress": "Kavakpınar Mah, Tersane Cad. No:28A",
       "addressLocality": "Pendik",
       "addressRegion": "İstanbul",
       "postalCode": "34899",

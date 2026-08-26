@@ -7,6 +7,7 @@ interface StaffMember {
   name: string;
   role: string;
   university?: string;
+  universities?: string[];
   expertise?: string;
   photo: string;
   color: string;
@@ -29,7 +30,7 @@ const cardVariants = {
 export default function StaffGrid({ members }: StaffGridProps) {
   return (
     <motion.div
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-[300px] sm:max-w-none mx-auto"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-[300px] sm:max-w-none mx-auto"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -52,20 +53,32 @@ export default function StaffGrid({ members }: StaffGridProps) {
           </div>
 
           {/* Info */}
-          <div className="p-4 sm:p-6 flex flex-col gap-1.5 sm:gap-2">
-            <h3 className="text-lg sm:text-xl font-bold text-[var(--color-primary)]">{member.name}</h3>
-            
-            <div className="flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[var(--color-secondary)]">
-              <Briefcase className="w-4 h-4 flex-shrink-0" />
-              <span>{member.role}</span>
+          <div className="p-4 sm:p-6 flex flex-col gap-1.5 sm:gap-2 flex-1 justify-between">
+            <div className="flex flex-col gap-1.5">
+              <h3 className="text-lg sm:text-xl font-bold text-[var(--color-primary)]">{member.name}</h3>
+              
+              <div className="flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[var(--color-secondary)]">
+                <Briefcase className="w-4 h-4 flex-shrink-0" />
+                <span>{member.role}</span>
+              </div>
             </div>
 
-            {member.university && (
-              <div className="flex items-start gap-1.5 text-[11px] sm:text-xs font-medium text-gray-500 bg-gray-50 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl mt-1">
-                <GraduationCap className="w-4 h-4 text-[var(--color-primary)] flex-shrink-0 mt-0.5" />
-                <span className="leading-snug">{member.university}</span>
-              </div>
-            )}
+            {/* Universities */}
+            <div className="flex flex-col gap-1 mt-1">
+              {member.universities && member.universities.length > 0 ? (
+                member.universities.map((uni, uIdx) => (
+                  <div key={uIdx} className="flex items-start gap-1.5 text-[11px] sm:text-xs font-medium text-gray-500 bg-gray-50 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl">
+                    <GraduationCap className="w-4 h-4 text-[var(--color-primary)] flex-shrink-0 mt-0.5" />
+                    <span className="leading-snug">{uni}</span>
+                  </div>
+                ))
+              ) : member.university ? (
+                <div className="flex items-start gap-1.5 text-[11px] sm:text-xs font-medium text-gray-500 bg-gray-50 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl">
+                  <GraduationCap className="w-4 h-4 text-[var(--color-primary)] flex-shrink-0 mt-0.5" />
+                  <span className="leading-snug">{member.university}</span>
+                </div>
+              ) : null}
+            </div>
           </div>
         </motion.div>
       ))}

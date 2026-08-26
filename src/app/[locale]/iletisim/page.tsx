@@ -118,7 +118,7 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
                 <h2 className="text-2xl font-bold text-[var(--color-primary)] mb-6">{t('addressTitle')}</h2>
                 <div className="space-y-5">
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=40.868194,29.280861"
+                    href="https://www.google.com/maps/place/%C3%96nce+%C3%96zel+E%C4%9Fitim+ve+Rehabilitasyon+Merkezi/@40.8681967,29.2812659,934m/data=!3m2!1e3!4b1!4m6!3m5!1s0x14cadddc827a0205:0xc05b8d8e3700049f!8m2!3d40.8681967!4d29.2812659!16s%2Fg%2F11npsvlhch?hl=tr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-5 p-5 bg-gray-50 rounded-2xl border border-gray-100 hover:border-[var(--color-secondary)]/30 transition-colors group"
@@ -223,7 +223,7 @@ export default async function IletisimPage({ params }: { params: Promise<{ local
               <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold text-[var(--color-primary)]">{t('mapTitle')}</h2>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=40.868194,29.280861"
+                  href="https://www.google.com/maps/place/%C3%96nce+%C3%96zel+E%C4%9Fitim+ve+Rehabilitasyon+Merkezi/@40.8681967,29.2812659,934m/data=!3m2!1e3!4b1!4m6!3m5!1s0x14cadddc827a0205:0xc05b8d8e3700049f!8m2!3d40.8681967!4d29.2812659!16s%2Fg%2F11npsvlhch?hl=tr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm font-bold text-[var(--color-secondary)] hover:text-[var(--color-primary)] transition-colors"

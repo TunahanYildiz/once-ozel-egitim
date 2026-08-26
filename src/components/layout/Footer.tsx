@@ -39,7 +39,7 @@ export default async function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-[var(--color-secondary)] flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=40.868194,29.280861"
+                  href="https://www.google.com/maps/place/%C3%96nce+%C3%96zel+E%C4%9Fitim+ve+Rehabilitasyon+Merkezi/@40.8681967,29.2812659,934m/data=!3m2!1e3!4b1!4m6!3m5!1s0x14cadddc827a0205:0xc05b8d8e3700049f!8m2!3d40.8681967!4d29.2812659!16s%2Fg%2F11npsvlhch?hl=tr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors text-sm"

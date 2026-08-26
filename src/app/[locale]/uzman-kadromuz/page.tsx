@@ -96,6 +96,14 @@ export default async function UzmanKadromuzPage({ params }: { params: Promise<{ 
       expertise: '',
       photo: '/images/dil-ve-konusma-terapisti-fatmanur-arikan.jpg',
       color: CARD_COLORS[1],
+    },
+    {
+      name: t('staff3Name'),
+      role: t('staff3Role'),
+      universities: [t('staff3University1'), t('staff3University2')],
+      expertise: '',
+      photo: '/images/uzman-ogretici-fazilet-ozturk.jpg',
+      color: CARD_COLORS[2],
     }
   ];
 
