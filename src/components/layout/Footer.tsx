@@ -1,13 +1,15 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import FooterWrapper from './FooterWrapper';
 
 export default async function Footer() {
   const t = await getTranslations('Footer');
   const tNav = await getTranslations('Navbar');
 
   return (
-    <footer className="bg-[var(--color-primary)] text-white pt-8 pb-4">
+    <FooterWrapper>
+      <footer className="bg-[var(--color-primary)] text-white pt-8 pb-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           {/* About Column */}
@@ -86,5 +88,6 @@ export default async function Footer() {
         </div>
       </div>
     </footer>
+    </FooterWrapper>
   );
 }

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: ['/', '/_next/static/'],
-        disallow: ['/api/', '/test'],
+        disallow: ['/api/', '/test', '/admin', '/*/admin'],
       },
     ],
     sitemap: 'https://onceozelegitim.com/sitemap.xml',

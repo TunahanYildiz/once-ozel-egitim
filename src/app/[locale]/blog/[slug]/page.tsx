@@ -359,12 +359,40 @@ export default async function BlogPostDetailPage({
               <p className="text-white/80 leading-relaxed mb-6">
                 {cta.paragraph}
               </p>
-              <Link
-                href="/iletisim"
-                className="inline-flex items-center justify-center bg-[var(--color-secondary)] text-white hover:bg-white hover:text-[var(--color-primary)] font-bold px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                {tContact('submitBtn')}
-              </Link>
+              {(() => {
+                const waText = encodeURIComponent(
+                  locale === 'tr'
+                    ? `Merhaba, web sitenizdeki "${post.title}" başlıklı yazınızı okudum. Çocuğum için ücretsiz değerlendirme ve detaylı bilgi alabilir miyim?`
+                    : `Hello, I read your article "${post.title}". Could I get more information and schedule a free evaluation for my child?`
+                );
+                const waUrl = `https://wa.me/905535575515?text=${waText}`;
+                const btnLabel = 
+                  locale === 'tr' ? 'WhatsApp ile Danışın' :
+                  locale === 'de' ? 'Über WhatsApp kontaktieren' :
+                  locale === 'ru' ? 'Написать в WhatsApp' :
+                  'Consult via WhatsApp';
+
+                return (
+                  <a
+                    href={waUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold px-7 py-3.5 rounded-2xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path d="M16.003 2C8.28 2 2 8.278 2 15.998c0 2.478.66 4.8 1.81 6.814L2 30l7.393-1.781A13.944 13.944 0 0016.003 30C23.722 30 30 23.722 30 16.003 30 8.28 23.722 2 16.003 2zm0 25.545a11.534 11.534 0 01-5.874-1.607l-.42-.25-4.388 1.057 1.09-4.274-.278-.44A11.501 11.501 0 014.455 16c0-6.373 5.179-11.545 11.548-11.545 6.37 0 11.543 5.172 11.543 11.545 0 6.37-5.172 11.545-11.543 11.545zm6.354-8.646c-.348-.173-2.059-1.014-2.379-1.13-.318-.115-.55-.172-.78.173-.232.347-.896 1.13-1.099 1.363-.202.231-.404.26-.752.087-.348-.174-1.47-.542-2.799-1.726-1.034-.923-1.733-2.062-1.936-2.41-.203-.348-.022-.536.152-.709.156-.155.348-.404.521-.607.173-.202.23-.347.348-.578.115-.232.057-.434-.029-.607-.087-.172-.78-1.878-1.069-2.572-.282-.675-.567-.584-.78-.595l-.665-.011c-.231 0-.607.087-.925.434-.318.347-1.212 1.184-1.212 2.888 0 1.705 1.241 3.352 1.414 3.584.173.231 2.443 3.73 5.918 5.23.827.357 1.47.571 1.973.731.829.264 1.583.227 2.179.138.664-.1 2.059-.842 2.349-1.657.29-.815.29-1.514.203-1.657-.086-.144-.318-.23-.666-.405z"/>
+                    </svg>
+                    <span>{btnLabel}</span>
+                  </a>
+                );
+              })()}
             </div>
           </div>
 

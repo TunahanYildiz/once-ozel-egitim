@@ -185,6 +185,10 @@ export default function Navbar() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  if (pathname?.includes('/admin')) {
+    return null;
+  }
+
   const links = [
     { href: '/kurumsal', label: t('corporate') },
     { href: '/hizmetlerimiz', label: t('services') },
