@@ -5,7 +5,7 @@ import { supabase } from '@/lib/supabase';
 import { 
   Save, ArrowLeft, Upload, Image as ImageIcon, Eye, Code, 
   Heading2, Heading3, Bold, Italic, List, ListOrdered, Quote, Link2, 
-  AlertCircle, CheckCircle2, Sparkles, X, Globe, Check
+  AlertCircle, CheckCircle2, Sparkles, X, Globe, Check, Calendar
 } from 'lucide-react';
 import Image from 'next/image';
 import { ALL_TEMPLATES, BlogPostTemplate } from './blogTemplates';
@@ -73,6 +73,11 @@ export default function BlogEditor({ initialPost, onBack, onSaveSuccess }: BlogE
   const [slug, setSlug] = useState(initialPost?.slug || '');
   const [coverUrl, setCoverUrl] = useState(initialPost?.cover_url || '');
   const [published, setPublished] = useState(initialPost?.published ?? true);
+  const [createdAt, setCreatedAt] = useState(
+    initialPost?.created_at
+      ? new Date(initialPost.created_at).toISOString().split('T')[0]
+      : new Date().toISOString().split('T')[0]
+  );
 
   // Dil Sekmesi
   const [currentLang, setCurrentLang] = useState<LangKey>('tr');
@@ -300,6 +305,7 @@ export default function BlogEditor({ initialPost, onBack, onSaveSuccess }: BlogE
       slug: slug.trim().toLowerCase(),
       cover_url: coverUrl.trim() || null,
       published,
+      created_at: createdAt ? new Date(createdAt).toISOString() : new Date().toISOString(),
       title_tr: titleTr.trim(),
       summary_tr: summaryTr.trim() || null,
       content_tr: contentTr.trim(),
@@ -325,10 +331,7 @@ export default function BlogEditor({ initialPost, onBack, onSaveSuccess }: BlogE
       } else {
         const { error } = await supabase
           .from('blog_posts')
-          .insert([{
-            ...postPayload,
-            created_at: new Date().toISOString(),
-          }]);
+          .insert([postPayload]);
 
         if (error) throw error;
       }
@@ -742,6 +745,29 @@ export default function BlogEditor({ initialPost, onBack, onSaveSuccess }: BlogE
                 placeholder="https://images.unsplash.com/..."
                 className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs text-slate-800 focus:bg-white focus:outline-none focus:ring-1 focus:ring-[var(--color-primary)] font-mono"
               />
+            </div>
+          </div>
+
+          {/* Publish Date Card */}
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+            <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+              <Calendar className="w-4 h-4 text-[var(--color-primary)]" />
+              <span>Yayın Tarihi</span>
+            </h3>
+
+            <div>
+              <label className="block text-[11px] font-bold text-slate-500 mb-1">
+                Yayınlanma Tarihi:
+              </label>
+              <input
+                type="date"
+                value={createdAt}
+                onChange={(e) => setCreatedAt(e.target.value)}
+                className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold text-slate-800 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
+              />
+              <p className="text-[10px] text-slate-400 mt-1">
+                Yazının sitede ve arama motorlarında görüneceği yayın tarihi.
+              </p>
             </div>
           </div>
 
