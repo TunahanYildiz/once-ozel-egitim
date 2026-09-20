@@ -470,8 +470,137 @@ export const ADHD_TEMPLATE_POST: BlogPostTemplate = {
 <p>Наш центр в Пендике удобно расположен рядом с трассой E-5 и Marmaray. Запишитесь на <strong>бесплатную первичную диагностику</strong> уже сегодня.</p>`,
 };
 
+// 4. Artikülasyon ve Fonolojik Bozukluk Şablonu
+export const ARTICULATION_TEMPLATE_POST: BlogPostTemplate = {
+  id: '',
+  created_at: '',
+  slug: 'peltek-ve-anlasilmayan-konusma-cocuklarda-artikulasyon-bozuklugu-terapisi',
+  cover_url: '/images/cocuklarda-artikulasyon-ve-fonolojik-bozukluk-pendik.webp',
+  published: true,
+  badge: 'Dil ve Konuşma Terapisi',
+  tagline: 'Pelteklik, R-S harflerini çıkaramama ve konuşma anlaşılırlığı rehberi',
+  title_tr: 'Peltek ve Anlaşılmayan Konuşma: Çocuklarda Artikülasyon ve Fonolojik Bozukluk Terapisi',
+  summary_tr: 'Çocuğunuzun konuşması sadece aile içinde mi anlaşılıyor? R, S, K, T seslerini çıkaramama, pelteklik ve fonolojik gecikmeler hakkında Pendik Önce Özel Eğitim uzman rehberi.',
+  content_tr: `<p><em>"Biz ne dediğini çok iyi anlıyoruz ama parktaki arkadaşları ya da yabancılar hiç anlamıyor..."</em>, <em>"Büyüyünce nasıl olsa konuşması düzelir dediler, okula başlayacak hala 'R' ve 'S' seslerini söyleyemiyor..."</em> Birçok ebeveyn, çocuklarının sevimli telaffuzlarını ilk yıllarda tebessümle karşılar. Ancak okul çağı yaklaştıkça anlaşılmayan konuşmalar, çocuğun içine kapanmasına, sınıfta parmak kaldırmaktan çekinmesine ve akran zorbalığına maruz kalmasına yol açabilmektedir.</p>
+
+<p><strong>Pendik Önce Özel Eğitim ve Dil Konuşma Merkezi</strong> olarak, konuşma sesi bozukluklarında erken müdahalenin gücüne inanıyoruz. Bu kapsamlı rehberimizde çocuklarda pelteklik, harfleri yutma, sesleri birbirine karıştırma (artikülasyon ve fonolojik bozukluklar) arasındaki farkları ve modern terapi yaklaşımlarını ele aldık.</p>
+
+<h2>Artikülasyon (Sesletim) Bozukluğu ile Fonolojik Bozukluk Arasındaki Fark Nedir?</h2>
+<p>Her iki durum da konuşmanın anlaşılırlığını düşürür, fakat kökenleri birbirinden tamamen farklıdır:</p>
+
+<h3>1. Artikülasyon (Sesletim) Bozukluğu — Motor Problem</h3>
+<p>Çocuğun dil, dudak, diş, damak ve çene gibi konuşma organlarını doğru pozisyona getirememesi sonucu seslerin hatalı üretilmesidir. En tipik örnekleri:</p>
+<ul>
+  <li><strong>Ses Değiştirme:</strong> <em>"Araba"</em> yerine <em>"Ayaba"</em>, <em>"Kapı"</em> yerine <em>"Tapı"</em> demek.</li>
+  <li><strong>Pelteklik (Lisping / Sigmatizm):</strong> <strong>S</strong> ve <strong>Z</strong> seslerini çıkarırken dil ucunu ön dişlerin arasından dışarı çıkararak havanın yanlış yönde kaçmasına sebep olmak.</li>
+  <li><strong>Ses Düşürme (Yutma):</strong> <em>"Saat"</em> yerine <em>"Sat"</em>, <em>"Havlu"</em> yerine <em>"Avlu"</em> demek.</li>
+  <li><strong>Ses Bozulması:</strong> Sesin hırıltılı, genizden veya ıslık gibi çıkması.</li>
+</ul>
+
+<h3>2. Fonolojik Bozukluk — Bilişsel ve Dilbilgisel Problem</h3>
+<p>Çocuk hedef sesi tek başına (izole olarak) rahatlıkla çıkarabilir; ancak o sesi kelime içinde nerede ve nasıl kullanacağını zihninde kurallara oturtamaz. Örneğin tek başına <em>"K"</em> diyebilen bir çocuk, konuşurken kelime başındaki sesleri atarak <em>"Kedi"</em> yerine <em>"Edi"</em> diyebilir.</p>
+
+<h2>Hangi Yaşta Hangi Sesler Çıkmalıdır? (Ses Gelişim Takvimi)</h2>
+<p>Her sesin beyinde ve kaslarda olgunlaşma yaşı farklıdır. Bir çocuğun 3 yaşında "R" diyememesi son derece doğalken, 5 yaşında "K" veya "S" diyememesi uzman değerlendirmesi gerektirir:</p>
+<ul>
+  <li><strong>2 - 3 Yaş:</strong> B, P, M, D, T, N sesleri kazanılır. Konuşma anlaşılırlığı aile içinde %50-%75 civarındadır.</li>
+  <li><strong>3 - 4 Yaş:</strong> K, G, F, V, H sesleri netleşir. Yabancılar çocuğun söylediklerinin en az %75'ini anlayabilmelidir.</li>
+  <li><strong>4 - 5 Yaş:</strong> S, Z, Ş, Ç, C, L sesleri oturur. Konuşma yabancılar tarafından neredeyse tamamen (%90+) anlaşılır olmalıdır.</li>
+  <li><strong>5 - 6 Yaş:</strong> En karmaşık motor koordinasyon gerektiren <strong>R</strong> sesi ve ses öbekleri (örneğin "tr", "st") tamamlanır.</li>
+</ul>
+
+<h2>Çocuklarda Konuşma Bozukluğuna Ne Sebep Olur?</h2>
+<ul>
+  <li><strong>Anatomik ve Yapısal Faktörler:</strong> Dil bağı (kısa frenulum), yüksek damak, çene kapanış problemleri veya yarık dudak/damak.</li>
+  <li><strong>İşitme Sorunları ve Orta Kulak İltihapları:</strong> Erken çocuklukta sık geçirilen seröz otitis media (orta kulakta sıvı birikimi), çocuğun ses frekanslarını boğuk duymasına ve beynin sesleri hatalı kaydetmesine yol açar.</li>
+  <li><strong>Oral-Motor Kas Zayıflığı:</strong> Dil ucunu yukarı kaldırma, dudakları yuvarlama gibi kas becerilerinde güçsüzlük.</li>
+  <li><strong>Bebeksi Konuşmanın Pekiştirilmesi:</strong> Aile bireylerinin çocuğun hatalı konuşmasını sevimli bularak taklit etmesi ve doğru modeli sunmaması.</li>
+</ul>
+
+<h2>Dil ve Konuşma Terapisi Nasıl Uygulanır?</h2>
+<p>Önce Özel Eğitim ve Terapi Merkezi bünyesinde uzman Dil ve Konuşma Terapistlerimiz (DKT), süreci eğlenceli ve oyun temelli bir yöntemle yürütür:</p>
+<ul>
+  <li><strong>Sesin İzolasyonu:</strong> Çocuğa ayna karşısında dil ve dudak pozisyonu gösterilerek ses tek başına ürettirilir (örneğin yılan sesiyle "S", motor sesiyle "R").</li>
+  <li><strong>Hece ve Kelime Seviyesine Aktarım:</strong> Ses önce "Sa, Se, Sı", ardından kelime başında ("Sarı"), ortasında ("Masa") ve sonunda ("Otobüs") pekiştirilir.</li>
+  <li><strong>Cümle ve Doğal Konuşmaya Genelleme:</strong> Oyunlar ve resimli kartlarla sesin günlük sohbette refleks haline gelmesi sağlanır.</li>
+</ul>
+
+<h2>Pendik Dil ve Konuşma Terapisi: Kartal, Tuzla ve Gebze Bölgesi</h2>
+<p>Dil gelişiminde zaman kaybı, çocuğun ilkokulda okuma-yazma öğrenirken harfleri hatalı yazmasına (disleksi benzeri fonolojik yazım hatalarına) zemin hazırlar. Pendik merkezde, E-5 ve Marmaray'a yürüme mesafesindeki kliniğimize <strong>Kartal, Maltepe, Tuzla, Kurtköy ve Kocaeli Gebze</strong>'den kolayca ulaşabilirsiniz.</p>
+
+<h2>RAM Raporu ile MEB Destekli Ücretsiz Dil Terapisi</h2>
+<p>Rehberlik ve Araştırma Merkezi (RAM) raporuna sahip olan danışanlarımız, merkezimizdeki Dil ve Konuşma Terapisi seanslarından <strong>Milli Eğitim Bakanlığı güvencesiyle tamamen ücretsiz</strong> yararlanabilmektedir. Raporlama ve hastane süreçlerinde merkezimiz ailelere ücretsiz danışmanlık sağlar.</p>
+
+<h2>Çocuğunuzun Sesini Birlikte Güçlendirelim</h2>
+<p>Çocuğunuzun konuşma anlaşılırlığını, sesletim profilini ve dil gelişimini uzman dil ve konuşma terapistlerimizle analiz etmek için <strong>Pendik Önce Özel Eğitim</strong> merkezimizden hemen <strong>ücretsiz ilk değerlendirme randevusu</strong> alabilirsiniz.</p>`,
+  title_en: 'Lisping and Unclear Speech in Children: Articulation and Phonological Therapy Guide in Pendik',
+  summary_en: 'Understand speech clarity milestones, why kids confuse R, S, or K sounds, phonological delay, and speech therapy interventions at Önce Özel Eğitim in Pendik.',
+  content_en: `<p><em>"We understand everything our child says at home, but on the playground, peers and teachers cannot understand a word..."</em> Many families fondly cherish childish mispronunciations during toddlerhood. However, as primary school approaches, persistent speech sound errors can undermine self-esteem, leading to social hesitation, classroom anxiety, and literacy delays.</p>
+
+<p>At <strong>Önce Özel Eğitim Speech and Therapy Center</strong> in Pendik, Istanbul, our certified Speech-Language Pathologists (SLPs) provide clinical evaluation and targeted therapy to help children speak clearly, confidently, and accurately.</p>
+
+<h2>Articulation vs. Phonological Disorders: What is the Difference?</h2>
+<ul>
+  <li><strong>Articulation Disorder (Motor Execution):</strong> Difficulty coordinating the physical speech articulators (tongue, lips, teeth, palate). Common manifestations include substituting sounds (e.g., saying <em>"wabbit"</em> instead of <em>"rabbit"</em>) or interdental lisping (pushing the tongue between the teeth on <strong>S</strong> and <strong>Z</strong> sounds).</li>
+  <li><strong>Phonological Disorder (Cognitive-Linguistic Rules):</strong> The child possesses the physical capability to produce the target sound in isolation, but fails to organize speech sound patterns within whole words (e.g., fronting, stopping, or omitting initial consonants).</li>
+</ul>
+
+<h2>Speech Sound Developmental Milestones</h2>
+<ul>
+  <li><strong>Ages 2–3:</strong> Early consonants like B, P, M, D, T, N emerge. Speech is approximately 50%–75% intelligible to caregivers.</li>
+  <li><strong>Ages 3–4:</strong> K, G, F, V, and H stabilize. Unfamiliar listeners should comprehend at least 75% of speech.</li>
+  <li><strong>Ages 4–5:</strong> S, Z, SH, CH, J, and L sounds solidify. Speech clarity should exceed 90%.</li>
+  <li><strong>Ages 5–6:</strong> The motor-intensive <strong>R</strong> sound and complex consonant blends reach mastery.</li>
+</ul>
+
+<h2>How Pediatric Speech Therapy Works</h2>
+<p>Our speech therapy sessions utilize play-based, multisensory protocols:</p>
+<ul>
+  <li>Visual modeling with mirror biofeedback to position the tongue and oral structures correctly.</li>
+  <li>Systematic progression from sound isolation to syllables, single words, phrases, and natural conversation.</li>
+  <li>Auditory discrimination games to refine how the child's brain perceives speech sound contrasts.</li>
+</ul>
+
+<h2>Pediatric Speech Clinic in Pendik (Kartal, Tuzla & Gebze Access)</h2>
+<p>Conveniently located near the E-5 Highway and Marmaray transit stations in central Pendik, our specialized clinic serves families across Istanbul's Asian Side. Contact <strong>Önce Özel Eğitim</strong> today to schedule a <strong>free comprehensive speech screening</strong>.</p>`,
+  title_de: 'Lispeln und undeutliche Aussprache: Artikulations- und phonologische Sprachtherapie für Kinder in Pendik',
+  summary_de: 'Erfahren Sie alles über Artikulationsstörungen, Lautbildungsfehler bei Kindern (Sigmatismus, R-Laut) und Sprachförderung bei Önce Özel Eğitim in Pendik, Istanbul.',
+  content_de: `<p>Sprachliche Unsauberkeiten und Lautvertauschungen klingen bei Kleinkindern oft niedlich. Wenn jedoch im Kindergarten- und Vorschulalter Laute wie <strong>S</strong> (Lispeln / Sigmatismus) oder <strong>R</strong> dauerhaft fehlerhaft gebildet werden, kann dies zu Frustration und schulischen Leselernproblemen führen.</p>
+
+<p>Im <strong>Önce Özel Eğitim Zentrum</strong> in Pendik (Istanbul) diagnostizieren und therapieren unsere akademischen Sprachtherapeuten und Logopäden funktionelle Aussprachestörungen mit modernen, spielerischen Methoden.</p>
+
+<h2>Der Unterschied zwischen Artikulations- und phonologischer Störung</h2>
+<ul>
+  <li><strong>Artikulationsstörung:</strong> Ein rein motorisches Problem der Mundmotorik — Zunge, Lippen und Gaumen werden mechanisch falsch platziert.</li>
+  <li><strong>Phonologische Störung:</strong> Ein sprachsystematisches Problem — das Kind kann den Laut einzeln bilden, wendet aber fehlerhafte Vereinfachungsregeln im Wort an.</li>
+</ul>
+
+<h2>Altersgemäße Lautentwicklung</h2>
+<p>Während Laute wie M, B, P und D früh beherrscht werden, benötigen K, G, F sowie insbesondere S, Sch und R differenzierte motorische Reife. Spätestens mit 4 Jahren sollte ein Kind von Außenstehenden zu über 75% verstanden werden.</p>
+
+<p>Unser Institut in Pendik ist bequem über E-5 und Marmaray erreichbar. Vereinbaren Sie ein <strong>kostenloses Erstgespräch</strong> zur Überprüfung der Aussprache Ihres Kindes.</p>`,
+  title_ru: 'Шепелявость и невнятная речь: терапия артикуляционных и фонологических нарушений у детей в Пендике',
+  summary_ru: 'Узнайте о причинах нарушения звукопроизношения у детей, постановке звуков Р, С, Ш и логопедической помощи в центре Önce Özel Eğitim в Пендике.',
+  content_ru: `<p><em>«Дома мы всё понимаем, но в садике чужие люди не разбирают ни слова...»</em> — типичная жалоба родителей. Если вовремя не скорректировать дефекты звукопроизношения (дислалию, шепелявость, картавость), к первому классу они неизбежно перерастают в оптическую и фонематическую дисграфию при письме.</p>
+
+<p>В центре <strong>Önce Özel Eğitim</strong> в Пендике (Стамбул) логопеды и дефектологи проводят комплексную диагностику и постановку звуков по доказательным методикам.</p>
+
+<h2>Артикуляционные и фонематические нарушения</h2>
+<ul>
+  <li><strong>Артикуляционные расстройства:</strong> нарушение моторики речевого аппарата (межзубный сигматизм на свистящих С/З, горловой или пропущенный звук Р).</li>
+  <li><strong>Фонематические расстройства:</strong> трудности различения фонем на слух (замена звонких глухими, выпадение первых звуков в словах).</li>
+</ul>
+
+<h2>Нормы появления звуков</h2>
+<p>К 3 годам ребенок должен четко произносить гласные и простые согласные (Б, П, М, Т, Д). К 4 годам закрепляются К, Г, Ф. К 5 годам — шипящие и свистящие (С, З, Ш, Ж). К 6 годам — соноры (Р, Л).</p>
+
+<p>Наш центр удобно расположен рядом с E-5 и станцией Marmaray. Запишитесь на <strong>бесплатную консультацию логопеда</strong> в Önce Özel Eğitim уже сегодня.</p>`,
+};
+
 export const ALL_TEMPLATES: BlogPostTemplate[] = [
   SENSORY_TEMPLATE_POST,
   DYSLEXIA_TEMPLATE_POST,
   ADHD_TEMPLATE_POST,
+  ARTICULATION_TEMPLATE_POST,
 ];
+
