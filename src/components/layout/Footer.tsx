@@ -77,9 +77,7 @@ export default async function Footer() {
             <span className="mx-2 text-white/20">|</span>
             {t('developer')}:{' '}
             <a
-              href="https://wa.me/905519482274"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:tunahanyildiz2000@gmail.com"
               className="text-gray-300 hover:text-[var(--color-secondary)] underline decoration-transparent hover:decoration-current underline-offset-4 transition-all duration-300 font-medium"
             >
               Tunahan Yıldız
