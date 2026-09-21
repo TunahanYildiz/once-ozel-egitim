@@ -30,7 +30,7 @@ const cardVariants = {
 export default function StaffGrid({ members }: StaffGridProps) {
   return (
     <motion.div
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-[300px] sm:max-w-none mx-auto"
+      className={`grid grid-cols-1 sm:grid-cols-2 ${members.length <= 2 ? 'max-w-3xl' : 'lg:grid-cols-3 max-w-[300px] sm:max-w-none'} gap-6 sm:gap-8 mx-auto`}
       variants={containerVariants}
       initial="hidden"
       animate="visible"

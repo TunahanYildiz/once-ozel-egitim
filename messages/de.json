@@ -271,15 +271,11 @@
     "staff1Role": "Ergotherapeut",
     "staff1University": "Universität für Gesundheitswissenschaften (Gülhane-Campus)",
     "staff1Expertise": "Sensorische Integration, Alltagsfertigkeiten, Feinmotorikentwicklung",
-    "staff2Name": "Fatmanur Arıkan",
-    "staff2Role": "Sprach- und Sprechtherapeutin",
-    "staff2University": "Üsküdar-Universität",
-    "staff2Expertise": "Sprachverzögerung, Stottertherapie, Artikulationsstörungen",
-    "staff3Name": "Fazilet Öztürk",
-    "staff3Role": "Pädagogische Fachkraft / Kindesentwicklung",
-    "staff3University1": "Universität Istanbul — Kindesentwicklung",
-    "staff3University2": "Çukurova-Universität — Fakultät für Geistes- und Naturwissenschaften",
-    "staff3Expertise": "Sonderpädagogik, Kindesentwicklung, Individuelle Förderung"
+    "staff2Name": "Fazilet Öztürk",
+    "staff2Role": "Pädagogische Fachkraft / Kindesentwicklung",
+    "staff2University1": "Universität Istanbul — Kindesentwicklung",
+    "staff2University2": "Çukurova-Universität — Fakultät für Geistes- und Naturwissenschaften",
+    "staff2Expertise": "Sonderpädagogik, Kindesentwicklung, Individuelle Förderung"
   },
   "Iletisim": {
     "pageTitle": "Kontakt",
