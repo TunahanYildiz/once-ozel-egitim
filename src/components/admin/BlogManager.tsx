@@ -212,7 +212,7 @@ export default function BlogManager() {
                       {template.badge}
                     </span>
                     <span className="text-[10px] text-emerald-600 font-bold bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
-                      🇹🇷 🇬🇧 🇩🇪 🇷🇺 Hazır
+                      {template.title_en ? '🇹🇷 🇬🇧 🇩🇪 🇷🇺 Hazır' : '🇹🇷 Türkçe (İncelemeye Hazır)'}
                     </span>
                   </div>
                   <h3 className="text-xs font-bold text-slate-900 line-clamp-2 mb-1.5 group-hover:text-amber-700 transition-colors">

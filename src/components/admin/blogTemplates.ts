@@ -678,10 +678,243 @@ export const ARTICULATION_TEMPLATE_POST: BlogPostTemplate = {
 <p>Запишитесь на <strong>бесплатную первичную диагностику речи</strong> вашего ребёнка у ведущих логопедов центра Önce Özel Eğitim уже сегодня.</p>`,
 };
 
+// 5. Çocuk Merkezli Oyun Terapisi Şablonu
+export const PLAY_THERAPY_TEMPLATE_POST: BlogPostTemplate = {
+  id: '',
+  created_at: '',
+  slug: 'cocuk-merkezli-oyun-terapisi-nedir-ve-nasil-uygulanir',
+  cover_url: '/images/darica-cocuk-oyun-terapisi-odasi.webp',
+  published: true,
+  badge: 'Oyun Terapisi',
+  tagline: 'Öfke, kaygı, kardeş kıskançlığı ve davranış sorunlarında uzman pedagojik yaklaşım',
+  title_tr: 'Çocuk Merkezli Oyun Terapisi Nedir? Öfke, Kaygı ve Davranış Problemlerinde Uzman Rehberi (Pendik)',
+  summary_tr: 'Çocuk merkezli oyun terapisi nedir, hangi çocuklara uygulanır? Öfke nöbetleri, tırnak yeme, alt ıslatma, kaygı ve kardeş kıskançlığı yaşayan çocuklar için Pendik Önce Özel Eğitim uzman klinik rehberi.',
+  content_tr: `<p>Yetişkinler zorlayıcı duygularını, streslerini ve travmalarını sözcüklerle ifade edebilirken; çocukların soyut düşünme ve duygusal kelime dağarcığı henüz bu olgunluğa erişmemiştir. Bir çocuğa <em>"Neden bu kadar öfkelisin?"</em> ya da <em>"Neden tırnaklarını yiyorsun?"</em> diye sorduğunuzda çoğu zaman tatmin edici bir yanıt alamazsınız. Çünkü çocukların iç dünyası mantıkla değil, sembollerle konuşur. İşte bu noktada çocuk psikolojisinin altın kuralı devreye girer: <strong>"Oyun çocuğun dili, oyuncaklar ise kelimeleridir."</strong></p>
+
+<p><strong>Önce Özel Eğitim ve Terapi Merkezi</strong> olarak, İstanbul Pendik'teki modern çocuk gelişim ve psikolojik danışmanlık birimimizde, duygusal regülasyon ve davranış zorluğu yaşayan yüzlerce çocuğun içsel dengesine ve huzuruna kavuşmasına rehberlik ediyoruz. Bu kapsamlı rehberimizde Çocuk Merkezli Oyun Terapisi'nin (ÇMOT) ne olduğunu, hangi problemlerde etkili sonuçlar verdiğini ve seans sürecinin nasıl işlediğini tüm detaylarıyla ele alıyoruz.</p>
+
+<h2>Çocuk Merkezli Oyun Terapisi (ÇMOT) Nedir?</h2>
+<p>Çocuk Merkezli Oyun Terapisi, 20. yüzyılın ortalarında Carl Rogers'ın hümanist psikoloji kuramından yola çıkarak <strong>Virginia Axline</strong> ve ardından <strong>Garry Landreth</strong> tarafından geliştirilmiş, dünya çapında klinik geçerliliği kanıtlanmış bir psikoterapi ekolüdür. Bu yaklaşımda terapist yönlendirici, kural koyucu veya öğüt veren bir otorite figürü değildir; çocuğun kendi içsel iyileşme ve büyüme potansiyeline koşulsuz güven duyan empatik bir yol arkadaşıdır.</p>
+
+<p>Özel olarak yapılandırılmış güvenli bir oyun odasında çocuk, terapistin koşulsuz kabulü ve şefkatli sınırları eşliğinde bastırdığı korkuları, ifade edemediği öfkeyi, yetersizlik hislerini ve travmatik yaşantılarını serbestçe sahneler. Oyun yoluyla duygusal yükünü boşaltan çocuk; zamanla öz denetim (oto-kontrol), problem çözme becerisi, duygusal dayanıklılık ve güçlü bir öz saygı geliştirir.</p>
+
+<h2>Hangi Durumlarda ve Davranış Belirtilerinde Oyun Terapisine Başvurulmalıdır?</h2>
+<p>Oyun terapisi, 2,5 ile 12 yaş arasındaki çocuklarda gözlemlenen pek çok duygusal, sosyal ve davranışsal zorluğun çözümlenmesinde ilk başvurulan ve en kalıcı sonuç veren yöntemlerin başında gelir:</p>
+
+<h3>1. Şiddetli Öfke Nöbetleri, Ağlama Krizleri ve Saldırganlık</h3>
+<p>İstekleri gerçekleşmediğinde kendini yere atan, ısıran, vuran, eşyaları fırlatan çocukların bu davranışları genellikle derin bir çaresizlik ve anlaşılamama hissinin dışa vurumudur. Oyun odasında öfkesini güvenli materyallerle dışa vuran çocuk, agresyonunu sağlıklı şekilde regüle etmeyi öğrenir.</p>
+
+<h3>2. Kardeş Kıskançlığı ve Bebeksi Davranışlara Dönüş (Regresyon)</h3>
+<p>Aileye yeni bir bebeğin katılmasıyla birlikte çocuklarda tuvalet alışkanlığında gerileme, parmak emme, anneye aşırı yapışma ve gizli öfke nöbetleri sıkça gözlemlenir. Oyun terapisi, çocuğun tahtından inme korkusunu ve sevgi kaybı endişesini onarmada son derece etkilidir.</p>
+
+<h3>3. Korkular, Fobiler ve Ayrılık Anksiyetesi (Okul Fobisi)</h3>
+<p>Karanlıktan korkma, yalnız yatamama, ölüm kaygısı, okul kapısında ebeveynden ayrılamama ve yoğun ağlama krizleri yaşayan çocuklarda oyun terapisi, kaygının altında yatan temel güvenlik ihtiyacını yeniden inşa eder.</p>
+
+<h3>4. Psikosomatik Belirtiler: Alt Islatma (Enürezis), Tırnak Yeme ve Tikler</h3>
+<p>Tıbbi bir organik nedene bağlı olmayan alt ıslatma, kaka tutma veya kaçırma (enkoprezis), tırnak yeme, saç koparma veya istemsiz tikler; çocuğun bilinçdışı yaşadığı yüksek stresin bedensel yansımalarıdır. Duygusal gerginlik çözüldüğünde bu semptomlar kalıcı olarak geriler.</p>
+
+<h3>5. Travmatik Yaşantılar: Boşanma, Kayıp, Kaza ve Hastane Süreçleri</h3>
+<p>Anne-baba ayrılığı, sevilen bir aile büyüğünün kaybı, ameliyatlar veya kazalar çocukların dünyasında sarsıcı izler bırakabilir. Çocuk, yetişkinlerin anlamlandıramadığı bu ağır süreçleri oyuncaklar aracılığıyla yeniden kurgulayarak travmasını dönüştürür ve iyileşir.</p>
+
+<h2>Önce Özel Eğitim Oyun Terapisi Odası Nasıl Yapılandırılmıştır?</h2>
+<p>Merkezimiz bünyesindeki oyun terapisi odası, sıradan bir çocuk oyun parkı veya kreş sınıfı değildir. Odada bulunan her bir materyal; çocuğun belirli duygusal temaları (güç/kontrol, bakım/şefkat, agresyon, yaratıcılık, korku ve korunma) dışa vurabilmesi için pedagojik kriterlerle özenle seçilmiştir:</p>
+<ul>
+  <li><strong>Gerçek Yaşam ve Bakım Oyuncakları:</strong> Bebekler, biberonlar, doktor seti, evcilik mobilyaları ve mutfak araçları (Güven, bağlanma ve aile dinamikleri için).</li>
+  <li><strong>Duygusal ve Agresyon İfade Oyuncakları:</strong> Vahşi hayvan figürleri, kelepçeler, plastik kılıçlar, dart ve hacıyatmaz (Bastırılmış öfke ve sınır kontrolü için).</li>
+  <li><strong>Korku ve Fantezi Oyuncakları:</strong> Yılanlar, dinozorlar, canavarlar, ejderhalar, maskeler (Gizli korkularla yüzleşme ve kontrol hissi için).</li>
+  <li><strong>Dışavurumcu Sanat ve Duyusal Materyaller:</strong> Kinetik kum havuzu, serbest parmak boyaları, kil ve oyun hamurları (Duygusal gevşeme ve regülasyon için).</li>
+</ul>
+
+<h2>Terapi Sürecinde Ailenin Rolü ve Ebeveyn Danışmanlığı</h2>
+<p>Oyun terapisi yalnızca terapi odasında gerçekleşen izole bir çalışma değildir. Merkezimizde her 3-4 seanslık periyotlarda ebeveynlerle düzenli <strong>veli danışmanlık ve geri bildirim seansları</strong> gerçekleştirilir. Uzman klinik psikoloğumuz ve çocuk gelişimcimiz, seanslardaki oyun temalarının ne anlama geldiğini aileye açıklar; ev ortamındaki kriz anlarını yönetmek için özel iletişim yaklaşımları (özel oyun saatleri, yansıtmalı dinleme, empatik sınır koyma yöntemleri) kazandırır. Terapi süreci ancak aile ve uzman iş birliğiyle en hızlı başarıya ulaşır.</p>
+
+<h2>Pendik Çocuk Psikolojisi ve Oyun Terapisi: Kartal, Tuzla ve Gebze'den Kolay Ulaşım</h2>
+<p>Çocuk terapilerinde randevuların düzenliliği ve süreklilik en temel başarı faktörüdür. <strong>Önce Özel Eğitim ve Terapi Merkezi</strong>, İstanbul Pendik merkezde; Marmaray istasyonuna, E-5 karayoluna ve toplu taşıma hatlarına yürüme mesafesinde yer almaktadır. Bu stratejik konumumuz sayesinde:</p>
+<ul>
+  <li><strong>Pendik ve Kurtköy</strong> bölgesinden yalnızca 5-10 dakikada,</li>
+  <li><strong>Kartal ve Maltepe</strong> ilçelerinden Marmaray veya metroyla tek vesaitle,</li>
+  <li><strong>Tuzla, Çayırova, Darıca ve Gebze</strong> ilçelerinden trafik karmaşası yaşamadan doğrudan kurumumuza ulaşılabilmektedir.</li>
+</ul>
+
+<h2>Çocuğunuzun İç Dünyasını Anlamak İçin İlk Adımı Atın</h2>
+<p>Davranış problemleri aslında çocuğunuzun size <em>"Yardıma ihtiyacım var ama bunu yetişkinler gibi sözcüklerle anlatamıyorum"</em> deme biçimidir. Sorunların kronikleşmesini ve okul çağında akademik başarısızlığa ya da sosyal izolasyona dönüşmesini beklemeden erken adım atın.</p>
+<p>Pendik merkezimizde uzman klinik psikologlarımız eşliğinde <strong>ücretsiz ilk pedagojik değerlendirme</strong> randevunuzu hemen oluşturabilir, terapi odalarımızı yerinde ziyaret edebilirsiniz.</p>`,
+  title_en: '',
+  summary_en: '',
+  content_en: '',
+  title_de: '',
+  summary_de: '',
+  content_de: '',
+  title_ru: '',
+  summary_ru: '',
+  content_ru: '',
+};
+
+// 6. Pediatrik Ergoterapi Şablonu
+export const PEDIATRIC_ERGOTHERAPY_TEMPLATE_POST: BlogPostTemplate = {
+  id: '',
+  created_at: '',
+  slug: 'pediatrik-ergoterapi-nedir-cocuklarda-ince-motor-ve-gunluk-yasam-becerileri',
+  cover_url: '/images/istanbul-anadolu-yakasi-ergoterapi-merkezi.webp',
+  published: true,
+  badge: 'Pediatrik Ergoterapi',
+  tagline: 'İnce motor beceriler, okul başarısı ve bağımsız yaşam için ergoterapist rehberi',
+  title_tr: 'Pediatrik Ergoterapi Nedir? Çocuklarda İnce Motor, Koordinasyon ve Günlük Yaşam Becerileri Rehberi',
+  summary_tr: 'Pediatrik ergoterapi nedir, ne işe yarar? Kalem tutma, düğme ilikleme, yemek yeme zorluğu ve sakarlık yaşayan çocuklar için Pendik Önce Özel Eğitim ergoterapi rehberi.',
+  content_tr: `<p>Çocuğunuz düğmelerini iliklerken veya ayakkabısının bağcıklarını bağlarken aşırı zorlanıyor mu? Çatal ve kaşığı düzgün tutamayıp yemek saatlerinde sürekli etrafı kirletiyor mu? Resim yaparken veya yazı yazarken kalemi ya kağıdı delecek kadar çok bastırıyor ya da tam tersine çok silik mi bırakıyor? Yaşıtlarına göre çok daha sık düşüyor, koşarken sendeliyor veya merdiven inip çıkarken korkuyor mu? Çoğu zaman çevredekiler bu durumu <em>"eli biraz ağır"</em>, <em>"biraz tembel"</em> veya <em>"sakar bir çocuk"</em> diyerek geçiştirebilmektedir. Oysa altta yatan biyomekanik ve duyusal gerçek çok farklıdır: Çocuğunuzun motor planlama ve günlük yaşam adaptasyonunda <strong>pediatrik ergoterapi desteğine</strong> ihtiyacı olabilir.</p>
+
+<p><strong>Önce Özel Eğitim ve Terapi Merkezi</strong> olarak, İstanbul Pendik'teki donanımlı ergoterapi ve motor beceri kliniğimizde, alanında uzman ergoterapistlerimizle çocuklarımızın bağımsız bireyler olarak topluma ve okula hazırlanmasını sağlıyoruz. Bu kapsamlı rehberimizde pediatrik ergoterapinin ne olduğunu, duyu bütünleme ile ilişkisini ve hangi çocukların bu desteğe ihtiyaç duyduğunu tüm ayrıntılarıyla anlatıyoruz.</p>
+
+<h2>Pediatrik Ergoterapi (İş ve Uğraşı Terapisi) Nedir?</h2>
+<p>Ergoterapi (Occupational Therapy); bireylerin günlük yaşam aktivitelerine (GYA) bağımsız, kendine yeten ve anlamlı bir şekilde katılmalarını sağlayan, tıp ve sağlık bilimleri kökenli, kanıta dayalı bir terapi disiplinidir. Yetişkinler için "iş", meslek hayatını ve ev idaresini sürdürmek iken; bir <strong>çocuğun temel mesleği oynamak, öğrenmek, giyinmek ve kendi kendine yetebilmektir.</strong></p>
+
+<p>Pediatrik ergoterapist, çocuğun fiziksel, bilişsel, duyusal ve psikososyal becerilerini bütüncül bir bakış açısıyla değerlendirir. Çocuğun evde, anaokulunda, ilkokulda ve oyun parkında akranlarıyla aynı bağımsızlık düzeyine ulaşmasını engelleyen zorlukları tespit eder; kişiye özel hedefe yönelik egzersiz ve aktivitelerle bu engelleri aşmasını sağlar.</p>
+
+<h2>Duyu Bütünleme ile Ergoterapi Arasındaki Fark Nedir?</h2>
+<p>Ailelerin sıklıkla karıştırdığı konulardan biri budur. <strong>Duyu bütünleme</strong>, ergoterapinin temel bir alt uzmanlık dalıdır ve beynin çevreden gelen duyusal uyaranları (vestibüler denge, propriyoseptif kas duyusu, dokunma vb.) doğru işlemesini sağlar. <strong>Ergoterapi</strong> ise bu duyusal temelin üzerine inşa edilen motor planlama, ince el becerileri, görsel algı ve doğrudan günlük yaşam aktivitelerindeki (yemek yeme, giyinme, tuvalet, okul araçlarını kullanma) <em>fonksiyonel çıktıyı</em> hedefler.</p>
+<p>Kısacası; duyu bütünleme sinir sisteminin temelini sağlamlaştırırken, ergoterapi o sağlam temel üzerinde çocuğun kendi ayakkabısını bağlayabilmesini, makası doğru kullanabilmesini, düzgün yazı yazabilmesini ve bisiklete binebilmesini mümkün kılar.</p>
+
+<h2>Pediatrik Ergoterapinin Odaklandığı 4 Temel Gelişim Alanı</h2>
+
+<h3>1. İnce Motor Beceriler ve El Becerileri Gelişimi</h3>
+<p>Parmak, el ve bilek kaslarının hassas koordinasyonudur. Ergoterapi seanslarımızda:</p>
+<ul>
+  <li>Doğru kalem tutuş teknikleri (dinamik üç parmak / tripod kavrama),</li>
+  <li>Makas kullanma, kağıt kesme, katlama ve yapıştırma becerileri,</li>
+  <li>Boncuk dizme, hamur yoğurma, cımbız ve mandal kullanma gibi manipülatif el aktiviteleri,</li>
+  <li>Okul çağındaki çocuklar için okunaksız yazıyı düzeltme ve yazı yazarken elin çabuk yorulmasını önleme çalışmaları uygulanır.</li>
+</ul>
+
+<h3>2. Günlük Yaşam Aktivitelerinde (GYA) Bağımsızlık</h3>
+<p>Bir çocuğun öz saygısı ve kendine güveni, kendi ihtiyaçlarını kendi başına görebildiği ölçüde gelişir. Ergoterapistlerimiz:</p>
+<ul>
+  <li>Kendi başına pantolon, tişört, çorap ve mont giyip çıkarma,</li>
+  <li>Düğme ilikleme, fermuar çekme, çıtçıt kapatma,</li>
+  <li>Ayakkabı giyme ve bağcık bağlama becerisi,</li>
+  <li>Dökmeden çatal, bıçak ve kaşık kullanımı, bardaktan tek başına su içme,</li>
+  <li>Kişisel hijyen, el yıkama ve diş fırçalama alışkanlıkları kazandırır.</li>
+</ul>
+
+<h3>3. Bilateral Koordinasyon ve Motor Planlama (Dispraksi)</h3>
+<p>Bedenin her iki tarafını uyum içinde kullanabilme yeteneğidir (Örn: Bir elle kağıdı sabit tutarken diğer elle makasla kesmek veya iki elle top yakalamak). Dispraksi (gelişimsel koordinasyon bozukluğu) yaşayan çocuklar zihnen ne yapacaklarını bilseler de bedenlerine bunu doğru sırayla yaptıramazlar. Ergoterapi ile vücut şeması ve motor planlama yeteneği sistematik olarak geliştirilir.</p>
+
+<h3>4. Görsel Algı ve Mekânsal İlişkiler</h3>
+<p>Görülen bir nesnenin derinliğini, yönünü ve arka plandan ayrımını yapabilme kabiliyetidir. Harfleri ters yazma (b yerine d, p yerine q yazma), satır çizgisini tutturamama, yapboz parçalarını birleştirememe veya labirent oyunlarında zorlanma gibi problemler görsel-motor algı egzersizleriyle giderilir.</p>
+
+<h2>Hangi Tanı ve Durumlarda Pediatrik Ergoterapi Alınmalıdır?</h2>
+<ul>
+  <li><strong>Otizm Spektrum Bozukluğu (OSB):</strong> Günlük rutinleri bağımsız sürdürme, taklit becerileri ve öz bakım yeteneği kazanımı için.</li>
+  <li><strong>Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB):</strong> Dürtüsellik kontrolü, masa başı odaklanma süresini artırma ve el-göz koordinasyonu.</li>
+  <li><strong>Serebral Palsi (SP) ve Nöromotor Güçlükler:</strong> Kas tonusunu dengeleme, adaptif cihaz kullanımı ve fonksiyonel el becerilerini geliştirme.</li>
+  <li><strong>Dispraksi ve Sakarlık:</strong> Beden farkındalığı, denge ve fiziksel oyunlara katılımı destekleme.</li>
+  <li><strong>Özel Öğrenme Güçlüğü (Disgrafi):</strong> Okulda yazı yazma güçlüğü ve akademik motor yetersizlikleri giderme.</li>
+</ul>
+
+<h2>Devlet Destekli (RAM Raporlu) Ücretsiz Ergoterapi İmkânı</h2>
+<p>ÇÖZGER (Çocuklar İçin Özel Gereksinim Raporu) ve Rehberlik ve Araştırma Merkezi (RAM) raporu bulunan tüm çocuklarımız, <strong>Milli Eğitim Bakanlığı desteğiyle merkezimizden tamamen ücretsiz</strong> olarak ergoterapi ve duyu bütünleme eğitimi alabilmektedir. Ailelerimize rapor çıkarma, randevu alma ve hastane süreçlerinde kurumumuzca ücretsiz rehberlik danışmanlığı sağlanmaktadır.</p>
+
+<h2>Pendik Ergoterapi Kliniğimiz: Anadolu Yakası ve Kocaeli'den Kolay Erişim</h2>
+<p>Önce Özel Eğitim ve Terapi Merkezi, İstanbul Pendik merkezde son teknoloji ergoterapi materyalleri, denge salıncakları, motor parkurlar ve el becerisi atölyeleriyle donatılmıştır. Merkezimize <strong>Marmaray, E-5 karayolu ve Pendik YHT Garı</strong> üzerinden:</p>
+<ul>
+  <li><strong>Pendik, Kurtköy ve Kartal:</strong> 5-10 dakika,</li>
+  <li><strong>Maltepe, Kadıköy ve Tuzla:</strong> 15-20 dakika,</li>
+  <li><strong>Gebze, Darıca ve Çayırova:</strong> 15-25 dakika içinde doğrudan ve zahmetsizce ulaşılabilmektedir.</li>
+</ul>
+
+<h2>Çocuğunuzun Bağımsızlığı İçin İlk Adımı Atın</h2>
+<p>Çocuğunuzun kendi kendine yetebilmesi, okulda arkadaşlarıyla özgüvenle oynayabilmesi ve gelecekte bağımsız bir yetişkin olabilmesi için ergoterapi erken çocuklukta en güçlü kalkandır.</p>
+<p>Uzman ergoterapistlerimiz tarafından yapılacak <strong>ücretsiz ince motor ve günlük yaşam becerileri değerlendirmesi</strong> için Pendik merkezimizle hemen iletişime geçebilirsiniz.</p>`,
+  title_en: '',
+  summary_en: '',
+  content_en: '',
+  title_de: '',
+  summary_de: '',
+  content_de: '',
+  title_ru: '',
+  summary_ru: '',
+  content_ru: '',
+};
+
+// 7. Yoğunlaştırılmış Kamp Eğitimi Şablonu
+export const INTENSIVE_CAMP_TEMPLATE_POST: BlogPostTemplate = {
+  id: '',
+  created_at: '',
+  slug: 'otizm-ve-ozel-egitimde-yogunlastirilmis-kamp-egitimi-rehberi',
+  cover_url: '/images/tuzla-ozel-egitim-kamp-egitimi-ve-sosyal-beceri.webp',
+  published: true,
+  badge: 'Kamp Eğitimi',
+  tagline: 'Otizm ve gelişimsel farklılıklarda konaklamalı, hızlandırılmış çok disiplinli eğitim modeli',
+  title_tr: 'Otizm ve Özel Eğitimde Yoğunlaştırılmış Kamp Eğitimi: Süreç, Faydaları ve Konaklama İmkânları',
+  summary_tr: 'Yoğunlaştırılmış özel eğitim kampı nedir? Kısıtlı zamanda maksimum sıçrama hedefleyen aileler ve gurbetçi vatandaşlarımız için VIP transferli, konaklamalı eğitim rehberi.',
+  content_tr: `<p>Özel gereksinimli çocukların gelişim yolculuğunda en telafisi olmayan kaynak <strong>"zaman"</strong>dır. Özellikle erken çocukluk döneminde beynin öğrenme ve yeni sinaptik bağlantılar kurma hızı (nöroplastisite) en üst düzeydeyken kaybedilen her ay, ilerleyen yaşlarda telafisi çok daha fazla emek isteyen bir gecikmeye dönüşebilir. Ancak klasik özel eğitim modellerinde haftada yalnızca 2 seans (ayda 8 saat) eğitim verilmesi; özellikle otizm spektrum bozukluğu, atipik otizm, ciddi dil gecikmesi ve duyusal regülasyon problemleri yaşayan çocuklarda istenen hızlı gelişim sıçramasını sağlamakta bazen yetersiz kalabilmektedir.</p>
+
+<p>İşte bu kritik ihtiyaca bilimsel ve yenilikçi bir yanıt olarak geliştirilen <strong>Önce Özel Eğitim "Yoğunlaştırılmış Kamp Eğitimi" Modeli</strong>; kısıtlı zaman diliminde maksimum gelişim sıçraması hedefleyen aileler, şehir dışından gelen danışanlarımız ve özellikle Avrupa'dan (Almanya, Hollanda, Fransa, Avusturya, İngiltere vb.) tatil dönemlerinde Türkiye'ye gelen gurbetçi ailelerimiz için benzersiz bir fırsat sunmaktadır.</p>
+
+<h2>Yoğunlaştırılmış Özel Eğitim Kamp Modeli Nedir?</h2>
+<p>Yoğunlaştırılmış kamp eğitimi; çocuğun gelişimsel profilinin ilk gün multidisipliner bir uzman heyet tarafından detaylıca çıkarılmasının ardından, <strong>2 ila 4 haftalık blok periyotlar halinde, haftanın 5 ya da 6 günü, günde 4 ila 6 saat kesintisiz ve entegre terapi programına</strong> tabi tutulduğu hızlandırılmış bir özel eğitim metodolojisidir.</p>
+
+<p>Bu model sıradan bir aktivite kampı değil; çocuğun beynini gün boyunca sürekli olarak pozitif ve yapılandırılmış uyaranlarla besleyen, terapilerin birbirini desteklediği yoğun bir klinik gelişim ortamıdır. Örneğin sabah saatinde duyu bütünleme ünitesinde regüle olan ve duyusal olarak sakinleşen bir çocuk, hemen ardından girdiği bireysel dil terapisinde konuşmaya ve taklit etmeye katbekat daha açık hale gelmektedir.</p>
+
+<h2>Standart Haftalık Eğitim ile Yoğunlaştırılmış Kamp Arasındaki Farklar</h2>
+<p>Klasik eğitim ile kamp eğitimini karşılaştırdığınızda ortaya çıkan gelişimsel tablo çok çarpıcıdır:</p>
+<ul>
+  <li><strong>Eğitim Saati Farkı:</strong> Klasik modelde 3-4 ayda alınabilen toplam terapi saati (25-35 saat), yoğunlaştırılmış kampta <strong>yalnızca 1-2 haftalık süreçte</strong> çocuğa eksiksiz olarak aktarılır.</li>
+  <li><strong>Geriye Dönüşü Önleme:</strong> Haftada 1-2 gün gelen çocuklarda seanslar arasında geçen boşluk süresinde öğrenilen becerilerin unutulması veya evde pekiştirilememesi riski vardır. Kampta her gün tekrar yapıldığı için nörolojik pekişme kesintisiz gerçekleşir.</li>
+  <li><strong>Çok Disiplinli Sinerji:</strong> Aynı gün içerisinde dil ve konuşma terapisti, ergoterapist, özel eğitim uzmanı ve çocuk psikoloğu çocuk üzerinde ortak hedefler doğrultusunda senkronize çalışır.</li>
+</ul>
+
+<h2>Yoğunlaştırılmış Kamp Programında Hangi Terapi ve Eğitimler Yer Alır?</h2>
+<p>Her çocuğun kamp programı hazır bir paketle değil, yapılan detaylı klinik değerlendirmeye göre %100 bireyselleştirilerek planlanır:</p>
+
+<h3>1. Bireysel Dil ve Konuşma Terapisi</h3>
+<p>Gecikmiş konuşma, kelime dağarcığını artırma, göz teması kurma, taklit becerileri, artikülasyon ve akıcı konuşma üzerine günde 1-2 seans yoğun birebir çalışma.</p>
+
+<h3>2. Duyu Bütünleme ve Pediatrik Ergoterapi</h3>
+<p>Özel süspansiyonlu duyusal terapi kliniğimizde vestibüler, propriyoseptif ve taktil regülasyon seansları. Aşırı hareketlilik, dikkat dağınıklığı ve motor planlama zorluklarının çözümü.</p>
+
+<h3>3. Sosyal Beceri ve Akran İletişim Grupları</h3>
+<p>Kamp ortamında çocukların diğer akranlarıyla birlikte sırasını bekleme, paylaşma, grup oyunlarına katılma ve sosyal kuralları deneyimleme fırsatı.</p>
+
+<h3>4. Bilişsel Gelişim ve Akademik Ön Hazırlık</h3>
+<p>Kavram öğretimi (renkler, sayılar, zıtlıklar), problem çözme, eşleme ve okul öncesi dikkat-odaklanma egzersizleri.</p>
+
+<h3>5. Birebir Yoğun Aile Eğitimi ve Anne-Baba Koçluğu</h3>
+<p>Kamp sürecinde aile bir kenarda beklemez. Uzmanlarımız anne ve babaya evde nasıl davranmaları gerektiğini, krizleri nasıl yöneteceklerini ve kampta kazanılan becerilerin kamp bittikten sonra nasıl devam ettirileceğini uygulamalı olarak öğretir.</p>
+
+<h2>Yurt Dışından (Avrupa) ve Şehir Dışından Gelen Aileler İçin Özel Hizmetlerimiz</h2>
+<p>Avrupa'da (özellikle Almanya, Fransa, Belçika, Avusturya ve İsviçre'de) yaşayan vatandaşlarımızın ana dilde özel eğitim ve dil terapisi bulmakta büyük zorluklar yaşadığını çok iyi biliyoruz. Yurt dışı sağlık ve eğitim sistemlerindeki aylar süren randevu kuyruklarına takılmadan, Türkiye ziyaretinizde çocuğunuza dev bir gelişim hediyesi vermeniz için tüm süreci biz organize ediyoruz:</p>
+
+<h3>Sabiha Gökçen Havalimanı (SAW) VIP Transfer Hizmeti</h3>
+<p>Merkezimiz, İstanbul Sabiha Gökçen Uluslararası Havalimanı'na yalnızca <strong>10-15 dakika mesafededir</strong>. Uçağınız indiği andan itibaren sizi VIP araçlarımızla karşılıyor ve konaklama noktanıza güvenle ulaştırıyoruz.</p>
+
+<h3>Aileler İçin Tam Donanımlı Güvenli Konaklama Çözümleri</h3>
+<p>Şehir dışından ve yurt dışından gelen ailelerimizin kamp süresince kendi evlerinin konforunda hissedebilmeleri için Pendik Marina ve sahil hattında, merkezimize çok yakın, her türlü ihtiyacı karşılanmış modern, hijyenik ve aile dostu konaklama imkânları sunuyoruz.</p>
+
+<h2>Pendik Sahil ve Doğa İle Bütünleşen Terapi Atmosferi</h2>
+<p>Önce Özel Eğitim ve Terapi Merkezi, Pendik sahil şeridine, parklara ve sosyal alanlara yürüme mesafesindedir. Kamp seanslarının ardından aileler Marmara Denizi sahilinde yürüyüş yapabilir, çocukların açık alanda sosyal becerilerini pekiştirebilirler. Ayrıca Marmaray istasyonunun hemen yanında olmamız sayesinde İstanbul'un tarihi ve turistik merkezlerine ulaşım son derece pratiktir.</p>
+
+<h2>Kontenjanlar ve Başvuru Süreci: Yerinizi Erken Ayırtın</h2>
+<p>Yoğunlaştırılmış kamp eğitimlerimiz butik bir yaklaşımla, her çocuğa birebir maksimum ilgi ayrılabilmesi için <strong>sınırlı sayıda kontenjanla</strong> yürütülmektedir. Özellikle okul tatili dönemleri (yarıyıl tatili, yaz ayları ve ara tatiller) yoğun talep görmektedir.</p>
+<p>Çocuğunuzun mevcut gelişim raporlarını online olarak iletmek, uzman heyetimizle ön görüşme gerçekleştirmek ve kamp programınızı oluşturmak için <strong>Pendik Önce Özel Eğitim Kamp Koordinatörlüğümüzle</strong> hemen iletişime geçebilirsiniz.</p>`,
+  title_en: '',
+  summary_en: '',
+  content_en: '',
+  title_de: '',
+  summary_de: '',
+  content_de: '',
+  title_ru: '',
+  summary_ru: '',
+  content_ru: '',
+};
+
 export const ALL_TEMPLATES: BlogPostTemplate[] = [
   SENSORY_TEMPLATE_POST,
   DYSLEXIA_TEMPLATE_POST,
   ADHD_TEMPLATE_POST,
   ARTICULATION_TEMPLATE_POST,
+  PLAY_THERAPY_TEMPLATE_POST,
+  PEDIATRIC_ERGOTHERAPY_TEMPLATE_POST,
+  INTENSIVE_CAMP_TEMPLATE_POST,
 ];
+
 
