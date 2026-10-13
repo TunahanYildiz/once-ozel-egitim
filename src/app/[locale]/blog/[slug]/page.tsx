@@ -5,6 +5,7 @@ import { Link } from '@/i18n/routing';
 import { Calendar, ArrowLeft, BookOpen, User } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { MOCK_BLOGS_DETAIL, BlogPostDetail } from '@/lib/mockBlogs';
+import { ALL_TEMPLATES } from '@/components/admin/blogTemplates';
 import type { Metadata } from 'next';
 
 const BASE_URL = 'https://onceozelegitim.com';
@@ -15,13 +16,14 @@ export async function generateStaticParams() {
   const locales = ['tr', 'en', 'de', 'ru'];
   
   const mockSlugs = Object.keys(MOCK_BLOGS_DETAIL);
+  const templateSlugs = ALL_TEMPLATES.map(t => t.slug);
   let dbSlugs: string[] = [];
   try {
     const { data } = await supabase.from('blog_posts').select('slug').eq('published', true);
     if (data) dbSlugs = data.map(d => d.slug);
   } catch(e) {}
 
-  const allSlugs = Array.from(new Set([...mockSlugs, ...dbSlugs]));
+  const allSlugs = Array.from(new Set([...mockSlugs, ...templateSlugs, ...dbSlugs]));
 
   for (const locale of locales) {
     for (const slug of allSlugs) {
@@ -74,13 +76,20 @@ export async function generateMetadata({
     description = dbPost.summary || description;
     imageUrl = dbPost.cover_url || imageUrl;
   } else {
-    const mockPostGroup = MOCK_BLOGS_DETAIL[slug];
-    if (mockPostGroup) {
-      const mockPost = mockPostGroup[locale] || mockPostGroup['tr'];
-      if (mockPost) {
-        title = mockPost.title;
-        description = mockPost.summary || description;
-        imageUrl = mockPost.cover_url || imageUrl;
+    const template = ALL_TEMPLATES.find(t => t.slug === slug);
+    if (template) {
+      title = (template as any)[`title_${locale}`] || template.title_tr || title;
+      description = (template as any)[`summary_${locale}`] || template.summary_tr || description;
+      imageUrl = template.cover_url || imageUrl;
+    } else {
+      const mockPostGroup = MOCK_BLOGS_DETAIL[slug];
+      if (mockPostGroup) {
+        const mockPost = mockPostGroup[locale] || mockPostGroup['tr'];
+        if (mockPost) {
+          title = mockPost.title;
+          description = mockPost.summary || description;
+          imageUrl = mockPost.cover_url || imageUrl;
+        }
       }
     }
   }
@@ -179,11 +188,26 @@ export default async function BlogPostDetailPage({
       content_html: dbPost.content
     };
   } else {
-    // 2. Fallback to Local Mock Data
-    const mockPostGroup = MOCK_BLOGS_DETAIL[slug];
-    if (mockPostGroup) {
-      // Find translated version or fallback to default 'tr'
-      post = mockPostGroup[locale] || mockPostGroup['tr'];
+    // 2. Check ALL_TEMPLATES
+    const template = ALL_TEMPLATES.find(t => t.slug === slug);
+    if (template) {
+      post = {
+        id: template.slug,
+        title: (template as any)[`title_${locale}`] || template.title_tr || '',
+        slug: template.slug,
+        summary: (template as any)[`summary_${locale}`] || template.summary_tr || '',
+        cover_url: template.cover_url,
+        created_at: template.created_at || '2026-10-14T00:00:00.000Z',
+        sections: [],
+        content_html: (template as any)[`content_${locale}`] || template.content_tr || '',
+      };
+    } else {
+      // 3. Fallback to Local Mock Data
+      const mockPostGroup = MOCK_BLOGS_DETAIL[slug];
+      if (mockPostGroup) {
+        // Find translated version or fallback to default 'tr'
+        post = mockPostGroup[locale] || mockPostGroup['tr'];
+      }
     }
   }
 

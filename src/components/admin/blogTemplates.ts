@@ -683,7 +683,7 @@ export const PLAY_THERAPY_TEMPLATE_POST: BlogPostTemplate = {
   id: '',
   created_at: '',
   slug: 'cocuk-merkezli-oyun-terapisi-nedir-ve-nasil-uygulanir',
-  cover_url: '/images/darica-cocuk-oyun-terapisi-odasi.webp',
+  cover_url: '/images/cocuk-merkezli-oyun-terapisi-pendik.webp',
   published: true,
   badge: 'Oyun Terapisi',
   tagline: 'Öfke, kaygı, kardeş kıskançlığı ve davranış sorunlarında uzman pedagojik yaklaşım',
@@ -793,50 +793,108 @@ export const PLAY_THERAPY_TEMPLATE_POST: BlogPostTemplate = {
 <p>Contact our Pendik clinic today to schedule a <strong>free initial clinical evaluation</strong> with our child psychologists and tour our specialized therapy suites.</p>`,
   title_de: 'Was ist personzentrierte Spieltherapie für Kinder? Leitfaden bei Wutanfällen, Ängsten und Verhaltensproblemen (Pendik)',
   summary_de: 'Was bewirkt die personzentrierte Spieltherapie bei Kindern? Ein fundierter klinischer Leitfaden bei Wutanfällen, Geschwisterrivalität, Trennungsangst und Einnässen von Önce Özel Eğitim in Pendik.',
-  content_de: `<p>Während Erwachsene seelische Belastungen, Stress und Traumata in Worte fassen können, reicht das kindliche Abstraktionsvermögen für solche emotionalen Begriffswelten noch nicht aus. Fragt man ein Kind <em>„Warum bist du so wütend?“</em> oder <em>„Warum kaust du an den Nägeln?“</em>, erhält man selten eine rationale Antwort. Die kindliche Psyche spricht über Symbole und Handlungen. Hier setzt der Grundsatz der Kinderpsychotherapie an: <strong>„Das Spiel ist die Sprache des Kindes, und Spielsachen sind seine Worte.“</strong></p>
+  content_de: `<p>Während Erwachsene emotionale Belastungen, Stress und traumatische Erfahrungen durch gesprochene Worte artikulieren können, reicht das kindliche Abstraktionsvermögen für solche komplexen Begriffe noch nicht aus. Fragt man ein überfordertes Kind <em>„Warum bist du so wütend?“</em> oder <em>„Warum kaust du ständig an den Fingernägeln?“</em>, erhält man selten eine rationale Antwort. Die innere Welt des Kindes kommuniziert nicht über logische Erklärungen, sondern über Symbole und Handlungen. Genau hier setzt der goldene Grundsatz der Kinderpsychotherapie an: <strong>„Das Spiel ist die Sprache des Kindes, und Spielzeuge sind seine Worte.“</strong></p>
 
-<p>Im <strong>Önce Özel Eğitim Therapiezentrum</strong> in Istanbul Pendik begleiten erfahrene Kinderpsychologen Kinder mit emotionalen Regulationsschwierigkeiten und Verhaltensauffälligkeiten auf ihrem Weg zu innerer Stabilität. In diesem Fachbeitrag erläutern wir die personzentrierte Spieltherapie nach Rogers, Axline und Landreth, ihre Indikationen und den Ablauf.</p>
+<p>Im <strong>Önce Özel Eğitim Therapiezentrum</strong> in Istanbul Pendik begleiten erfahrene Kinderpsychologen und Pädagogen Kinder mit emotionalen Regulationsschwierigkeiten und Verhaltensauffälligkeiten auf ihrem Weg zu innerer Stabilität und Ausgeglichenheit. In diesem umfassenden klinischen Leitfaden erläutern wir die personzentrierte Spieltherapie (CCPT), die Verhaltensprobleme, die sie nachhaltig löst, und wie der therapeutische Prozess abläuft.</p>
 
-<h2>Was ist personzentrierte Spieltherapie für Kinder?</h2>
-<p>Die personzentrierte Spieltherapie (nach <strong>Virginia Axline</strong> und <strong>Dr. Garry Landreth</strong>) basiert auf der humanistischen Psychologie. Der Therapeut tritt nicht als belehrende Autorität auf, sondern begegnet dem Kind mit bedingungsloser Wertschätzung, Empathie und Echtheit. Im geschützten Therapieraum darf das Kind verdrängte Ängste, Wut und Ohnmachtsgefühle durch das freie Spiel ausdrücken und verarbeiten.</p>
+<h2>Was ist personzentrierte Spieltherapie für Kinder (CCPT)?</h2>
+<p>Die personzentrierte Spieltherapie basiert auf der humanistischen Psychologie von Carl Rogers und wurde von <strong>Virginia Axline</strong> sowie international durch <strong>Dr. Garry Landreth</strong> zu einer weltweit anerkannten, evidenzbasierten Therapiemethode weiterentwickelt. In diesem Ansatz tritt der Therapeut nicht als belehrende, regelsetzende Autorität auf, sondern begegnet dem Kind als einfühlsamer, verlässlicher Wegbegleiter, der bedingungslos auf die dem Kind innewohnende Fähigkeit zur Selbstheilung und Reifung vertraut.</p>
 
-<h2>Wann ist eine Spieltherapie ratsam?</h2>
+<p>In einem speziell ausgestatteten, geschützten Spieltherapiezimmer darf das Kind unter der bedingungslosen Wertschätzung und liebevollen Grenzziehung des Therapeuten verdrängte Ängste, ungelöste Wut, Ohnmachtsgefühle und traumatische Erfahrungen frei ins Spiel projizieren. Indem das Kind seine emotionale Last spielerisch entlädt, entwickelt es schrittweise Selbstregulation (Impulskontrolle), Problemlösungskompetenz, Frustrationstoleranz und ein gesundes Selbstwertgefühl.</p>
+
+<h2>Bei welchen Verhaltensauffälligkeiten und Symptomen ist Spieltherapie angezeigt?</h2>
+<p>Die Spieltherapie gilt weltweit als Goldstandard bei Kindern im Alter von 2,5 bis 12 Jahren, die emotionale, soziale oder psychosomatische Belastungen zeigen:</p>
+
+<h3>1. Schwere Wutanfälle, Schreikrämpfe und Aggressionen</h3>
+<p>Wenn Kinder bei kleinsten Frustrationen toben, schlagen, beißen oder Gegenstände zerstören, verbirgt sich dahinter oft ein tiefes Gefühl von Hilflosigkeit und Unverstandensein. Im Spielzimmer lernt das Kind, seine Wut mit sicheren Spielzeugen auszudrücken und seine Erregung konstruktiv zu regulieren.</p>
+
+<h3>2. Geschwisterrivalität und Entwicklungsrückschritte (Regression)</h3>
+<p>Die Geburt eines Geschwisterkindes führt bei vielen Kindern zu Verhaltensrückschritten: plötzliches Einnässen, Daumenlutschen, Babysprache oder klammerndes Verhalten. Die Spieltherapie hilft dem Erstgeborenen, die Angst vor Liebesverlust zu überwinden und emotionale Sicherheit wiederzugewinnen.</p>
+
+<h3>3. Anhaltende Ängste, Phobien und Trennungsangst (Schulphobie)</h3>
+<p>Panische Angst vor Dunkelheit, das Unvermögen alleine zu schlafen, Verlustängste oder hysterische Weinanfälle beim Abschied vor dem Kindergarten oder der Schule wurzeln in Bindungsunsicherheiten. Die Spieltherapie stärkt das kindliche Sicherheitsgefühl von innen heraus.</p>
+
+<h3>4. Psychosomatische Symptome: Einnässen (Enuresis), Einkoten und Nägelkauen</h3>
+<p>Ohne organischen Befund auftretendes nächtliches Einnässen, Einkoten (Enkopresis), chronisches Nägelkauen oder Tics sind körperliche Reaktionen auf chronischen Stress. Sobald die innere Anspannung durch das Spiel gelöst wird, verschwinden die somatischen Symptome dauerhaft.</p>
+
+<h3>5. Traumatische Belastungen: Scheidung der Eltern, Trauerfälle, Unfälle und Operationen</h3>
+<p>Trennungen der Eltern, der Verlust einer geliebten Bezugsperson, schwere Krankheiten oder Unfälle erschüttern das kindliche Vertrauen. Durch das symbolische Wiederholen und Umgestalten schmerzhafter Erlebnisse im Spiel gelingt es dem Kind, das Trauma zu verarbeiten.</p>
+
+<h2>Wie ist das Spieltherapiezimmer im Zentrum Önce Özel Eğitim aufgebaut?</h2>
+<p>Unser Therapiezimmer in Pendik ist kein gewöhnliches Spielzimmer. Jedes einzelne Material wurde nach pädagogisch-therapeutischen Kriterien ausgewählt:</p>
 <ul>
-  <li><strong>Heftige Wutanfälle und Aggressionen:</strong> Wenn Kinder bei Frustration beißen, schlagen oder toben, verbirgt sich dahinter oft Hilflosigkeit. Im Spiel lernen sie eine gesunde Emotionsregulation.</li>
-  <li><strong>Geschwisterrivalität und Regression:</strong> Einnässen, Daumenlutschen oder Verweigerung nach der Geburt eines Geschwisterchens.</li>
-  <li><strong>Trennungsangst und Schulphobie:</strong> Panische Angst vor der Trennung von den Eltern am Schultor oder Kindergarten.</li>
-  <li><strong>Psychosomatische Reaktionen:</strong> Nächtliches Einnässen (Enuresis), Einkoten (Enkopresis), Nägelkauen oder Tics ohne körperliche Ursache.</li>
-  <li><strong>Traumatische Erlebnisse:</strong> Scheidung der Eltern, Trauerfälle, Unfälle oder Krankenhausaufenthalte.</li>
+  <li><strong>Alltags- und Fürsorgespielzeug:</strong> Puppen, Babyflaschen, Arztkoffer, Puppenhaus und Küchenutensilien (Bindungs- und Familienthemen).</li>
+  <li><strong>Spielzeug zum Ausdruck von Aggression und Grenzen:</strong> Wilde Raubtiere, Handschellen, Schaumstoffschwerter, Dartscheiben und Stehaufmännchen (Wutabbau und Grenzerfahrung).</li>
+  <li><strong>Spielzeug zur Konfrontation mit Ängsten:</strong> Schlangen, Drachen, Dinosaurier, Monster und Verkleidungsmasken (aktive Bewältigung von Ohnmachtsgefühlen).</li>
+  <li><strong>Ausdrucks- und sensorische Medien:</strong> Kinetischer Sandkasten, ungiftige Fingermalfarben, Ton und Knete (taktile Erdung und emotionale Entlastung).</li>
 </ul>
 
-<h2>Ausstattung des Therapieraums und Elternberatung</h2>
-<p>Unser Therapieraum in Pendik enthält gezielt ausgewählte Materialien: Rollenspiel- und Familienpuppen, Tierfiguren zum Aggressionsabbau, Sand- und Knetmaterialien. Begleitend finden alle 3 bis 4 Wochen fundierte <strong>Elterngespräche</strong> statt, um Erziehungskompetenzen zu stärken und das Erlernte in den Familienalltag zu übertragen.</p>
+<h2>Die Rolle der Eltern und begleitende Elternberatung</h2>
+<p>Spieltherapie ist kein isolierter Prozess. Alle 3 bis 4 Sitzungen führt unser klinischer Kinderpsychologe fundierte <strong>Elternberatungsgespräche</strong> durch. Wir erklären den Eltern die symbolischen Spielthemen und vermitteln bewährte Kommunikationstechniken für zu Hause (therapeutische Spielzeiten, aktives spiegelndes Zuhören, empathisches Grenzen-Setzen).</p>
 
-<h2>Standort Pendik: Hervorragende Erreichbarkeit</h2>
-<p>Durch die direkte Nähe zu Marmaray und E-5 erreichen uns Familien aus <strong>Pendik, Kartal, Maltepe, Tuzla und Gebze</strong> schnell und unkompliziert. Vereinbaren Sie ein <strong>kostenloses Erstgespräch</strong> in unserem Zentrum.</p>`,
+<h2>Kinderpsychologie in Pendik: Schnelle Erreichbarkeit aus Kartal, Tuzla und Gebze</h2>
+<p>Regelmäßigkeit ist für den Therapieerfolg entscheidend. Das <strong>Önce Özel Eğitim Zentrum</strong> befindet sich im Zentrum von Pendik, in unmittelbarer Gehweite zur Marmaray-Station und der Schnellstraße E-5:</p>
+<ul>
+  <li><strong>Pendik & Kurtköy:</strong> nur 5–10 Minuten Fahrzeit,</li>
+  <li><strong>Kartal & Maltepe:</strong> 10–15 Minuten mit Marmaray oder U-Bahn,</li>
+  <li><strong>Tuzla, Çayırova, Darıca & Gebze:</strong> direkte, staufreie Anbindung über die E-5.</li>
+</ul>
+
+<h2>Verstehen Sie die innere Welt Ihres Kindes: Kostenlose Erstberatung</h2>
+<p>Verhaltensprobleme sind der kindliche Hilferuf: <em>„Ich brauche Unterstützung, kann es aber nicht mit Worten erklären.“</em> Warten Sie nicht, bis sich Probleme chronifizieren.</p>
+<p>Vereinbaren Sie noch heute ein <strong>kostenloses pädagogisches Erstgespräch</strong> mit unseren Kinderpsychologen in Pendik.</p>`,
   title_ru: 'Игровая терапия, центрированная на ребёнке: клиническое руководство при вспышках гнева, тревожности и поведенческих трудностях (Пендик)',
   summary_ru: 'Что такое игровая терапия для детей и как она помогает? Экспертное руководство при агрессии, тревоге расставания, энурезе и ревности к братьям/сестрам от центра Önce Özel Eğitim в Пендике.',
-  content_ru: `<p>Взрослые способны выразить душевную боль, стресс и травмирующий опыт словами. Однако у детей абстрактное мышление и эмоциональный словарь ещё не сформированы. Спросив ребёнка: <em>«Почему ты так злишься?»</em> или <em>«Зачем ты грызёшь ногти?»</em>, вы вряд ли получите ответ. Внутренний мир ребёнка говорит языком образов. В этом и заключается фундаментальный закон детской психотерапии: <strong>«Игра — это язык ребёнка, а игрушки — его слова»</strong>.</p>
+  content_ru: `<p>Взрослые способны выразить душевную боль, стресс и психологические травмы словами. Однако у детей абстрактное мышление и эмоциональный словарь ещё не сформированы. Спросив расстроенного ребёнка: <em>«Почему ты так злишься?»</em> или <em>«Зачем ты грызёшь ногти?»</em>, вы вряд ли услышите разумный ответ. Внутренний мир ребёнка говорит не на языке логики, а на языке символов и образов. В этом заключается золотой закон детской психотерапии: <strong>«Игра — это язык ребёнка, а игрушки — его слова»</strong>.</p>
 
-<p>В центре <strong>Önce Özel Eğitim</strong> в районе Пендик (Стамбул) детские психологи и дефектологи помогают сотням детей восстановить эмоциональное равновесие и уверенность в себе. В этом клиническом руководстве мы подробно разбираем метод недирективной игровой терапии, центрированной на ребёнке (метод Вирджинии Экслайн и Гарри Лэндрета).</p>
+<p>В центре <strong>Önce Özel Eğitim</strong> в районе Пендик (Стамбул) квалифицированные детские психологи и клинические педагоги помогают сотням детей восстановить эмоциональное равновесие и преодолеть поведенческие кризисы. В этом подробном клиническом руководстве мы разбираем суть недирективной игровой терапии, центрированной на ребёнке (ИРЦ), показания к её применению и этапы терапевтического процесса.</p>
 
 <h2>Что такое игровая терапия, центрированная на ребёнке (ИРЦ)?</h2>
-<p>Этот всемирно признанный метод доказательной психотерапии основан на безусловном принятии ребёнка. Психолог не даёт прямых указаний, не оценивает и не учит «правильному» поведению. В безопасном кабинете ребёнок через игру свободно проигрывает подавленные страхи, агрессию, чувство беспомощности и травмирующий опыт, постепенно обретая навык эмоционального самоконтроля.</p>
+<p>Метод основан на гуманистической концепции Карла Роджерса, разработан <strong>Вирджинией Экслайн</strong> и доведён до уровня мирового стандарта <strong>профессором Гарри Лэндретом</strong>. В этом подходе психолог не выступает в роли учителя, оценщика или директивного наставника. Он становится чутким, эмпатичным спутником, безоговорочно верящим во внутренние ресурсы ребёнка к самовосстановлению и психологическому взрослению.</p>
 
-<h2>При каких симптомах необходима помощь игрового терапевта?</h2>
+<p>В специально оборудованном безопасном кабинете ребёнок в атмосфере безусловного принятия и мягких защитных границ отыгрывает подавленный гнев, глубинные страхи, чувство неполноценности и пережитые травмы. Освобождаясь от внутреннего напряжения, ребёнок овладевает эмоциональной саморегуляцией, навыками преодоления трудностей и устойчивой самооценкой.</p>
+
+<h2>При каких поведенческих симптомах необходима помощь игрового терапевта?</h2>
+<p>Игровая терапия признана методом первого выбора для детей в возрасте от 2,5 до 12 лет при широком спектре эмоциональных и поведенческих нарушений:</p>
+
+<h3>1. Бурные вспышки гнева, истерики и агрессивное поведение</h3>
+<p>Когда при отказе ребёнок падает на пол, бьёт окружающих, кусается или крушит предметы — это проявление глубокой беспомощности и страха быть отвергнутым. Отыгрывая агрессию через безопасные символы, ребёнок учится здоровому контролю над импульсами.</p>
+
+<h3>2. Ревность к младшим братьям/сёстрам и возрастной регресс</h3>
+<p>Появление нового ребёнка в семье часто вызывает откат: потерю навыков горшка, сосание пальца, плаксивость и скрытую агрессию. Терапия помогает старшему ребёнку пережить угрозу утраты родительской любви и восстановить эмоциональную стабильность.</p>
+
+<h3>3. Навязчивые страхи, фобии и сепарационная тревога (школьная фобия)</h3>
+<p>Панический страх темноты, отказ спать одному, страх смерти близких или истерический плач при расставании у дверей детского сада или школы. Игровая терапия выстраивает базовое чувство внутренней защищённости.</p>
+
+<h3>4. Психосоматические симптомы: энурез, энкопрез, онихофагия (обкусывание ногтей) и тики</h3>
+<p>Недержание мочи или кала при отсутствии урологических и неврологических патологий, обкусывание ногтей, выдёргивание волос или тики — это телесный крик о стрессе. При снятии психологического зажима симптомы полностью регрессируют.</p>
+
+<h3>5. Психотравмы: развод родителей, утрата близких, аварии и госпитализации</h3>
+<p>Разрушение привычного уклада семьи оставляет в детской психике глубокий след. Через многократное символическое проигрывание травмирующей ситуации ребёнок трансформирует боль и восстанавливает контроль над реальностью.</p>
+
+<h2>Как оснащён кабинет игровой терапии в центре Önce Özel Eğitim?</h2>
+<p>Наш кабинет в Пендике — это терапевтическое пространство, где каждый предмет несёт смысловую нагрузку:</p>
 <ul>
-  <li><strong>Вспышки ярости, истерики и агрессивное поведение:</strong> когда ребёнок падает на пол, кусается или крушит вещи при малейшем отказе.</li>
-  <li><strong>Ревность к младшим детям и регресс:</strong> возврат к сосанию пальца, детской речи или отказу от горшка после появления брата/сестры.</li>
-  <li><strong>Тревога расставания (сепарационная тревога) и отказ от школы:</strong> панический страх отпустить маму у дверей детского сада или школы.</li>
-  <li><strong>Психосоматика:</strong> энурез (недержание мочи), энкопрез, онихофагия (обкусывание ногтей), навязчивые тики без органических причин.</li>
-  <li><strong>Травмирующие события:</strong> развод родителей, потеря близких, операции или аварии.</li>
+  <li><strong>Игрушки из реальной жизни и заботы:</strong> куклы, детские бутылочки, набор врача, кукольный домик, кухня (темы привязанности, заботы и семейных отношений).</li>
+  <li><strong>Игрушки для выражения агрессии и границ:</strong> дикие хищники, наручники, пластиковые мечи, мишени и надувная неваляшка для ударов (безопасный сброс накопившейся злости).</li>
+  <li><strong>Игрушки для встречи со страхами:</strong> змеи, драконы, динозавры, монстры и маски (преодоление скрытых кошмаров).</li>
+  <li><strong>Материалы экспрессивной арт-терапии и сенсорики:</strong> кинетическая песочница, пальчиковые краски, глина и пластилин (снятие мышечных зажимов и заземление).</li>
 </ul>
 
-<h2>Оснащение кабинета и консультации для родителей</h2>
-<p>В нашем кабинете в Пендике собраны специальные категории игрушек: куклы и предметы ухода, дикие животные и безопасное оружие для выхода гнева, кинетический песок и краски для снятия напряжения. Каждые 3–4 сеанса психолог проводит <strong>консультацию для родителей</strong>, обучая техникам домашней поддержки.</p>
+<h2>Роль семьи и регулярное консультирование родителей</h2>
+<p>Каждые 3–4 сеанса клинический психолог проводит <strong>развёрнутую встречу с родителями</strong>. Специалист расшифровывает темы детской игры, обучает эффективным домашним методикам (терапевтическое время игры, отражающее слушание, мягкое установление границ), что гарантирует закрепление результата.</p>
 
-<h2>Удобное расположение в Пендике</h2>
-<p>Центр расположен рядом со станцией <strong>Marmaray и трассой E-5</strong>, что делает визиты комфортными для жителей районов Картал, Мальтепе, Тузла и Гебзе. Запишитесь на <strong>бесплатную первичную диагностику</strong> уже сегодня.</p>`,
+<h2>Детская психология в Пендике: транспортная доступность</h2>
+<p>Центр <strong>Önce Özel Eğitim</strong> находится в центре района Пендик, рядом со станцией Marmaray и скоростной трассой E-5:</p>
+<ul>
+  <li><strong>Пендик и Курткёй:</strong> 5–10 минут,</li>
+  <li><strong>Картал и Мальтепе:</strong> 10–15 минут на Marmaray или метро,</li>
+  <li><strong>Тузла, Чайырова, Дарыджа и Гебзе:</strong> быстрое сообщение по трассе E-5.</li>
+</ul>
+
+<h2>Сделайте шаг навстречу ребёнку: бесплатная первичная диагностика</h2>
+<p>Проблемы поведения — это сигнал ребёнка: <em>«Мне нужна помощь, но я не могу выразить это как взрослый»</em>. Не ждите ухудшения успеваемости и социальной изоляции в школе.</p>
+<p>Запишитесь на <strong>бесплатную первичную консультацию</strong> детского психолога центра Önce Özel Eğitim уже сегодня.</p>`,
 };
 
 // 6. Pediatrik Ergoterapi Şablonu
@@ -844,7 +902,7 @@ export const PEDIATRIC_ERGOTHERAPY_TEMPLATE_POST: BlogPostTemplate = {
   id: '',
   created_at: '',
   slug: 'pediatrik-ergoterapi-nedir-cocuklarda-ince-motor-ve-gunluk-yasam-becerileri',
-  cover_url: '/images/istanbul-anadolu-yakasi-ergoterapi-merkezi.webp',
+  cover_url: '/images/pediatrik-ergoterapi-ve-ince-motor-pendik.webp',
   published: true,
   badge: 'Pediatrik Ergoterapi',
   tagline: 'İnce motor beceriler, okul başarısı ve bağımsız yaşam için ergoterapist rehberi',
@@ -980,51 +1038,132 @@ export const PEDIATRIC_ERGOTHERAPY_TEMPLATE_POST: BlogPostTemplate = {
 <p>Contact our Pendik clinic today to schedule a <strong>free initial occupational therapy and motor skill evaluation</strong> with our pediatric specialists.</p>`,
   title_de: 'Was ist pädiatrische Ergotherapie? Leitfaden für Feinmotorik, Koordination und Selbstständigkeit im Alltag (Pendik)',
   summary_de: 'Pädiatrische Ergotherapie verstehen: Wie Ergotherapeuten Kindern bei Stifthaltung, Schleifebinden, Ungeschicklichkeit und Dyspraxie helfen. Leitfaden von Önce Özel Eğitim in Pendik.',
-  content_de: `<p>Hat Ihr Kind große Mühe, Knöpfe zu schließen, Reißverschlüsse zu bedienen oder Schnürsenkel zu binden? Fällt ihm das Essen mit Besteck schwer? Hält es den Stift verkrampft, sodass die Hand schmerzt oder das Papier reißt? Stolpert es häufig über die eigenen Füße? Oft werden diese Anzeichen als <em>„Bequemlichkeit“</em> oder <em>„Tollpatschigkeit“</em> abgetan. Aus entwicklungsneurologischer Sicht liegt jedoch häufig ein Bedarf an <strong>pädiatrischer Ergotherapie</strong> vor.</p>
+  content_de: `<p>Hat Ihr Kind große Mühe, Knöpfe an der Jacke zu schließen, Reißverschlüsse hochzuziehen oder Schnürsenkel selbstständig zu binden? Fällt ihm der Umgang mit Gabel und Löffel schwer, sodass jede Mahlzeit mit Flecken und Frustration endet? Hält es den Stift beim Malen oder Schreiben so verkrampft, dass das Papier reißt, oder im Gegenteil so kraftlos, dass die Linien kaum sichtbar sind? Stolpert es häufig über die eigenen Füße, wirkt ungeschickt oder zögert ängstlich beim Treppensteigen? Eltern und Erzieher stempeln diese Auffälligkeiten nicht selten als <em>„Bequemlichkeit“</em>, <em>„Trödelei“</em> oder <em>„Tollpatschigkeit“</em> ab. Aus entwicklungsneurologischer Sicht liegt jedoch häufig ein handfester Bedarf an <strong>pädiatrischer Ergotherapie</strong> vor.</p>
 
-<p>Im <strong>Önce Özel Eğitim Therapiezentrum</strong> in Istanbul Pendik unterstützen qualifizierte Ergotherapeuten Kinder dabei, Handlungsfähigkeit und maximale Selbstständigkeit im Alltag, Kindergarten und in der Schule zu erlangen.</p>
+<p>Im <strong>Önce Özel Eğitim Therapiezentrum</strong> in Istanbul Pendik unterstützen qualifizierte Ergotherapeuten Kinder in modernen Praxisräumen dabei, maximale Handlungsfähigkeit, Bewegungskoordination und Selbstvertrauen im Alltag, im Kindergarten und in der Schule zu erlangen. In diesem Fachbeitrag beleuchten wir die pädiatrische Ergotherapie, ihren Unterschied zur sensorischen Integration und die Bereiche, in denen sie bahnbrechende Erfolge erzielt.</p>
 
-<h2>Was ist pädiatrische Ergotherapie?</h2>
-<p>Ergotherapie ist eine medizinisch-therapeutische Disziplin, die Menschen jeden Alters bei der Ausführung bedeutungsvoller Aktivitäten unterstützt. Während die „Beschäftigung“ Erwachsener aus Beruf und Haushalt besteht, ist die <strong>Hauptaufgabe eines Kindes das Spielen, Lernen und die selbstständige Bewältigung des Alltags.</strong></p>
+<h2>Was ist pädiatrische Ergotherapie (Handlungstherapie)?</h2>
+<p>Die Ergotherapie (Occupational Therapy) ist eine medizinisch-therapeutische Fachdisziplin, die Menschen unterstützt, alltägliche Betätigungen in den Bereichen Selbstversorgung, Produktivität und Freizeit selbstständig auszuführen. Während der „Beruf“ eines Erwachsenen in Erwerbsarbeit und Haushaltsführung besteht, ist die <strong>Hauptaufgabe eines Kindes das Spielen, Lernen, Anziehen und das Meistern seiner Lebenswelt.</strong></p>
+
+<p>Ein pädiatrischer Ergotherapeut betrachtet das Kind ganzheitlich: Er analysiert die Feinmotorik, Muskelspannung, bilaterale Koordination, Bewegungsplanung, sensorische Verarbeitung sowie die visuelle Wahrnehmung. Durch gezielte therapeutische Übungen und bedeutungsvolle Aktivitäten baut der Ergotherapeut Entwicklungsbarrieren ab, sodass das Kind mit Gleichaltrigen auf Augenhöhe agieren kann.</p>
 
 <h2>Unterschied zwischen sensorischer Integration und Ergotherapie</h2>
-<p>Die <strong>sensorische Integration</strong> sorgt dafür, dass Sinnesreize (Gleichgewicht, Muskelspannung, Tastsinn) im Gehirn geordnet verarbeitet werden. Die <strong>Ergotherapie</strong> nutzt diese sensorische Basis, um konkrete Fertigkeiten zu schulen: Schuhe binden, Schreiben, Schneiden und eigenständiges Essen.</p>
+<p>Eltern verwechseln diese beiden Begriffe häufig. Die <strong>sensorische Integration</strong> ist eine grundlegende Spezialisierung innerhalb der Ergotherapie: Sie stellt sicher, dass das Gehirn Reize aus dem eigenen Körper (Gleichgewicht, Muskel- und Gelenksinn) und der Umwelt richtig verarbeitet und moduliert. Die <strong>Ergotherapie</strong> setzt genau auf diesem sensorischen Fundament auf und überträgt es in <em>funktionelle Alltagsleistungen</em>: eigenständiges Schleifebinden, ergonomische Stifthaltung, Scherenhandhabung, Besteckführung und sicheres Fahrradfahren.</p>
 
-<h2>4 Schwerpunkte der Ergotherapie bei Kindern</h2>
+<h2>Die 4 zentralen Entwicklungsbereiche der pädiatrischen Ergotherapie</h2>
+
+<h3>1. Feinmotorik und Handgeschicklichkeit</h3>
+<p>Feinmotorik umfasst die hochdifferenzierte Koordination der kleinen Hand- und Fingermuskeln. In unserer Klinik in Pendik fördern wir:</p>
 <ul>
-  <li><strong>Fein- und Graphomotorik:</strong> Korrekte Stifthaltung (Dreipunktgriff), Scherentechnik, Fingerkraft und Vermeidung von Handschmerzen beim Schreiben (Legasthenie/Dysgraphie).</li>
-  <li><strong>Selbstständigkeit im Alltag (ADL):</strong> An- und Ausziehen, Knöpfe, Schuhe binden, Besteckhandhabung und Körperhygiene.</li>
-  <li><strong>Koordination und Dyspraxie:</strong> Beidhandkoordination (Bilateralintegration), Bewegungsplanung und Überwindung motorischer Ungeschicklichkeit.</li>
-  <li><strong>Visuelle Wahrnehmungsförderung:</strong> Raumorientierung, Vermeidung von Buchstabenverwechslungen (b/d) und Zeileneinhaltung.</li>
+  <li>Den Übergang vom Faustgriff zur physiologischen Dreipunkt-Stifthaltung (dynamischer Tripod-Griff),</li>
+  <li>Exaktes Schneiden mit der Schere, Falten und Kleben,</li>
+  <li>Pinzetten- und Zangengriff durch Fädelspiele, Knetübungen und Therapiematerialien,</li>
+  <li>Behandlung von Dysgraphie (Schreibkrampf): Verbesserung der Lesbarkeit und Vorbeugung von vorzeitiger Handermüdung beim Schreiben.</li>
 </ul>
 
-<h2>Standort Pendik und kostenlose Erstberatung</h2>
-<p>Unser Zentrum in Pendik liegt optimal erreichbar an <strong>Marmaray und E-5</strong> für Familien aus Kartal, Maltepe, Tuzla und Gebze. Vereinbaren Sie eine <strong>kostenlose ergotherapeutische Erstbefundung</strong> für Ihr Kind.</p>`,
+<h3>2. Selbstständigkeit bei Aktivitäten des täglichen Lebens (ADL)</h3>
+<p>Das Selbstwertgefühl eines Kindes wächst mit seiner Unabhängigkeit. Unsere Therapeuten trainieren:</p>
+<ul>
+  <li>Eigenständiges An- und Ausziehen von Hosen, T-Shirts, Socken und Wintermänteln,</li>
+  <li>Schließen von Knöpfen, Reißverschlüssen, Druckknöpfen und Schnallen,</li>
+  <li>Orientierung an Schuhen und Schleifebinden,</li>
+  <li>Kleckfreies Essen mit Löffel, Gabel und Messer sowie Trinken aus offenen Bechern,</li>
+  <li>Körperhygiene: Händewaschen, Zähneputzen und Kämmen.</li>
+</ul>
+
+<h3>3. Bilaterale Koordination und Handlungsplanung (Dyspraxie)</h3>
+<p>Die Fähigkeit, beide Körperhälften harmonisch zusammenwirken zu lassen (z. B. mit einer Hand das Papier festhalten, während die andere schneidet). Kinder mit Dyspraxie (umschriebene Entwicklungsstörung der motorischen Funktionen) wissen gedanklich, was sie tun möchten, können den Ablauf aber motorisch nicht planen. Ergotherapie strukturiert Körperschema und motorische Ablaufplanung von Grund auf neu.</p>
+
+<h3>4. Visuelle Wahrnehmung und Raumorientierung</h3>
+<p>Die Fähigkeit, Gesehenes im Gehirn räumlich korrekt einzuordnen. Störungen führen zu Buchstabenverwechslungen (b/d, p/q), Verlassen von Schreiblinien oder Problemen beim Puzzeln. Durch visuo-motorische Übungen werden diese Lücken nachhaltig geschlossen.</p>
+
+<h2>Bei welchen Diagnosen ist pädiatrische Ergotherapie unerlässlich?</h2>
+<ul>
+  <li><strong>Autismus-Spektrum-Störung (ASS):</strong> Aufbau von Handlungsroutinen, Spielkompetenz und Selbstpflege.</li>
+  <li><strong>ADHS & Aufmerksamkeitsdefizite:</strong> Impulskontrolle, Arbeitshaltung am Tisch und Feinmotorik.</li>
+  <li><strong>Zerebralparese & neuromotorische Beeinträchtigungen:</strong> Tonusregulierung und funktioneller Handgebrauch.</li>
+  <li><strong>Dyspraxie / Entwicklungsbedingte Ungeschicklichkeit:</strong> Raum- und Gleichgewichtstraining.</li>
+  <li><strong>Lern- und Schreibstörungen (Dysgraphie):</strong> Entlastung der Schreibhand für schulischen Erfolg.</li>
+</ul>
+
+<h2>Staatliche Förderung über das RAM-Gutachten in der Türkei</h2>
+<p>Kinder mit einem offiziellen ÇÖZGER-Gutachten und einem RAM-Förderplan erhalten im Rahmen der Bestimmungen des türkischen Bildungsministeriums (MEB) <strong>vollständig kostenlose Ergotherapie- und Sensorik-Einheiten</strong>. Unser Zentrum unterstützt Familien kostenlos bei allen bürokratischen Schritten.</p>
+
+<h2>Praxis in Pendik: Beste Verkehrsanbindung in der Metropolregion</h2>
+<p>Die Therapieräume von Önce Özel Eğitim in Pendik verfügen über modernste Schaukeln, Kletterwände und feinmotorische Parcours. Durch die Lage direkt an <strong>Marmaray und der Autobahn E-5</strong> erreichen Sie uns:</p>
+<ul>
+  <li><strong>Pendik & Kurtköy:</strong> 5–10 Minuten,</li>
+  <li><strong>Kartal & Maltepe:</strong> 15 Minuten per Marmaray,</li>
+  <li><strong>Tuzla, Gebze, Darıca & Çayırova:</strong> 15–20 Minuten staufrei.</li>
+</ul>
+
+<h2>Geben Sie Ihrem Kind den Schlüssel zur Selbstständigkeit</h2>
+<p>Frühzeitige ergotherapeutische Förderung verhindert Schulfrust und schenkt Ihrem Kind die Freude am eigenständigen Handeln.</p>
+<p>Vereinbaren Sie noch heute eine <strong>kostenlose ergotherapeutische Erstbefundung</strong> im Zentrum Önce Özel Eğitim in Pendik.</p>`,
   title_ru: 'Что такое детская эрготерапия? Руководство по развитию мелкой моторики, координации и навыков самообслуживания (Пендик)',
   summary_ru: 'Детская эрготерапия простыми словами: как помочь ребёнку освоить правильный захват карандаша, завязывание шнурков, координацию и преодолеть неловкость. Клинический гид центра Önce Özel Eğitim.',
-  content_ru: `<p>Испытывает ли ваш ребёнок огромные трудности при застёгивании пуговиц, молний или завязывании шнурков? Роняет ли ложку за столом, пачкая всё вокруг? Сжимает ли карандаш до боли в пальцах, продавливая бумагу, или, напротив, пишет слишком бледно? Часто ли спотыкается на ровном месте? Окружающие нередко списывают это на <em>«лень»</em> или <em>«неуклюжесть»</em>. Однако с точки зрения неврологии и биомеханики ребёнку требуется профессиональная <strong>детская эрготерапия (оккупационная терапия)</strong>.</p>
+  content_ru: `<p>Испытывает ли ваш ребёнок огромные затруднения при попытке застегнуть пуговицы на куртке, затянуть молнию или завязать шнурки? Роняет ли ложку и вилку за столом, превращая каждый приём пищи в беспорядок и стресс? Сжимает ли карандаш с такой силой, что рвётся тетрадь и затекает кисть, или, наоборот, линии выходят едва заметными? Часто ли спотыкается на ровном месте, задевает дверные косяки или боится спускаться по лестнице? Окружающие и даже педагоги нередко называют это <em>«ленью»</em>, <em>«неаккуратностью»</em> или <em>«врождённой неуклюжестью»</em>. Однако с точки зрения детской неврологии и биомеханики истинная причина кроется в дефиците моторного планирования, требующем квалифицированной <strong>детской эрготерапии (оккупационной терапии)</strong>.</p>
 
-<p>В центре <strong>Önce Özel Eğitim</strong> в районе Пендик (Стамбул) сертифицированные эрготерапевты помогают детям обрести уверенность, самостоятельность и подготовиться к успешному обучению в школе.</p>
+<p>В центре <strong>Önce Özel Eğitim</strong> в районе Пендик (Стамбул) ведущие детские эрготерапевты помогают детям овладеть бытовой самостоятельностью, точной моторикой и уверенностью среди сверстников. В этом подробном руководстве мы рассказываем, что такое эрготерапия, в чём её отличие от сенсорной интеграции и при каких трудностях она необходима.</p>
 
-<h2>Что такое детская эрготерапия?</h2>
-<p>Эрготерапия — это доказательная область реабилитации, направленная на развитие навыков, необходимых для полноценной повседневной жизни. Если для взрослого ведущая деятельность — это работа, то <strong>главная «профессия» ребёнка — это игра, познание мира, одевание и навыки самообслуживания.</strong></p>
+<h2>Что такое детская эрготерапия (оккупационная терапия)?</h2>
+<p>Эрготерапия (Occupational Therapy) — это доказательная медико-реабилитационная специальность, направленная на развитие способности человека самостоятельно и продуктивно участвовать в активностях повседневной жизни (ADL). Если профессия взрослого — это работа и ведение хозяйства, то <strong>главная профессия ребёнка — это игра, познание мира, одевание и независимость в быту.</strong></p>
 
-<h2>Разница между сенсорной интеграцией и эрготерапией</h2>
-<p><strong>Сенсорная интеграция</strong> настраивает базовую обработку сигналов нервной системой (вестибулярный аппарат, проприоцепция, тактильность). <strong>Эрготерапия</strong> опирается на эту базу и выводит её в конкретный прикладной навык: умение аккуратно писать, завязывать шнурки, пользоваться столовыми приборами и ножницами.</p>
+<p>Детский эрготерапевт оценивает ребёнка целостно: силу и подвижность кисти, мышечный тонус, двуручную координацию, пространственный гнозис и сенсорную переработку. Через прикладные, целенаправленные игровые упражнения специалист устраняет функциональные барьеры, возвращая ребёнку возможность на равных учиться и играть со сверстниками.</p>
 
-<h2>4 ключевых направления работы эрготерапевта</h2>
+<h2>В чём разница между сенсорной интеграцией и эрготерапией?</h2>
+<p>Родители часто путают эти понятия. <strong>Сенсорная интеграция</strong> — это фундаментальный этап эрготерапии: она обучает мозг правильно считывать и упорядочивать сигналы тела и среды (вестибулярные, тактильные, мышечно-суставные). <strong>Эрготерапия</strong> опирается на этот сенсорный базис и превращает его в <em>прикладной бытовой результат</em>: способность аккуратно завязать шнурки, правильно держать ручку без боли в кисти, вырезать ножницами и кататься на двухколёсном велосипеде.</p>
+
+<h2>4 ключевых направления развития детской эрготерапии</h2>
+
+<h3>1. Развитие мелкой моторики и графомоторных навыков</h3>
+<p>Координация мелких мышц пальцев, кисти и запястья. На занятиях в центре в Пендике отрабатываются:</p>
 <ul>
-  <li><strong>Мелкая моторика и графомоторика:</strong> постановка динамического трехпальцевого захвата карандаша, работа с ножницами, устранение быстрой утомляемости руки при письме (дисграфия).</li>
-  <li><strong>Навыки повседневной жизни (самообслуживание):</strong> самостоятельное одевание, застёгивание пуговиц и молний, завязывание шнурков, аккуратный приём пищи ложкой и вилкой.</li>
-  <li><strong>Двуручная координация и моторное планирование (диспраксия):</strong> согласованная работа обеих рук и ног, ориентация в схеме собственного тела.</li>
-  <li><strong>Зрительно-моторная координация:</strong> правильное восприятие строчки, устранение зеркального написания букв (б/д, э/е) и пространственная ориентация.</li>
+  <li>Постановка физиологичного динамического трехпальцевого захвата карандаша (трипод),</li>
+  <li>Владение ножницами: ровное вырезание по контуру, аппликация и сгибание бумаги,</li>
+  <li>Пинцетный захват с помощью пинцетов, бусин, терапевтического пластилина и мозаики,</li>
+  <li>Коррекция дисграфии: устранение неразборчивого почерка, спазма кисти и быстрой утомляемости на уроках.</li>
 </ul>
 
-<h2>Кому показаны занятия?</h2>
-<p>Эрготерапия жизненно необходима детям с <strong>РАС (аутизмом), СДВГ, ДЦП, диспраксией (моторной неловкостью)</strong> и трудностями школьного обучения. Для граждан Турции возможно бесплатное обучение по направлению RAM (ÇÖZGER).</p>
+<h3>2. Бытовая самостоятельность (навыки самообслуживания)</h3>
+<p>Самооценка ребёнка напрямую зависит от его автономности. Эрготерапевты обучают:</p>
+<ul>
+  <li>Самостоятельному надеванию брюк, футболок, свитеров и верхней одежды,</li>
+  <li>Застёгиванию пуговиц, молний, кнопок и пряжек,</li>
+  <li>Различению обуви (правый/левый) и завязыванию шнурков,</li>
+  <li>Аккуратному владению ложкой, вилкой и ножом без проливания пищи, питью из чашки,</li>
+  <li>Навыкам личной гигиены: мытьё рук, чистка зубов, причёсывание.</li>
+</ul>
 
-<h2>Удобный доступ в Пендике</h2>
-<p>Наш центр расположен рядом со станцией <strong>Marmaray</strong> (линия из Картала, Мальтепе, Гебзе). Запишитесь на <strong>бесплатную первичную диагностику моторных навыков</strong> вашего ребёнка уже сегодня.</p>`,
+<h3>3. Двуручная координация и моторное планирование (диспраксия)</h3>
+<p>Слаженная работа обеих половин тела (например, левая рука придерживает лист, пока правая пишет). Дети с диспраксией (неловкостью) мысленно понимают задачу, но их тело путает последовательность движений. Через моторные полосы препятствий терапевт заново выстраивает схему тела и праксис.</p>
+
+<h3>4. Зрительно-пространственное восприятие</h3>
+<p>Умение различать глубину, симметрию и ориентацию объектов. Нарушения ведут к зеркальному написанию букв (б/д, э/е), сползанию со строки в тетради и трудностям в сборке конструктора. Зрительно-моторные упражнения полностью решают эту проблему.</p>
+
+<h2>При каких диагнозах рекомендована эрготерапия?</h2>
+<ul>
+  <li><strong>Расстройства аутистического спектра (РАС):</strong> формирование режима дня, навыков самообслуживания и имитации.</li>
+  <li><strong>СДВГ:</strong> усидчивость за партой, контроль импульсивности и координация «рука-глаз».</li>
+  <li><strong>ДЦП и двигательные нарушения:</strong> нормализация мышечного тонуса и функциональность пальцев.</li>
+  <li><strong>Диспраксия и моторная неловкость:</strong> баланс, ориентация в пространстве и подвижные игры.</li>
+  <li><strong>Дисграфия и трудности обучения:</strong> автоматизация почерка для успешной учёбы.</li>
+</ul>
+
+<h2>Государственная поддержка (комиссия RAM)</h2>
+<p>Граждане Турции при наличии отчёта ÇÖZGER и направления комиссии RAM имеют право на <strong>полностью бесплатные занятия эрготерапией</strong> за счёт Министерства национального образования. Наш центр оказывает родителям всестороннюю помощь в оформлении документов.</p>
+
+<h2>Клиника в Пендике: комфортный проезд из любых районов</h2>
+<p>Центр Önce Özel Eğitim оснащён европейским подвесным и эрготерапевтическим оборудованием. Благодаря расположению рядом со станцией <strong>Marmaray и трассой E-5</strong>:</p>
+<ul>
+  <li><strong>Пендик и Курткёй:</strong> 5–10 минут,</li>
+  <li><strong>Картал и Мальтепе:</strong> 15 минут на электричке Marmaray,</li>
+  <li><strong>Тузла, Гебзе, Дарыджа и Чайырова:</strong> 15–20 минут без задержек.</li>
+</ul>
+
+<h2>Подарите ребёнку радость самостоятельности</h2>
+<p>Своевременная помощь эрготерапевта в дошкольном возрасте избавляет ребёнка от школьного стресса и формирует прочный фундамент взрослой жизни.</p>
+<p>Запишитесь на <strong>бесплатную первичную диагностику моторного развития</strong> в центре Önce Özel Eğitim прямо сейчас.</p>`,
 };
 
 // 7. Yoğunlaştırılmış Kamp Eğitimi Şablonu
@@ -1032,7 +1171,7 @@ export const INTENSIVE_CAMP_TEMPLATE_POST: BlogPostTemplate = {
   id: '',
   created_at: '',
   slug: 'otizm-ve-ozel-egitimde-yogunlastirilmis-kamp-egitimi-rehberi',
-  cover_url: '/images/tuzla-ozel-egitim-kamp-egitimi-ve-sosyal-beceri.webp',
+  cover_url: '/images/otizm-yogunlastirilmis-kamp-egitimi-pendik.webp',
   published: true,
   badge: 'Kamp Eğitimi',
   tagline: 'Otizm ve gelişimsel farklılıklarda konaklamalı, hızlandırılmış çok disiplinli eğitim modeli',
@@ -1142,58 +1281,108 @@ export const INTENSIVE_CAMP_TEMPLATE_POST: BlogPostTemplate = {
 <p>To submit your child's clinical reports for preliminary review and secure your camp term, contact our <strong>Önce Özel Eğitim Camp Admissions Coordinator</strong> today.</p>`,
   title_de: 'Intensivtherapie-Camp bei Autismus und Entwicklungsverzögerungen: Methodik, Vorteile und betreute Unterkunft (Istanbul)',
   summary_de: 'Intensiv-Therapiecamp für Kinder mit Autismus und Sprachentwicklungsstörungen: Schnelle Entwicklungsfortschritte für Familien aus Deutschland und Europa mit VIP-Flughafentransfer und Unterbringung in Istanbul Pendik.',
-  content_de: `<p>In der kindlichen Frühförderung ist <strong>„Zeit“</strong> der wertvollste Faktor. In den ersten Lebensjahren, wenn die neuronale Plastizität des Gehirns ihren Höhepunkt erreicht, kann jeder verlorene Monat zu Entwicklungsrückständen führen. Herkömmliche Modelle mit lediglich 2 Therapiestunden pro Woche (8 Stunden im Monat) reichen bei Autismus-Spektrum-Störungen, ausgeprägten Sprachentwicklungsverzögerungen und sensorischen Regulationsstörungen oft nicht aus, um zügige Durchbrüche zu erzielen.</p>
+  content_de: `<p>In der Entwicklungsförderung von Kindern mit besonderen Bedürfnissen ist die wertvollste Ressource die <strong>„Zeit“</strong>. Insbesondere in der frühen Kindheit, wenn die neuronale Plastizität des Gehirns (die Fähigkeit, neue Synapsen und Nervenbahnen zu knüpfen) auf ihrem Höhepunkt ist, wiegt jeder ungenutzte Monat schwer. Herkömmliche Fördermodelle, die lediglich zwei 45-minütige Einheiten pro Woche anbieten (8 Therapiestunden im Monat), reichen bei Autismus-Spektrum-Störungen, ausgeprägten Sprachentwicklungsverzögerungen (Alalie) und sensorischen Regulationsstörungen oft nicht aus, um den ersehnten Durchbruch zu erzielen.</p>
 
-<p>Das <strong>„Intensiv-Therapiecamp-Modell“ des Önce Özel Eğitim Zentrums</strong> in Istanbul Pendik bietet eine hocheffektive Lösung: Es richtet sich an Familien, die in komprimierter Zeit maximale Fortschritte anstreben, sowie an Familien aus Deutschland, Österreich und der Schweiz, die während der Ferienzeiten nach Istanbul reisen.</p>
+<p>Als wissenschaftlich fundierte Antwort auf diesen dringenden Bedarf hat das <strong>Önce Özel Eğitim Zentrum</strong> das <strong>„Intensiv-Therapiecamp-Modell“</strong> in Istanbul Pendik ins Leben gerufen. Es bietet Familien, die in konzentrierter Zeit maximale Entwicklungsfortschritte anstreben, sowie insbesondere Familien aus Deutschland, Österreich, der Schweiz, Frankreich und den Benelux-Ländern eine einmalige Chance während der Ferienzeiten.</p>
 
-<h2>Was ist das Intensiv-Therapiecamp?</h2>
-<p>Das Camp ist eine <strong>2- bis 4-wöchige hochfrequente Intensivförderung</strong>, bei der das Kind an 5 bis 6 Tagen pro Woche täglich 4 bis 6 Stunden ganzheitliche, interdisziplinäre Therapien durchläuft. Therapien greifen nahtlos ineinander: Ein Kind, das in der sensorischen Integrationseinheit zur Ruhe kommt, kann in der anschließenden Logopädiestunde Sprachlaute wesentlich leichter nachahmen und verinnerlichen.</p>
+<h2>Was ist das Intensiv-Therapiecamp-Modell?</h2>
+<p>Nach einer umfassenden interdisziplinären Eingangsbefundung am ersten Tag durch unser Ärzteteam und Fachexperten durchläuft das Kind ein <strong>2- bis 4-wöchiges Intensivprogramm an 5 bis 6 Tagen pro Woche mit täglich 4 bis 6 Stunden ganzheitlicher, aufeinander abgestimmter Einzeltherapie</strong>.</p>
 
-<h2>Vorteile gegenüber wöchentlicher Regeltherapie</h2>
+<p>Dies ist kein herkömmliches Ferienlager, sondern eine hochverdichtete klinische Entwicklungsumgebung. Therapien greifen synergetisch ineinander: Ein Kind, das in der sensorischen Integrationseinheit zur Ruhe kommt und seine Körperwahrnehmung reguliert, ist in der unmittelbar anschließenden Logopädiestunde um ein Vielfaches aufnahmebereiter für Sprachanbahnung, Sprachverständnis und Mundmotorik.</p>
+
+<h2>Vergleich: Wöchentliche Regeltherapie versus Intensivtherapie-Camp</h2>
+<p>Der quantitative und qualitative Unterschied im Therapieverlauf ist bemerkenswert:</p>
 <ul>
-  <li><strong>Therapievolumen:</strong> Das therapeutische Pensum von 3 bis 4 Monaten (25–35 Stunden) wird in <strong>nur 1 bis 2 Wochen</strong> absolviert.</li>
-  <li><strong>Nachhaltigkeit:</strong> Durch die tägliche Wiederholung wird das Gelernte ohne Pausenverluste direkt im Langzeitgedächtnis verankert.</li>
-  <li><strong>Interdisziplinäres Team:</strong> Logopäden, Ergotherapeuten, Heilpädagogen und Psychologen arbeiten täglich abgestimmt Hand in Hand.</li>
+  <li><strong>Therapievolumen:</strong> Das Pensum von 3 bis 4 Monaten regulärer ambulanter Förderung (25–35 Stunden) wird im Intensiv-Camp in <strong>nur 1 bis 2 Wochen</strong> absolviert.</li>
+  <li><strong>Nachhaltigkeit ohne Vergessen:</strong> Lange Abstände zwischen wöchentlichen Sitzungen führen oft zu Rückschritten. Die tägliche Wiederholung verankert Fähigkeiten unmittelbar im Langzeitgedächtnis.</li>
+  <li><strong>Multiprofessionelle Synergie:</strong> Logopäde, Ergotherapeut, Heilpädagoge und Kinderpsychologe stimmen sich täglich über dieselben Entwicklungsziele ab.</li>
 </ul>
 
-<h2>Therapieschwerpunkte im Camp</h2>
-<p>Logopädie (Sprachanbahnung, Wortschatz, Artikulation), sensorische Integration & Ergotherapie (Vestibulär- und Propriozeptionstraining), soziale Kompetenzgruppen, kognitive Vorschulförderung sowie intensives <strong>Eltern-Coaching</strong> für den Transfer nach Hause.</p>
+<h2>Therapieschwerpunkte des Intensiv-Camps</h2>
+<p>Jeder Therapieplan wird zu 100 % individuell erstellt:</p>
 
-<h2>Exklusiv-Service für Familien aus Europa (DACH-Region)</h2>
-<ul>
-  <li><strong>VIP-Flughafentransfer:</strong> Nur 10–15 Minuten vom internationalen Flughafen Istanbul Sabiha Gökçen (SAW) entfernt.</li>
-  <li><strong>Voll ausgestattete Familienunterkünfte:</strong> Sichere, komfortable Apartments an der Pendik Marina und Küstenpromenade in unmittelbarer Nähe des Zentrums.</li>
-</ul>
+<h3>1. Intensive Sprach- und Kommunikationstherapie (Logopädie)</h3>
+<p>Täglich 1–2 Einheiten intensive Einzelförderung: Sprachanbahnung, Lautanbildung, Wortschatzerweiterung, Blickkontakt, Mundmotorik und flüssiges Sprechen.</p>
 
-<h2>Anmeldung und Termine</h2>
-<p>Die Camp-Plätze sind pro Durchgang streng limitiert. Kontaktieren Sie unsere <strong>Camp-Koordination</strong> für eine unverbindliche Ersteinschätzung Ihrer Befunde.</p>`,
+<h3>2. Sensorische Integration und pädiatrische Ergotherapie</h3>
+<p>Arbeit in modernen Schaukel- und Kletterräumen: vestibuläre und propriozeptive Reizverarbeitung, Abbau von Hyperaktivität und Verbesserung der motorischen Koordination.</p>
+
+<h3>3. Soziale Kompetenz und Peer-Interaktionsgruppen</h3>
+<p>Geleitete Kleingruppen, in denen Kinder Abwarten, Teilen, Interaktion im Kreis und Kooperation mit Gleichaltrigen üben.</p>
+
+<h3>4. Kognitive Frühförderung und Vorschulvorbereitung</h3>
+<p>Farben, Zahlen, Formen, logische Zuordnungen und strukturierte Konzentrationstrainings.</p>
+
+<h3>5. Intensives Eltern-Coaching und Transferkompetenz</h3>
+<p>Eltern schauen nicht nur zu. Unsere Therapeuten schulen Mütter und Väter im Umgang mit Verhaltensherausforderungen und vermitteln praktische Übungen für den Alltag nach der Heimkehr.</p>
+
+<h2>Exklusiv-Service für Familien aus Europa (Deutschland, Österreich, Schweiz)</h2>
+<p>Wir wissen, wie schwierig es für Familien im deutschsprachigen Raum oft ist, zeitnahe Therapieplätze bei spezialisierten Logopäden und Ergotherapeuten zu bekommen. Wir organisieren Ihren gesamten Aufenthalt in Istanbul:</p>
+
+<h3>VIP-Flughafentransfer ab Istanbul Sabiha Gökçen (SAW)</h3>
+<p>Unser Zentrum liegt nur <strong>10 bis 15 Minuten vom internationalen Flughafen Sabiha Gökçen</strong> entfernt. Unser VIP-Fahrservice erwartet Sie direkt am Terminal und bringt Sie komfortabel zu Ihrer Unterkunft.</p>
+
+<h3>Voll ausgestattete, sichere Familienunterkünfte</h3>
+<p>Damit Sie sich während der Camp-Wochen wie zu Hause fühlen, vermitteln wir moderne, hygienische Familienapartments an der prestigeträchtigen Küste der Pendik Marina, in unmittelbarer Nachbarschaft zu unserer Klinik.</p>
+
+<h2>Küstenatmosphäre und Erholung an der Marmaraküste in Pendik</h2>
+<p>Das Zentrum liegt unweit der gepflegten Uferpromenade von Pendik. Nach den Therapieeinheiten genießen Familien Spaziergänge am Meer und im Grünen. Dank der Marmaray-Schnellbahn erreichen Sie das historische Zentrum Istanbuls innerhalb kürzester Zeit.</p>
+
+<h2>Kontingente und Anmeldung: Sichern Sie sich Ihren Platz rechtzeitig</h2>
+<p>Um die höchste Therapiequalität zu gewährleisten, sind die Plätze pro Durchgang <strong>streng limitiert</strong>. Die Ferienzeiten (Sommerferien, Herbst- und Weihnachtsferien) sind erfahrungsgemäß frühzeitig ausgebucht.</p>
+<p>Reichen Sie die Befunde Ihres Kindes zur Vorabprüfung ein und kontaktieren Sie unsere <strong>Camp-Koordination</strong> für Ihren individuellen Therapieplan.</p>`,
   title_ru: 'Интенсивный курс специального образования при аутизме и задержках развития: процесс, результаты и проживание (Стамбул)',
   summary_ru: 'Что такое интенсивный курс реабилитации при аутизме и ЗРР? Руководство для семей из-за рубежа: интенсивные занятия по 4–6 часов в день, трансфер из аэропорта Сабиха Гёкчен и проживание в Стамбуле.',
-  content_ru: `<p>В развитии детей с особыми образовательными потребностями самый невосполнимый ресурс — это <strong>«время»</strong>. В раннем детстве нейропластичность мозга максимальна, и каждый упущенный месяц отдаляет ребёнка от возрастной нормы. Привычный формат занятий по 2 академических часа в неделю часто не даёт нужного импульса при расстройствах аутистического спектра (РАС), моторной алалии, задержке психоречевого развития (ЗПРР) и сенсорной дезинтеграции.</p>
+  content_ru: `<p>В развитии детей с особыми образовательными потребностями самый невосполнимый и драгоценный ресурс — это <strong>«время»</strong>. В раннем детстве, когда пластичность мозга (нейропластичность — способность нейронов создавать новые синаптические связи) находится на пике, каждый потерянный месяц может перерасти в отставание, на компенсацию которого в будущем потребуются годы. Однако традиционный формат занятий по два 45-минутных сеанса в неделю (8 часов в месяц) часто оказывается слишком медленным при расстройствах аутистического спектра (РАС), сенсорной алалии, задержке психоречевого развития (ЗПРР) и выраженных нарушениях сенсорной интеграции.</p>
 
-<p>Для решения этой задачи центр <strong>Önce Özel Eğitim</strong> разработал <strong>«Интенсивный реабилитационно-образовательный курс»</strong> в Стамбуле (район Пендик), рассчитанный на семьи из регионов и зарубежных стран, желающих совершить качественный скачок в развитии ребёнка за короткий срок.</p>
+<p>Для решения этой острой проблемы центр <strong>Önce Özel Eğitim</strong> разработал авторскую модель <strong>«Интенсивного реабилитационно-образовательного курса»</strong> в Стамбуле (район Пендик). Эта программа создана для семей, стремящихся добиться максимального скачка в развитии за короткий срок, а также для наших соотечественников, проживающих в странах Европы (Германия, Австрия, Франция, Нидерланды) и СНГ, приезжающих в Турцию во время каникул и отпусков.</p>
 
-<h2>В чём суть интенсивного курса?</h2>
-<p>Курс длится <strong>от 2 до 4 недель</strong>. Ребёнок занимается 5–6 дней в неделю по <strong>4–6 часов ежедневно</strong>. Это непрерывная цепочка взаимодополняющих занятий: после сенсорной интеграции ребёнок становится спокойным и собранным, благодаря чему на логопедическом занятии начинает активно имитировать звуки и слова.</p>
+<h2>В чём заключается модель интенсивного курса (интенсива)?</h2>
+<p>Интенсивный курс — это формат погружения, при котором после углублённой консилиумной диагностики в первый день ребёнок проходит <strong>от 2 до 4 недель непрерывных занятий по 5–6 дней в неделю, получая от 4 до 6 часов комплексных индивидуальных терапий ежедневно</strong>.</p>
 
-<h2>Преимущества интенсива</h2>
+<p>Это не развлекательный лагерь, а клинически выверенная среда высокой плотности стимуляции. Занятия взаимно усиливают друг друга: ребёнок, стабилизировавший сенсорный тонус и вестибулярную систему в подвесном зале, на следующем часе индивидуальной логопедии демонстрирует колоссальную концентрацию и готовность к имитации речи.</p>
+
+<h2>Сравнение: традиционные еженедельные занятия и интенсивный курс</h2>
+<p>Качественный скачок очевиден при сопоставлении цифр и методики:</p>
 <ul>
-  <li><strong>Объём занятий:</strong> программа 3–4 месяцев регулярных занятий (25–35 часов) осваивается всего за <strong>1–2 недели</strong>.</li>
-  <li><strong>Закрепление без откатов:</strong> ежедневные повторения исключают забывание навыков между сессиями.</li>
-  <li><strong>Командный подход:</strong> логопед, эрготерапевт, дефектолог и детский психолог работают по единому индивидуальному плану.</li>
+  <li><strong>Объём занятий:</strong> терапевтический объём 3–4 месяцев обычной регулярной терапии (25–35 академических часов) ребёнок осваивает <strong>всего за 1–2 недели</strong> интенсивного погружения.</li>
+  <li><strong>Закрепление без откатов:</strong> длительные паузы между еженедельными сессиями часто ведут к затуханию навыков. Ежедневные повторения гарантируют закрепление нейронных связей в долговременной памяти.</li>
+  <li><strong>Междисциплинарный консилиум:</strong> логопед, эрготерапевт, дефектолог и детский психолог работают в один день, координируя действия в режиме реального времени.</li>
 </ul>
 
-<h2>Что входит в программу?</h2>
-<p>Индивидуальная логопедия и запуск речи, сенсорная интеграция в подвесном зале, адаптивная эрготерапия, группы социализации со сверстниками, когнитивное развитие и ежедневное обучение родителей приемам домашней коррекции.</p>
+<h2>Основные направления программы интенсивного курса</h2>
+<p>Программа на 100 % адаптируется под профиль ребёнка:</p>
 
-<h2>Сервис для зарубежных семей</h2>
-<ul>
-  <li><strong>VIP-трансфер:</strong> встреча в международном аэропорту Сабиха Гёкчен (SAW), который находится всего в 10–15 минутах езды от центра.</li>
-  <li><strong>Семейное проживание:</strong> полностью оборудованные апартаменты на набережной Пендик возле марины, в пешей доступности от клиники.</li>
-</ul>
+<h3>1. Индивидуальная логопедия и запуск речи</h3>
+<p>Ежедневно 1–2 сессии: вызывание звуков, расширение понимания речи и активного словаря, артикуляционная гимнастика, преодоление апраксии и развитие речевого выдоха.</p>
 
-<h2>Запись на курс</h2>
-<p>Количество мест в каждом заезде строго ограничено. Отправьте имеющиеся выписки и видеозаписи ребёнка координатору центра для составления индивидуальной программы интенсива.</p>`,
+<h3>2. Сенсорная интеграция и детская эрготерапия</h3>
+<p>Занятия в специализированном зале с подвесным оборудованием: гамаки, качели, утяжелители, балансиры. Снятие сенсорного голода, коррекция гиперактивности и моторной неловкости.</p>
+
+<h3>3. Социально-коммуникативные группы со сверстниками</h3>
+<p>Обучение очерёдности, совместной сюжетно-ролевой игре, диалогу и взаимодействию в поддерживающей среде под кураторством психолога.</p>
+
+<h3>4. Когнитивное развитие и подготовка к обучению</h3>
+<p>Формирование понятий (цвет, форма, счёт, противоположности), пространственного мышления и усидчивости.</p>
+
+<h3>5. Индивидуальный родительский коучинг</h3>
+<p>Родители — ключевые участники процесса. Специалисты обучают мам и пап стратегиям преодоления кризисов поведения, приемам домашней развивающей игры и способам сохранения достигнутых результатов после возвращения домой.</p>
+
+<h2>Специальный сервис для семей из стран Европы и СНГ</h2>
+<p>Мы знаем, с какими сложностями (очереди по 6–12 месяцев, языковой барьер в логопедии) сталкиваются семьи за рубежом. Мы берём на себя всю организацию вашего пребывания в Стамбуле:</p>
+
+<h3>VIP-трансфер из аэропорта Стамбула Сабиха Гёкчен (SAW)</h3>
+<p>Наш центр расположен всего в <strong>10–15 минутах езды от международного аэропорта Сабиха Гёкчен</strong>. Наша трансферная служба встречает вас у выхода из терминала и на комфортабельном транспорте доставляет прямо к апартаментам.</p>
+
+<h3>Комфортабельное семейное проживание на побережье</h3>
+<p>Для проживания во время интенсива мы организуем размещение в уютных, полностью оборудованных апартаментах в престижном районе Pendik Marina, в пешей доступности от центра.</p>
+
+<h2>Целебный морской климат Пендика для оздоровления</h2>
+<p>Центр расположен рядом с набережной Мраморного моря и парковыми зонами. В свободное от занятий время семьи гуляют на свежем морском воздухе. Скоростной поезд Marmaray позволяет легко добраться до исторического центра Стамбула.</p>
+
+<h2>Количество мест и бронирование заездов</h2>
+<p>Для сохранения высочайшего качества реабилитации количество мест в каждом заезде <strong>строго ограничено</strong>. Периоды школьных каникул (зимние, весенние, летние) бронируются заранее.</p>
+<p>Отправьте имеющиеся медицинские заключения координатору центра <strong>Önce Özel Eğitim</strong> для предварительного консилиума и бронирования дат интенсива.</p>`,
 };
 
 export const ALL_TEMPLATES: BlogPostTemplate[] = [

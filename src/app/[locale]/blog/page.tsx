@@ -101,17 +101,17 @@ const MOCK_POSTS: BlogPost[] = [
   },
 ];
 
+import { ALL_TEMPLATES } from '@/components/admin/blogTemplates';
+
 async function getPosts(locale: string): Promise<BlogPost[]> {
   try {
-    const { data, error } = await supabase
+    const { data } = await supabase
       .from('blog_posts')
       .select('*')
       .eq('published', true)
       .order('created_at', { ascending: false });
 
-    if (error || !data || data.length === 0) return MOCK_POSTS;
-    
-    return data.map((post: any) => ({
+    const dbPosts = (data || []).map((post: any) => ({
       id: post.id,
       slug: post.slug,
       cover_url: post.cover_url,
@@ -119,6 +119,21 @@ async function getPosts(locale: string): Promise<BlogPost[]> {
       title: post[`title_${locale}`] || post.title_tr || post.title || '',
       summary: post[`summary_${locale}`] || post.summary_tr || post.summary || '',
     })) as BlogPost[];
+
+    const existingSlugs = new Set(dbPosts.map(p => p.slug));
+
+    const templatePosts = ALL_TEMPLATES
+      .filter(t => t.published && !existingSlugs.has(t.slug))
+      .map(t => ({
+        id: t.slug,
+        slug: t.slug,
+        cover_url: t.cover_url,
+        created_at: t.created_at || '2026-10-14T00:00:00.000Z',
+        title: (t as any)[`title_${locale}`] || t.title_tr || '',
+        summary: (t as any)[`summary_${locale}`] || t.summary_tr || '',
+      })) as BlogPost[];
+
+    return [...dbPosts, ...templatePosts];
   } catch {
     return MOCK_POSTS;
   }
